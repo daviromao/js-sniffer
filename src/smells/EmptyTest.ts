@@ -1,12 +1,13 @@
 import TestSmell from "../TestSmell";
 import traverse, { NodePath } from "@babel/traverse";
 import { types as t } from "@babel/core";
-import * as parser from "@babel/parser";
 
 class EmptyTest extends TestSmell {
-  run(ast: NodePath<t.CallExpression>): void {
+  public name: string = "EmptyTest";
+
+  run(ast: NodePath<t.CallExpression>) {
     const visitor = new this.ClassVisitor();
-    if (visitor.visitAST(ast)) console.log("Has EmptyTest smell");
+    return visitor.visitAST(ast);
   }
 
   protected ClassVisitor = class TestVisitor {

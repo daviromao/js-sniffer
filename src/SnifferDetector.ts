@@ -7,18 +7,28 @@ import { types as t } from "@babel/core";
 
 class SnifferDetector {
   smells: TestSmell[];
+  statistics: Map<string, number>;
 
   constructor(smells: TestSmell[]) {
     this.smells = smells;
+    this.statistics = new Map();
+    for (const smell of this.smells) {
+      this.statistics.set(smell.name, 0);
+    }
   }
 
   sniff(): void {
     const testFiles = this.findTestFiles(process.cwd());
     testFiles.forEach((file) => {
       const fileContent = fs.readFileSync(file, "utf-8");
-      const ast = parser.parse(fileContent);
+      const ast = parser.parse(fileContent, { sourceFilename: file });
       this.detectTestSmells(ast);
     });
+
+    console.log("Statistics:");
+    for (const [key, value] of this.statistics) {
+      console.log(key, ":", value);
+    }
   }
 
   detectTestSmells(ast: t.Node): void {
@@ -28,15 +38,27 @@ class SnifferDetector {
           path.node.callee.type === "Identifier" &&
           (path.node.callee.name === "test" || path.node.callee.name === "it")
         ) {
-          console.log(
-            "Test: ",
-            (path.node.arguments[0] as t.StringLiteral).value
-          );
-          for (const smell of this.smells) {
-            smell.run(path);
-          }
+          const findedTests = [];
 
-          console.log("====================================\n");
+          for (const smell of this.smells) {
+            if (smell.run(path)) {
+              this.statistics.set(
+                smell.name,
+                (this.statistics.get(smell.name) ?? 0) + 1
+              );
+              findedTests.push(smell.name);
+            }
+          }
+          if (findedTests.length > 0) {
+            console.log(
+              "Test: ",
+              (path.node.arguments[0] as t.StringLiteral).value
+            );
+            for (const smell of findedTests) {
+              console.log("Has ", smell);
+            }
+            console.log("\n======================================\n");
+          }
         }
       },
     });
@@ -52,7 +74,7 @@ class SnifferDetector {
         if (stat.isDirectory()) {
           testFiles.push(...this.findTestFiles(filePath));
         } else {
-          if (file.match(/\.(test|spec)\.(js|ts)/)) {
+          if (file.match(/\.(test|spec)\.(js|ts)/) || file.endsWith(".js")) {
             testFiles.push(filePath);
           }
         }

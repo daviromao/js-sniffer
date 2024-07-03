@@ -7,7 +7,9 @@ interface TestVisitor {
 }
 
 abstract class TestSmell {
-  abstract run(ast: NodePath<t.CallExpression>): void;
+  public name!: string;
+  abstract run(ast: NodePath<t.CallExpression>): boolean;
+
   protected abstract ClassVisitor: new () => TestVisitor;
 }
 

@@ -3,9 +3,11 @@ import traverse, { NodePath } from "@babel/traverse";
 import { types as t } from "@babel/core";
 
 class MagicNumberTest extends TestSmell {
-  run(ast: NodePath<t.CallExpression>): void {
+  public name: string = "Magic Number Test";
+
+  run(ast: NodePath<t.CallExpression>): boolean {
     const visitor = new this.ClassVisitor();
-    if (visitor.visitAST(ast)) console.log("Has MagicNumberTest smell");
+    return visitor.visitAST(ast);
   }
 
   protected ClassVisitor = class TestVisitor {

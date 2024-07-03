@@ -3,9 +3,10 @@ import traverse, { NodePath } from "@babel/traverse";
 import { types as t } from "@babel/core";
 
 class UnknownTest extends TestSmell {
-  run(ast: NodePath<t.CallExpression>): void {
+  public name: string = "Unknown Test";
+  run(ast: NodePath<t.CallExpression>): boolean {
     const visitor = new this.ClassVisitor();
-    if (visitor.visitAST(ast)) console.log("Has UnknownTest smell");
+    return visitor.visitAST(ast);
   }
 
   protected ClassVisitor = class TestVisitor {
@@ -15,18 +16,15 @@ class UnknownTest extends TestSmell {
       this.hasSmell = true;
     }
 
-    private visitCallExpression = (path: NodePath<t.CallExpression>) => {
-      if (
-        path.node.callee.type === "Identifier" &&
-        path.node.callee.name === "expect"
-      ) {
+    private visitCallExpression = (path: NodePath<t.Identifier>) => {
+      if (path.node.name === "expect" || path.node.name === "assert") {
         this.hasSmell = false;
       }
     };
 
     visitAST(ast: NodePath<t.CallExpression>) {
       ast.traverse({
-        CallExpression: this.visitCallExpression,
+        Identifier: this.visitCallExpression,
       });
       return this.hasSmell;
     }

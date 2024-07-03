@@ -3,9 +3,11 @@ import traverse, { NodePath } from "@babel/traverse";
 import { types as t } from "@babel/core";
 
 class ExceptionHandling extends TestSmell {
+  public name: string = "Exception Handling";
+
   public run(ast: NodePath<t.CallExpression>) {
     const visitor = new this.ClassVisitor();
-    if (visitor.visitAST(ast)) console.log("Has ExceptionHandling smell");
+    return visitor.visitAST(ast);
   }
 
   protected ClassVisitor = class TestVisitor {
