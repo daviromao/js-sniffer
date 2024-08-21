@@ -1,0 +1,6189 @@
+Test:  always returns the internal electron module
+Has  Unknown Test
+
+======================================
+
+Test:  should be empty or have length of two
+Has  Magic Number Test
+
+======================================
+
+Test:  emits a process exit event with the code
+Has  Conditional Test Logic
+Has  Magic Number Test
+
+======================================
+
+Test:  closes all windows
+Has  Magic Number Test
+
+======================================
+
+Test:  prevents the second launch of app
+Has  Magic Number Test
+
+======================================
+
+Test:  returns true when setting non-existent user data folder
+Has  Magic Number Test
+
+======================================
+
+Test:  passes arguments to the second-instance event no additional data
+Has  Unknown Test
+
+======================================
+
+Test:  sends and receives JSON object data
+Has  Unknown Test
+
+======================================
+
+Test:  sends and receives numerical data
+Has  Magic Number Test
+Has  Unknown Test
+
+======================================
+
+Test:  sends and receives string data
+Has  Unknown Test
+
+======================================
+
+Test:  sends and receives boolean data
+Has  Unknown Test
+
+======================================
+
+Test:  sends and receives array data
+Has  Magic Number Test
+Has  Unknown Test
+
+======================================
+
+Test:  sends and receives mixed array data
+Has  Magic Number Test
+Has  Unknown Test
+
+======================================
+
+Test:  sends and receives null data
+Has  Unknown Test
+
+======================================
+
+Test:  cannot send or receive undefined data
+Has  Exception Handling
+
+======================================
+
+Test:  relaunches the app
+Has  Conditional Test Logic
+Has  Magic Number Test
+Has  Unknown Test
+Has  Redundant Print
+
+======================================
+
+Test:  is emitted when visiting a server with a self-signed cert
+Has  Unknown Test
+
+======================================
+
+Test:  causes did-fail-load
+Has  Unknown Test
+
+======================================
+
+Test:  sets an non numeric (dot) badge count
+Has  Magic Number Test
+
+======================================
+
+Test:  does not set a badge count
+Has  Magic Number Test
+
+======================================
+
+Test:  does not set a badge count)
+Has  Magic Number Test
+
+======================================
+
+Test:  can get jump list settings
+Has  Magic Number Test
+
+======================================
+
+Test:  can respond with empty certificate list
+Has  Redundant Print
+
+======================================
+
+Test:  does not launch for argument following a URL
+Has  Magic Number Test
+
+======================================
+
+Test:  launches successfully for argument following a file path
+Has  Magic Number Test
+
+======================================
+
+Test:  launches successfully for multiple URIs following --
+Has  Magic Number Test
+
+======================================
+
+Test:  fetches a large icon
+Has  Conditional Test Logic
+
+======================================
+
+Test:  returns memory and cpu stats of all running electron processes
+Has  Conditional Test Logic
+Has  Magic Number Test
+
+======================================
+
+Test:  succeeds with basic GPUInfo
+Has  Unknown Test
+
+======================================
+
+Test:  succeeds with complete GPUInfo
+Has  Conditional Test Logic
+
+======================================
+
+Test:  keeps references to the menu
+Has  Unknown Test
+
+======================================
+
+Test:  should return -1 for unknown bounce type
+Has  Magic Number Test
+
+======================================
+
+Test:  should return a positive number for informational type
+Has  Conditional Test Logic
+Has  Magic Number Test
+
+======================================
+
+Test:  should return a positive number for critical type
+Has  Conditional Test Logic
+Has  Magic Number Test
+
+======================================
+
+Test:  should not throw
+Has  Unknown Test
+
+======================================
+
+Test:  should not throw
+Has  Unknown Test
+
+======================================
+
+Test:  should not throw
+Has  Exception Handling
+
+======================================
+
+Test:  fails on bad arguments
+Has  Magic Number Test
+
+======================================
+
+Test:  app.setAboutPanelOptions() does not crash
+Has  Unknown Test
+
+======================================
+
+Test:  app.showAboutPanel() does not crash & runs asynchronously
+Has  Unknown Test
+
+======================================
+
+Test:  allows configuring proxy settings with pacScript
+Has  Magic Number Test
+
+======================================
+
+Test:  allows configuring proxy settings with mode `auto_detect`
+Has  Unknown Test
+
+======================================
+
+Test:  allows configuring proxy settings with mode `system`
+Has  Unknown Test
+
+======================================
+
+Test:  impacts proxy for requests made from utility process
+Has  Magic Number Test
+
+======================================
+
+Test:  does not impact proxy for requests made from main process
+Has  Magic Number Test
+
+======================================
+
+Test:  should omit closed windows from getAllWindows
+Has  Magic Number Test
+
+======================================
+
+Test:  does not throw an error
+Has  Conditional Test Logic
+
+======================================
+
+Test:  sets url successfully using old (url, headers) syntax
+Has  Exception Handling
+
+======================================
+
+Test:  sets url successfully using new ({ url }) syntax
+Has  Exception Handling
+
+======================================
+
+Test:  should have a valid code signing identity
+Has  Magic Number Test
+
+======================================
+
+Test:  should cleanly set the feed URL when the app is signed
+Has  Magic Number Test
+
+======================================
+
+Test:  should hit the update endpoint when checkForUpdates is called
+Has  Magic Number Test
+
+======================================
+
+Test:  should hit the update endpoint with customer headers when checkForUpdates is called
+Has  Magic Number Test
+
+======================================
+
+Test:  should hit the download endpoint when an update is available and error if the file is bad
+Has  Magic Number Test
+
+======================================
+
+Test:  should hit the download endpoint when an update is available and update successfully when the zip is provided
+Has  Magic Number Test
+
+======================================
+
+Test:  should hit the download endpoint when an update is available and update successfully when the zip is provided even after a different update was staged
+Has  Conditional Test Logic
+Has  Magic Number Test
+
+======================================
+
+Test:  should update to lower version numbers
+Has  Magic Number Test
+
+======================================
+
+Test:  should not update to lower version numbers
+Has  Magic Number Test
+
+======================================
+
+Test:  should not update to version strings that are not simple Major.Minor.Patch
+Has  Magic Number Test
+
+======================================
+
+Test:  should still update to higher version numbers
+Has  Magic Number Test
+
+======================================
+
+Test:  should abort the update if the application is still running when ShipIt kicks off
+Has  Conditional Test Logic
+Has  Magic Number Test
+
+======================================
+
+Test:  should hit the download endpoint when an update is available and update successfully when the zip is provided leaving the parent directory untouched
+Has  Magic Number Test
+
+======================================
+
+Test:  should hit the download endpoint when an update is available and fail when the zip signature is invalid
+Has  Magic Number Test
+
+======================================
+
+Test:  should hit the download endpoint when an update is available and fail when the ShipIt binary is a symlink
+Has  Magic Number Test
+
+======================================
+
+Test:  should hit the download endpoint when an update is available and fail when the Electron Framework is modified
+Has  Magic Number Test
+
+======================================
+
+Test:  should hit the download endpoint when an update is available and update successfully when the zip is provided with JSON update mode
+Has  Magic Number Test
+
+======================================
+
+Test:  should hit the download endpoint when an update is available and not update in JSON update mode when the currentRelease is older than the current version
+Has  Magic Number Test
+
+======================================
+
+Test:  does not throw for valid args
+Has  Unknown Test
+
+======================================
+
+Test:  does not throw for valid args
+Has  Unknown Test
+
+======================================
+
+Test:  does not resize when the BrowserView has no AutoResize
+Has  Magic Number Test
+
+======================================
+
+Test:  resizes horizontally when the window is resized horizontally
+Has  Magic Number Test
+
+======================================
+
+Test:  resizes vertically when the window is resized vertically
+Has  Magic Number Test
+
+======================================
+
+Test:  resizes both vertically and horizontally when the window is resized
+Has  Magic Number Test
+
+======================================
+
+Test:  resizes proportionally
+Has  Magic Number Test
+
+======================================
+
+Test:  does not move x if horizontal: false
+Has  Magic Number Test
+
+======================================
+
+Test:  moves x if horizontal: true
+Has  Magic Number Test
+
+======================================
+
+Test:  moves x if horizontal: true width: true
+Has  Magic Number Test
+
+======================================
+
+Test:  does not throw for valid args
+Has  Magic Number Test
+Has  Unknown Test
+
+======================================
+
+Test:  does not throw for valid args
+Has  Unknown Test
+
+======================================
+
+Test:  does not throw if called multiple times with same view
+Has  Unknown Test
+
+======================================
+
+Test:  does not throw for valid args
+Has  Unknown Test
+
+======================================
+
+Test:  does not throw if called multiple times with same view
+Has  Unknown Test
+
+======================================
+
+Test:  does not crash if the webContents is destroyed after a URL is loaded
+Has  Magic Number Test
+
+======================================
+
+Test:  can be called on a BrowserView with a destroyed webContents
+Has  Unknown Test
+
+======================================
+
+Test:  returns same views as was added
+Has  Magic Number Test
+
+======================================
+
+Test:  persists ordering by z-index
+Has  Magic Number Test
+
+======================================
+
+Test:  should throw an error when a BrowserView is attached to some other window
+Has  Magic Number Test
+
+======================================
+
+Test:  should reorder the BrowserView to the top if it is already in the window
+Has  Magic Number Test
+
+======================================
+
+Test:  does not crash on exit
+Has  Magic Number Test
+
+======================================
+
+Test:  does not crash on exit if added to a browser window
+Has  Magic Number Test
+
+======================================
+
+Test:  emits the destroyed event when webContents.close() is called
+Has  Unknown Test
+
+======================================
+
+Test:  emits the destroyed event when window.close() is called
+Has  Unknown Test
+
+======================================
+
+Test:  returns a Promise with a Buffer
+Has  Magic Number Test
+
+======================================
+
+Test:  window does not get garbage collected when opened
+Has  Sleepy Test
+
+======================================
+
+Test:  should work if called when a messageBox is showing
+Has  Unknown Test
+
+======================================
+
+Test:  closes window without rounded corners
+Has  Unknown Test
+
+======================================
+
+Test:  should not crash if called after webContents is destroyed
+Has  Unknown Test
+
+======================================
+
+Test:  should emit beforeunload handler
+Has  Unknown Test
+
+======================================
+
+Test:  should not crash when keyboard event is sent before closing
+Has  Unknown Test
+
+======================================
+
+Test:  undefined
+Has  Unknown Test
+
+======================================
+
+Test:  should emit beforeunload event
+Has  Unknown Test
+
+======================================
+
+Test:  should not crash when destroying windows with pending events
+Has  Conditional Test Logic
+Has  Unknown Test
+
+======================================
+
+Test:  should emit did-start-loading event
+Has  Unknown Test
+
+======================================
+
+Test:  should emit ready-to-show event
+Has  Unknown Test
+
+======================================
+
+Test:  should emit did-fail-load event for files that do not exist
+Has  Magic Number Test
+
+======================================
+
+Test:  should emit did-fail-load event for invalid URL
+Has  Magic Number Test
+
+======================================
+
+Test:  does not crash in did-fail-provisional-load handler
+Has  Unknown Test
+
+======================================
+
+Test:  should emit did-fail-load event for URL exceeding character limit
+Has  Magic Number Test
+
+======================================
+
+Test:  supports specifying POST data
+Has  Unknown Test
+
+======================================
+
+Test:  allows the window to be closed from the event listener
+Has  Unknown Test
+
+======================================
+
+Test:  can be prevented
+Has  Conditional Test Logic
+Has  Exception Handling
+
+======================================
+
+Test:  allows the window to be closed from the event listener
+Has  Unknown Test
+
+======================================
+
+Test:  can be prevented
+Has  Conditional Test Logic
+Has  Exception Handling
+
+======================================
+
+Test:  can be prevented when navigating subframe
+Has  Conditional Test Logic
+Has  Exception Handling
+
+======================================
+
+Test:  is triggered when a cross-origin iframe navigates _top
+Has  Magic Number Test
+Has  Sleepy Test
+
+======================================
+
+Test:  is triggered when a cross-origin iframe navigates itself
+Has  Magic Number Test
+Has  Sleepy Test
+
+======================================
+
+Test:  can cancel when a cross-origin iframe navigates itself
+Has  EmptyTest
+Has  Unknown Test
+
+======================================
+
+Test:  is emitted on redirects
+Has  Unknown Test
+
+======================================
+
+Test:  allows the window to be closed from the event listener
+Has  Unknown Test
+
+======================================
+
+Test:  can be prevented
+Has  Exception Handling
+
+======================================
+
+Test:  for initial navigation, event order is consistent
+Has  Exception Handling
+
+======================================
+
+Test:  for second navigation, event order is consistent
+Has  Exception Handling
+Has  Magic Number Test
+Has  Sleepy Test
+
+======================================
+
+Test:  when navigating with redirection, event order is consistent
+Has  Exception Handling
+Has  Magic Number Test
+Has  Sleepy Test
+
+======================================
+
+Test:  when navigating in-page, event order is consistent
+Has  Exception Handling
+Has  Magic Number Test
+Has  Sleepy Test
+
+======================================
+
+Test:  should not steal focus
+Has  Magic Number Test
+
+======================================
+
+Test:  should throw an exception if wrong formatting
+Has  Conditional Test Logic
+
+======================================
+
+Test:  should throw an exception if wrong type
+Has  Conditional Test Logic
+
+======================================
+
+Test:  should throw an exception if invalid window
+Has  Conditional Test Logic
+
+======================================
+
+Test:  can set unfocusable window to focusable
+Has  Unknown Test
+
+======================================
+
+Test:  sets the window bounds with full bounds
+Has  Unknown Test
+
+======================================
+
+Test:  rounds non-integer bounds
+Has  Magic Number Test
+
+======================================
+
+Test:  sets the window bounds with partial bounds
+Has  Unknown Test
+
+======================================
+
+Test:  sets the window size
+Has  Magic Number Test
+Has  Unknown Test
+
+======================================
+
+Test:  emits 'resized' event after animating
+Has  Magic Number Test
+
+======================================
+
+Test:  sets the maximum and minimum size of the window
+Has  Magic Number Test
+
+======================================
+
+Test:  resets the behaviour when passing in 0
+Has  Magic Number Test
+Has  Unknown Test
+
+======================================
+
+Test:  doesn't change bounds when maximum size is set
+Has  Magic Number Test
+Has  Unknown Test
+
+======================================
+
+Test:  sets the window position
+Has  Magic Number Test
+
+======================================
+
+Test:  sets the content size
+Has  Magic Number Test
+
+======================================
+
+Test:  works for a frameless window
+Has  Magic Number Test
+
+======================================
+
+Test:  sets the content size and position
+Has  Unknown Test
+Has  Sleepy Test
+
+======================================
+
+Test:  works for a frameless window
+Has  Magic Number Test
+Has  Unknown Test
+Has  Sleepy Test
+
+======================================
+
+Test:  returns correct color with multiple passed formats
+Has  Conditional Test Logic
+
+======================================
+
+Test:  can set the background color with transparency
+Has  Conditional Test Logic
+
+======================================
+
+Test:  checks normal bounds after resize
+Has  Magic Number Test
+Has  Unknown Test
+
+======================================
+
+Test:  checks normal bounds after move
+Has  Magic Number Test
+Has  Unknown Test
+
+======================================
+
+Test:  checks normal bounds when maximized
+Has  Unknown Test
+
+======================================
+
+Test:  updates normal bounds after resize and maximize
+Has  Magic Number Test
+
+======================================
+
+Test:  updates normal bounds after move and maximize
+Has  Magic Number Test
+
+======================================
+
+Test:  checks normal bounds when unmaximized
+Has  Unknown Test
+
+======================================
+
+Test:  does not crash if maximized, minimized, then restored to maximized state
+Has  Conditional Test Logic
+Has  Exception Handling
+Has  Magic Number Test
+
+======================================
+
+Test:  checks normal bounds for maximized transparent window
+Has  Unknown Test
+
+======================================
+
+Test:  does not change size for a frameless window with min size
+Has  Magic Number Test
+Has  Unknown Test
+
+======================================
+
+Test:  correctly checks transparent window maximization state
+Has  Magic Number Test
+
+======================================
+
+Test:  returns the correct value for windows with an aspect ratio
+Has  Magic Number Test
+
+======================================
+
+Test:  checks normal bounds when minimized
+Has  Unknown Test
+
+======================================
+
+Test:  updates normal bounds after move and minimize
+Has  Magic Number Test
+
+======================================
+
+Test:  updates normal bounds after resize and minimize
+Has  Magic Number Test
+
+======================================
+
+Test:  checks normal bounds when restored
+Has  Unknown Test
+
+======================================
+
+Test:  does not change size for a frameless window with min size
+Has  Magic Number Test
+Has  Unknown Test
+
+======================================
+
+Test:  with properties
+Has  Magic Number Test
+
+======================================
+
+Test:  checks normal bounds when fullscreen'ed
+Has  Unknown Test
+
+======================================
+
+Test:  updates normal bounds after resize and fullscreen
+Has  Magic Number Test
+
+======================================
+
+Test:  updates normal bounds after move and fullscreen
+Has  Magic Number Test
+
+======================================
+
+Test:  checks normal bounds when unfullscreen'ed
+Has  Unknown Test
+
+======================================
+
+Test:  with functions
+Has  Magic Number Test
+
+======================================
+
+Test:  checks normal bounds when fullscreen'ed
+Has  Unknown Test
+
+======================================
+
+Test:  updates normal bounds after resize and fullscreen
+Has  Magic Number Test
+
+======================================
+
+Test:  updates normal bounds after move and fullscreen
+Has  Magic Number Test
+
+======================================
+
+Test:  checks normal bounds when unfullscreen'ed
+Has  Unknown Test
+
+======================================
+
+Test:  does not throw
+Has  Magic Number Test
+
+======================================
+
+Test:  preserves transparency
+Has  Magic Number Test
+
+======================================
+
+Test:  sets the progress
+Has  Conditional Test Logic
+Has  Magic Number Test
+
+======================================
+
+Test:  sets the progress using "paused" mode
+Has  Magic Number Test
+
+======================================
+
+Test:  sets the progress using "error" mode
+Has  Magic Number Test
+
+======================================
+
+Test:  sets the progress using "normal" mode
+Has  Magic Number Test
+
+======================================
+
+Test:  calling preconnect() connects to the server
+Has  Magic Number Test
+
+======================================
+
+Test:  does not preconnect unless requested
+Has  Magic Number Test
+
+======================================
+
+Test:  supports setting the app details
+Has  Magic Number Test
+
+======================================
+
+Test:  can properly open and load a new window from a link
+Has  Magic Number Test
+
+======================================
+
+Test:  returns null for webContents without a BrowserWindow
+Has  Exception Handling
+
+======================================
+
+Test:  does not crash for frameless window
+Has  Unknown Test
+
+======================================
+
+Test:  make window with initial opacity
+Has  Magic Number Test
+
+======================================
+
+Test:  allows setting the opacity
+Has  Magic Number Test
+
+======================================
+
+Test:  clamps opacity to [0.0...1.0]
+Has  Magic Number Test
+
+======================================
+
+Test:  sets 1 regardless of parameter
+Has  Magic Number Test
+
+======================================
+
+Test:  allows setting shape
+Has  Magic Number Test
+
+======================================
+
+Test:  make window created with content size when used
+Has  Magic Number Test
+
+======================================
+
+Test:  make window created with window size when not used
+Has  Magic Number Test
+
+======================================
+
+Test:  works for a frameless window
+Has  Magic Number Test
+
+======================================
+
+Test:  creates browser window with hidden title bar
+Has  Magic Number Test
+
+======================================
+
+Test:  sets Window Control Overlay with hidden title bar
+Has  Unknown Test
+
+======================================
+
+Test:  sets Window Control Overlay with title bar height of 40
+Has  Magic Number Test
+Has  Unknown Test
+
+======================================
+
+Test:  correctly updates the height of the overlay
+Has  Conditional Test Logic
+Has  Magic Number Test
+
+======================================
+
+Test:  can move the window out of screen
+Has  Magic Number Test
+
+======================================
+
+Test:  cannot move the window behind menu bar
+Has  Magic Number Test
+
+======================================
+
+Test:  can move the window behind menu bar if it has no frame
+Has  Magic Number Test
+
+======================================
+
+Test:  without it, cannot move the window out of screen
+Has  Magic Number Test
+
+======================================
+
+Test:  can set the window larger than screen
+Has  Magic Number Test
+Has  Unknown Test
+
+======================================
+
+Test:  without it, cannot set the window larger than screen
+Has  Magic Number Test
+
+======================================
+
+Test:  sets the window width to the page width when used
+Has  Magic Number Test
+
+======================================
+
+Test:  does not leak any node globals on the window object with nodeIntegration is disabled
+Has  Conditional Test Logic
+
+======================================
+
+Test:  exposes "loaded" event to preload script
+Has  Unknown Test
+
+======================================
+
+Test:  exposes "exit" event to preload script
+Has  Conditional Test Logic
+
+======================================
+
+Test:  exposes full EventEmitter object to preload script
+Has  Conditional Test Logic
+
+======================================
+
+Test:  should open windows in same domain with cross-scripting enabled
+Has  Conditional Test Logic
+Has  Magic Number Test
+
+======================================
+
+Test:  works for window events
+Has  Unknown Test
+
+======================================
+
+Test:  works for stop events
+Has  Unknown Test
+
+======================================
+
+Test:  works for web contents events
+Has  Unknown Test
+
+======================================
+
+Test:  validates process APIs access in sandboxed renderer
+Has  Conditional Test Logic
+
+======================================
+
+Test:  <webview> works in a scriptable popup
+Has  Unknown Test
+
+======================================
+
+Test:  returning undefined would not prevent close
+Has  Unknown Test
+
+======================================
+
+Test:  visibilityState changes when window is shown
+Has  Conditional Test Logic
+
+======================================
+
+Test:  visibilityState changes when window is shown inactive
+Has  Conditional Test Logic
+
+======================================
+
+Test:  visibilityState remains visible if backgroundThrottling is disabled
+Has  Exception Handling
+
+======================================
+
+Test:  emits an event when window is maximized
+Has  Unknown Test
+
+======================================
+
+Test:  emits an event when a transparent window is maximized
+Has  Unknown Test
+
+======================================
+
+Test:  emits only one event when frameless window is maximized
+Has  Magic Number Test
+
+======================================
+
+Test:  emits an event when window is unmaximized
+Has  Unknown Test
+
+======================================
+
+Test:  emits an event when a transparent window is unmaximized
+Has  Unknown Test
+
+======================================
+
+Test:  emits an event when window is minimized
+Has  Unknown Test
+
+======================================
+
+Test:  does not crash when callback returns nothing
+Has  Conditional Test Logic
+Has  Exception Handling
+Has  Unknown Test
+
+======================================
+
+Test:  subscribes to frame updates
+Has  Conditional Test Logic
+Has  Exception Handling
+
+======================================
+
+Test:  subscribes to frame updates (only dirty rectangle)
+Has  Conditional Test Logic
+Has  Exception Handling
+
+======================================
+
+Test:  should save page to disk with MHTML
+Has  Exception Handling
+
+======================================
+
+Test:  should create a window with default size (800x600)
+Has  Magic Number Test
+
+======================================
+
+Test:  should restore the previous window size
+Has  Unknown Test
+
+======================================
+
+Test:  does not crash when restoring hidden minimized window
+Has  Unknown Test
+
+======================================
+
+Test:  should restore the previous window position
+Has  Unknown Test
+
+======================================
+
+Test:  should not change the size or position of a normal window
+Has  Magic Number Test
+Has  Unknown Test
+Has  Sleepy Test
+
+======================================
+
+Test:  exits HTML fullscreen when window leaves fullscreen
+Has  Unknown Test
+Has  Sleepy Test
+
+======================================
+
+Test:  removes from child windows of parent when window is closed
+Has  Magic Number Test
+Has  Sleepy Test
+
+======================================
+
+Test:  can handle child window close and reparent multiple times
+Has  Magic Number Test
+Has  Sleepy Test
+
+======================================
+
+Test:  closes a grandchild window when a middle child window is destroyed
+Has  Sleepy Test
+
+======================================
+
+Test:  removes from child windows of parent when window is closed
+Has  Magic Number Test
+Has  Sleepy Test
+
+======================================
+
+Test:  does not freeze or crash
+Has  Exception Handling
+Has  Magic Number Test
+Has  Unknown Test
+
+======================================
+
+Test:  does not resize frameless windows when states change
+Has  Magic Number Test
+
+======================================
+
+Test:  with properties
+Has  Conditional Test Logic
+
+======================================
+
+Test:  can be set with resizable constructor option
+Has  Conditional Test Logic
+
+======================================
+
+Test:  with functions
+Has  Conditional Test Logic
+
+======================================
+
+Test:  can be set with resizable constructor option
+Has  Conditional Test Logic
+
+======================================
+
+Test:  works for a frameless window
+Has  Conditional Test Logic
+
+======================================
+
+Test:  with properties
+Has  Sleepy Test
+
+======================================
+
+Test:  can be changed 
+Has  Sleepy Test
+
+======================================
+
+Test:  with functions
+Has  Sleepy Test
+
+======================================
+
+Test:  can be changed 
+Has  Sleepy Test
+
+======================================
+
+Test:  resizable flag should be set to false and restored
+Has  Sleepy Test
+
+======================================
+
+Test:  default resizable flag should be restored after entering/exiting fullscreen
+Has  Sleepy Test
+
+======================================
+
+Test:  should not cause a crash if called when exiting fullscreen
+Has  Unknown Test
+Has  Sleepy Test
+
+======================================
+
+Test:  should be able to load a URL while transitioning to fullscreen
+Has  Sleepy Test
+
+======================================
+
+Test:  can be changed with setFullScreen method
+Has  Sleepy Test
+
+======================================
+
+Test:  handles several transitions starting with fullscreen
+Has  Sleepy Test
+
+======================================
+
+Test:  handles several HTML fullscreen transitions
+Has  Sleepy Test
+
+======================================
+
+Test:  handles several chromium-initiated transitions in close proximity
+Has  Conditional Test Logic
+
+======================================
+
+Test:  handles HTML fullscreen transitions when fullscreenable is false
+Has  Conditional Test Logic
+
+======================================
+
+Test:  does not crash when exiting simpleFullScreen (properties)
+Has  Magic Number Test
+Has  Unknown Test
+Has  Sleepy Test
+
+======================================
+
+Test:  does not crash when exiting simpleFullScreen (functions)
+Has  Magic Number Test
+Has  Unknown Test
+Has  Sleepy Test
+
+======================================
+
+Test:  should stay fullscreen if fullscreen before kiosk
+Has  Magic Number Test
+Has  Sleepy Test
+
+======================================
+
+Test:  multiple windows inherit correct fullscreen state
+Has  Magic Number Test
+Has  Sleepy Test
+
+======================================
+
+Test:  should not call BrowserWindow show event
+Has  Magic Number Test
+Has  Sleepy Test
+
+======================================
+
+Test:  reloading does not cause Node.js module API hangs after reload
+Has  Conditional Test Logic
+Has  Magic Number Test
+Has  Unknown Test
+
+======================================
+
+Test:  creates offscreen window with correct size
+Has  Magic Number Test
+
+======================================
+
+Test:  does not crash after navigation
+Has  Unknown Test
+
+======================================
+
+Test:  has default frame rate (function)
+Has  Magic Number Test
+
+======================================
+
+Test:  has default frame rate (property)
+Has  Magic Number Test
+
+======================================
+
+Test:  sets custom frame rate (function)
+Has  Magic Number Test
+
+======================================
+
+Test:  sets custom frame rate (property)
+Has  Magic Number Test
+
+======================================
+
+Test:  returns markup correctly
+Has  Conditional Test Logic
+
+======================================
+
+Test:  returns title and url
+Has  Conditional Test Logic
+
+======================================
+
+Test:  returns data correctly
+Has  Conditional Test Logic
+
+======================================
+
+Test:  accepts an empty config
+Has  Magic Number Test
+
+======================================
+
+Test:  accepts "categoryFilter" and "traceOptions" as a config
+Has  Magic Number Test
+
+======================================
+
+Test:  include V8 samples from the main process
+Has  Conditional Test Logic
+Has  Magic Number Test
+Has  Sleepy Test
+
+======================================
+
+Test:  should make arrays immutable
+Has  Exception Handling
+
+======================================
+
+Test:  should make nested arrays immutable
+Has  Exception Handling
+
+======================================
+
+Test:  should proxy promises and reject with the correct value
+Has  Exception Handling
+
+======================================
+
+Test:  should proxy nested promises and reject with the correct value
+Has  Exception Handling
+
+======================================
+
+Test:  should properly handle errors thrown in proxied functions
+Has  Exception Handling
+
+======================================
+
+Test:  it should not let you overwrite existing exposed things
+Has  Exception Handling
+
+======================================
+
+Test:  should throw an error when recursion depth is exceeded
+Has  Exception Handling
+Has  Redundant Print
+
+======================================
+
+Test:  should copy thrown errors into the other context
+Has  Exception Handling
+
+======================================
+
+Test:  should not leak prototypes when attaching directly to the global
+Has  Conditional Test Logic
+
+======================================
+
+Test:  should truncate extra values longer than 5 * 4096 characters
+Has  Exception Handling
+Has  Magic Number Test
+
+======================================
+
+Test:  should omit extra keys with names longer than the maximum
+Has  Exception Handling
+Has  Magic Number Test
+
+======================================
+
+Test:  returns the last uploaded report
+Has  Exception Handling
+Has  Magic Number Test
+
+======================================
+
+Test:  stores crashes in the crash dump directory when uploadToServer: false
+Has  Conditional Test Logic
+Has  Magic Number Test
+
+======================================
+
+Test:  respects an overridden crash dump directory
+Has  Conditional Test Logic
+Has  Magic Number Test
+
+======================================
+
+Test:  does not prevent process from crashing
+Has  Unknown Test
+
+======================================
+
+Test:  returns response
+Has  Magic Number Test
+
+======================================
+
+Test:  returns response when devtools is opened
+Has  Magic Number Test
+
+======================================
+
+Test:  fires message event
+Has  Conditional Test Logic
+
+======================================
+
+Test:  does not crash for invalid unicode characters in message
+Has  Conditional Test Logic
+Has  Unknown Test
+
+======================================
+
+Test:  can get and set cookies using the Storage API
+Has  Magic Number Test
+
+======================================
+
+Test:  creates unique session id for each target
+Has  Conditional Test Logic
+Has  Exception Handling
+
+======================================
+
+Test:  getMediaSourceId should match DesktopCapturerSource.id
+Has  Conditional Test Logic
+Has  Magic Number Test
+
+======================================
+
+Test:  getSources should not incorrectly duplicate window_id
+Has  Conditional Test Logic
+Has  Magic Number Test
+
+======================================
+
+Test:  moveAbove should move the window at the requested place
+Has  Conditional Test Logic
+Has  Exception Handling
+Has  Magic Number Test
+Has  Sleepy Test
+
+======================================
+
+Test:  throws errors when the options are invalid
+Has  Magic Number Test
+
+======================================
+
+Test:  throws errors when the options are invalid
+Has  Magic Number Test
+
+======================================
+
+Test:  throws errors when the options are invalid
+Has  Magic Number Test
+
+======================================
+
+Test:  closes message box immediately
+Has  Magic Number Test
+
+======================================
+
+Test:  closes message box after a while
+Has  Magic Number Test
+Has  Sleepy Test
+
+======================================
+
+Test:  does not crash when there is a defaultId but no buttons
+Has  Magic Number Test
+
+======================================
+
+Test:  cancels message box
+Has  Magic Number Test
+
+======================================
+
+Test:  cancels message box after a while
+Has  Magic Number Test
+Has  Sleepy Test
+
+======================================
+
+Test:  throws errors when the options are invalid
+Has  Magic Number Test
+
+======================================
+
+Test:  can register and unregister multiple accelerators
+Has  Magic Number Test
+
+======================================
+
+Test:  getProducts() returns an empty list when getting invalid product
+Has  Magic Number Test
+
+======================================
+
+Test:  does not crash when reply is not sent and browser is destroyed
+Has  Unknown Test
+
+======================================
+
+Test:  does not crash when reply is sent by multiple listeners
+Has  Unknown Test
+
+======================================
+
+Test:  can handle cyclic references
+Has  Magic Number Test
+
+======================================
+
+Test:  throws an exception
+Has  Exception Handling
+
+======================================
+
+Test:  receives a response from a synchronous handler
+Has  Magic Number Test
+
+======================================
+
+Test:  receives a response from an asynchronous handler
+Has  Magic Number Test
+
+======================================
+
+Test:  forbids multiple handlers
+Has  Exception Handling
+
+======================================
+
+Test:  between send and sendSync is consistent
+Has  Conditional Test Logic
+Has  Exception Handling
+Has  Magic Number Test
+
+======================================
+
+Test:  between send, sendSync, and invoke is consistent
+Has  Conditional Test Logic
+Has  Exception Handling
+Has  Magic Number Test
+
+======================================
+
+Test:  can send a port to the main process
+Has  Magic Number Test
+
+======================================
+
+Test:  can communicate between main and renderer
+Has  Magic Number Test
+
+======================================
+
+Test:  is emitted when the main process closes its end of the port
+Has  Unknown Test
+
+======================================
+
+Test:  is emitted when the other end of a port is garbage-collected
+Has  Unknown Test
+
+======================================
+
+Test:  is emitted when the other end of a port is sent to nowhere
+Has  Unknown Test
+
+======================================
+
+Test:  does not crash
+Has  Conditional Test Logic
+
+======================================
+
+Test:  can pass one end to a WebContents
+Has  Unknown Test
+
+======================================
+
+Test:  can be passed over another channel
+Has  Magic Number Test
+
+======================================
+
+Test:  can send messages to a closed port
+Has  Unknown Test
+
+======================================
+
+Test:  can send messages to a port whose remote end is closed
+Has  Unknown Test
+
+======================================
+
+Test:  receives ipc messages sent from the WebContents
+Has  Magic Number Test
+
+======================================
+
+Test:  receives sync-ipc messages sent from the WebContents
+Has  Magic Number Test
+
+======================================
+
+Test:  receives postMessage messages sent from the WebContents, w/ MessagePorts
+Has  Magic Number Test
+
+======================================
+
+Test:  handles invoke messages sent from the WebContents
+Has  Magic Number Test
+
+======================================
+
+Test:  overrides ipcMain handlers
+Has  Magic Number Test
+
+======================================
+
+Test:  falls back to ipcMain handlers
+Has  Magic Number Test
+
+======================================
+
+Test:  receives ipcs from child frames
+Has  Magic Number Test
+
+======================================
+
+Test:  responds to ipc messages in the main frame
+Has  Magic Number Test
+
+======================================
+
+Test:  responds to sync ipc messages in the main frame
+Has  Magic Number Test
+
+======================================
+
+Test:  receives postMessage messages sent from the WebContents, w/ MessagePorts
+Has  Magic Number Test
+
+======================================
+
+Test:  handles invoke messages sent from the WebContents
+Has  Magic Number Test
+
+======================================
+
+Test:  overrides ipcMain handlers
+Has  Magic Number Test
+
+======================================
+
+Test:  overrides WebContents handlers
+Has  Magic Number Test
+
+======================================
+
+Test:  falls back to WebContents handlers
+Has  Magic Number Test
+
+======================================
+
+Test:  receives ipcs from child frames
+Has  Magic Number Test
+
+======================================
+
+Test:  does not crash when providing only audio for a video request
+Has  Exception Handling
+
+======================================
+
+Test:  does not crash when providing only an audio stream for an audio+video request
+Has  Exception Handling
+
+======================================
+
+Test:  does not crash when providing no streams
+Has  Exception Handling
+
+======================================
+
+Test:  should be called with the item object passed
+Has  Exception Handling
+Has  Magic Number Test
+
+======================================
+
+Test:  clicking an checkbox item should flip the checked property
+Has  Magic Number Test
+
+======================================
+
+Test:  clicking an radio item should always make checked property true
+Has  Magic Number Test
+
+======================================
+
+Test:  at least have one item checked in each group
+Has  Conditional Test Logic
+
+======================================
+
+Test:  should assign groupId automatically
+Has  Conditional Test Logic
+
+======================================
+
+Test:  setting 'checked' should flip other items' 'checked' property
+Has  Conditional Test Logic
+Has  Magic Number Test
+
+======================================
+
+Test:  returns undefined for items without default accelerator
+Has  Conditional Test Logic
+
+======================================
+
+Test:  returns the correct default label
+Has  Conditional Test Logic
+
+======================================
+
+Test:  returns the correct default accelerator
+Has  Conditional Test Logic
+
+======================================
+
+Test:  includes a default submenu layout when submenu is empty
+Has  Magic Number Test
+
+======================================
+
+Test:  overrides default layout when submenu is specified
+Has  Magic Number Test
+
+======================================
+
+Test:  includes a default submenu layout when submenu is empty
+Has  Conditional Test Logic
+Has  Magic Number Test
+
+======================================
+
+Test:  overrides default layout when submenu is specified
+Has  Magic Number Test
+
+======================================
+
+Test:  includes a default submenu layout when submenu is empty
+Has  Conditional Test Logic
+Has  Magic Number Test
+
+======================================
+
+Test:  overrides default layout when submenu is specified
+Has  Magic Number Test
+
+======================================
+
+Test:  includes a default submenu layout when submenu is empty
+Has  Magic Number Test
+
+======================================
+
+Test:  overrides default layout when submenu is specified
+Has  Magic Number Test
+
+======================================
+
+Test:  includes a default submenu layout when submenu is empty
+Has  Conditional Test Logic
+Has  Magic Number Test
+
+======================================
+
+Test:  overrides default layout when submenu is specified
+Has  Magic Number Test
+
+======================================
+
+Test:  preserves the custom properties
+Has  Magic Number Test
+
+======================================
+
+Test:  should display modifiers correctly for simple keys
+Has  Conditional Test Logic
+Has  Magic Number Test
+
+======================================
+
+Test:  should display modifiers correctly for special keys
+Has  Conditional Test Logic
+Has  Magic Number Test
+
+======================================
+
+Test:  should not display modifiers twice
+Has  Magic Number Test
+
+======================================
+
+Test:  should display correctly for shifted keys
+Has  Magic Number Test
+
+======================================
+
+Test:  should be able to attach extra fields
+Has  Magic Number Test
+
+======================================
+
+Test:  should be able to accept only MenuItems
+Has  Magic Number Test
+
+======================================
+
+Test:  should be able to accept only MenuItems in a submenu
+Has  Magic Number Test
+
+======================================
+
+Test:  should be able to accept MenuItems and plain objects
+Has  Magic Number Test
+
+======================================
+
+Test:  should position before existing item
+Has  Magic Number Test
+
+======================================
+
+Test:  should position after existing item
+Has  Magic Number Test
+
+======================================
+
+Test:  should filter excess menu separators
+Has  Magic Number Test
+
+======================================
+
+Test:  should only filter excess menu separators AFTER the re-ordering for before/after is done
+Has  Magic Number Test
+
+======================================
+
+Test:  should continue inserting items at next index when no specifier is present
+Has  Magic Number Test
+
+======================================
+
+Test:  should continue inserting MenuItems at next index when no specifier is present
+Has  Magic Number Test
+
+======================================
+
+Test:  should return the item with the given id
+Has  Magic Number Test
+
+======================================
+
+Test:  should return the separator with the given id
+Has  Magic Number Test
+
+======================================
+
+Test:  should throw when attempting to insert at out-of-range indices
+Has  Magic Number Test
+
+======================================
+
+Test:  should store item in @items by its index
+Has  Magic Number Test
+
+======================================
+
+Test:  should add the item to the end of the menu
+Has  Magic Number Test
+
+======================================
+
+Test:  should emit menu-will-show event
+Has  Unknown Test
+
+======================================
+
+Test:  should emit menu-will-close event
+Has  Unknown Test
+
+======================================
+
+Test:  works without a given BrowserWindow and options
+Has  Magic Number Test
+
+======================================
+
+Test:  works with a given BrowserWindow, options and callback
+Has  Magic Number Test
+
+======================================
+
+Test:  works with a given BrowserWindow, no options, and a callback
+Has  Unknown Test
+
+======================================
+
+Test:  prevents menu from getting garbage-collected when popuping
+Has  Conditional Test Logic
+Has  Unknown Test
+Has  Sleepy Test
+
+======================================
+
+Test:  returns an empty image
+Has  Conditional Test Logic
+Has  Magic Number Test
+
+======================================
+
+Test:  returns an empty image when the buffer is empty
+Has  Magic Number Test
+
+======================================
+
+Test:  returns an image created from the given buffer
+Has  Magic Number Test
+
+======================================
+
+Test:  throws on invalid arguments
+Has  Magic Number Test
+
+======================================
+
+Test:  returns an image created from the given buffer
+Has  Magic Number Test
+
+======================================
+
+Test:  throws on invalid arguments
+Has  Magic Number Test
+
+======================================
+
+Test:  returns an image created from the given string
+Has  Conditional Test Logic
+
+======================================
+
+Test:  returns a PNG data URL
+Has  Conditional Test Logic
+
+======================================
+
+Test:  returns a data URL at 1x scale factor by default
+Has  Magic Number Test
+
+======================================
+
+Test:  returns a buffer at 1x scale factor by default
+Has  Magic Number Test
+
+======================================
+
+Test:  supports a scale factor
+Has  Magic Number Test
+
+======================================
+
+Test:  loads images from paths relative to the current working directory
+Has  Magic Number Test
+
+======================================
+
+Test:  loads images from paths with `.` segments
+Has  Magic Number Test
+
+======================================
+
+Test:  loads images from paths with `..` segments
+Has  Magic Number Test
+
+======================================
+
+Test:  returns a resized image
+Has  Conditional Test Logic
+Has  Magic Number Test
+
+======================================
+
+Test:  returns an empty image when called on an empty image
+Has  Magic Number Test
+
+======================================
+
+Test:  returns an empty image when called on an empty image
+Has  Magic Number Test
+
+======================================
+
+Test:  returns an empty image when the bounds are invalid
+Has  Magic Number Test
+
+======================================
+
+Test:  returns a cropped image
+Has  Magic Number Test
+
+======================================
+
+Test:  toBitmap() returns a buffer of the right size
+Has  Magic Number Test
+
+======================================
+
+Test:  returns an aspect ratio of an empty image
+Has  Magic Number Test
+
+======================================
+
+Test:  throws when a bad path is passed
+Has  Conditional Test Logic
+
+======================================
+
+Test:  does not add representation when the buffer is too small
+Has  Magic Number Test
+
+======================================
+
+Test:  supports adding a buffer representation for a scale factor
+Has  Magic Number Test
+
+======================================
+
+Test:  supports adding a data URL representation for a scale factor
+Has  Magic Number Test
+
+======================================
+
+Test:  supports adding a representation to an existing image
+Has  Magic Number Test
+
+======================================
+
+Test:  should emit the "updated" event when it is set and the resulting "shouldUseDarkColors" value changes
+Has  Unknown Test
+
+======================================
+
+Test:  should not emit the "updated" event when it is set and the resulting "shouldUseDarkColors" value is the same
+Has  Magic Number Test
+Has  Sleepy Test
+
+======================================
+
+Test:  should override the result of prefers-color-scheme CSS media query
+Has  Conditional Test Logic
+
+======================================
+
+Test:  can make requests to custom protocols
+Has  Exception Handling
+
+======================================
+
+Test:  runs through intercept handlers
+Has  Exception Handling
+
+======================================
+
+Test:  file: runs through intercept handlers
+Has  Exception Handling
+
+======================================
+
+Test:  can be redirected
+Has  Exception Handling
+Has  Magic Number Test
+
+======================================
+
+Test:  should not follow redirect when redirect: error
+Has  Conditional Test Logic
+Has  Magic Number Test
+
+======================================
+
+Test:  a 307 redirected POST request preserves the body
+Has  Conditional Test Logic
+Has  Magic Number Test
+
+======================================
+
+Test:  should share credentials with WebContents
+Has  Conditional Test Logic
+Has  Magic Number Test
+
+======================================
+
+Test:  should share proxy credentials with WebContents
+Has  Conditional Test Logic
+Has  Magic Number Test
+
+======================================
+
+Test:  should not share credentials with WebContents
+Has  Conditional Test Logic
+Has  Magic Number Test
+
+======================================
+
+Test:  should share proxy credentials with WebContents
+Has  Conditional Test Logic
+Has  Magic Number Test
+
+======================================
+
+Test:  should be able to set cookie header line
+Has  Magic Number Test
+
+======================================
+
+Test:  should be able to use the sessions cookie store with set-cookie
+Has  Magic Number Test
+
+======================================
+
+Test:  undefined
+Has  Magic Number Test
+
+======================================
+
+Test:  should be able to use the sessions cookie store safely across redirects
+Has  Magic Number Test
+
+======================================
+
+Test:  should be able correctly filter out cookies that are secure
+Has  Magic Number Test
+
+======================================
+
+Test:  should be able correctly filter out cookies that are session
+Has  Magic Number Test
+
+======================================
+
+Test:  should be able correctly filter out cookies that are httpOnly
+Has  Magic Number Test
+
+======================================
+
+Test:  Requests should be intercepted by webRequest module
+Has  Conditional Test Logic
+Has  Magic Number Test
+
+======================================
+
+Test:  should to able to create and intercept a request using a custom session object
+Has  Conditional Test Logic
+Has  Magic Number Test
+
+======================================
+
+Test:  should to able to create and intercept a request using a custom partition name
+Has  Conditional Test Logic
+Has  Magic Number Test
+
+======================================
+
+Test:  triggers webRequest handlers when bypassCustomProtocolHandlers
+Has  Exception Handling
+
+======================================
+
+Test:  should throw if given an invalid session option
+Has  Magic Number Test
+
+======================================
+
+Test:  should throw if given an invalid partition option
+Has  Magic Number Test
+
+======================================
+
+Test:  should throw if given a header value that is empty(null/undefined)
+Has  Conditional Test Logic
+
+======================================
+
+Test:  undefined
+Has  Conditional Test Logic
+Has  Magic Number Test
+
+======================================
+
+Test:  undefined
+Has  EmptyTest
+Has  Unknown Test
+
+======================================
+
+Test:  should be able to issue a basic GET request
+Has  Magic Number Test
+
+======================================
+
+Test:  should be able to issue a basic POST request
+Has  Magic Number Test
+
+======================================
+
+Test:  should fetch correct data in a GET request
+Has  Magic Number Test
+
+======================================
+
+Test:  should post the correct data in a POST request
+Has  Magic Number Test
+
+======================================
+
+Test:  a 307 redirected POST request preserves the body
+Has  Magic Number Test
+
+======================================
+
+Test:  a 302 redirected POST request DOES NOT preserve the body
+Has  Magic Number Test
+
+======================================
+
+Test:  should support chunked encoding
+Has  Conditional Test Logic
+Has  Magic Number Test
+
+======================================
+
+Test:  should emit the login event when 401
+Has  Conditional Test Logic
+Has  Magic Number Test
+
+======================================
+
+Test:  should receive 401 response when cancelling authentication
+Has  Conditional Test Logic
+Has  Magic Number Test
+
+======================================
+
+Test:  should upload body when 401
+Has  Conditional Test Logic
+
+======================================
+
+Test:  should not emit the login event when 401
+Has  Conditional Test Logic
+Has  Magic Number Test
+
+======================================
+
+Test:  request/response objects should emit expected events
+Has  Magic Number Test
+
+======================================
+
+Test:  should be able to set a custom HTTP request header before first write
+Has  Magic Number Test
+
+======================================
+
+Test:  should be able to set a non-string object as a header value
+Has  Magic Number Test
+
+======================================
+
+Test:  should not change the case of header name
+Has  Magic Number Test
+
+======================================
+
+Test:  should not be able to set a custom HTTP request header after first write
+Has  Magic Number Test
+
+======================================
+
+Test:  should be able to remove a custom HTTP request header before first write
+Has  Magic Number Test
+
+======================================
+
+Test:  should not be able to remove a custom HTTP request header after first write
+Has  Magic Number Test
+
+======================================
+
+Test:  should keep the order of headers
+Has  Magic Number Test
+
+======================================
+
+Test:  should not send cookies
+Has  EmptyTest
+Has  Unknown Test
+
+======================================
+
+Test:  should not store cookies
+Has  EmptyTest
+Has  Unknown Test
+
+======================================
+
+Test:  it should be able to abort an HTTP request after response start
+Has  Magic Number Test
+
+======================================
+
+Test:  abort event should be emitted at most once
+Has  Magic Number Test
+
+======================================
+
+Test:  should allow to read response body from non-2xx response
+Has  Exception Handling
+
+======================================
+
+Test:  should follow redirect when no redirect handler is provided
+Has  Magic Number Test
+
+======================================
+
+Test:  should follow redirect chain when no redirect handler is provided
+Has  Magic Number Test
+
+======================================
+
+Test:  should not follow redirect when mode is error
+Has  Unknown Test
+
+======================================
+
+Test:  should follow redirect when handler calls callback
+Has  Magic Number Test
+
+======================================
+
+Test:  should be able to create a request with options
+Has  Conditional Test Logic
+Has  Magic Number Test
+
+======================================
+
+Test:  should be able to pipe a readable stream into a net request
+Has  Conditional Test Logic
+Has  Magic Number Test
+
+======================================
+
+Test:  should not emit any event after close
+Has  Conditional Test Logic
+Has  Exception Handling
+Has  Magic Number Test
+Has  Unknown Test
+
+======================================
+
+Test:  should remove the referer header when no referrer url specified
+Has  Magic Number Test
+
+======================================
+
+Test:  should set the referer header when a referrer url specified
+Has  Magic Number Test
+
+======================================
+
+Test:  response object should implement the IncomingMessage API
+Has  Magic Number Test
+
+======================================
+
+Test:  should discard duplicate headers
+Has  Magic Number Test
+
+======================================
+
+Test:  should join repeated non-discardable header values with ,
+Has  Magic Number Test
+
+======================================
+
+Test:  should not join repeated discardable header values with ,
+Has  Magic Number Test
+
+======================================
+
+Test:  should make set-cookie header an array even if single value
+Has  Magic Number Test
+
+======================================
+
+Test:  should keep set-cookie header an array when an array
+Has  Magic Number Test
+
+======================================
+
+Test:  should lowercase header keys
+Has  Magic Number Test
+
+======================================
+
+Test:  should return correct raw headers
+Has  Conditional Test Logic
+Has  Magic Number Test
+
+======================================
+
+Test:  should correctly throttle an incoming stream
+Has  Conditional Test Logic
+Has  Magic Number Test
+Has  Sleepy Test
+
+======================================
+
+Test:  should free unreferenced, never-started request objects without crash
+Has  Unknown Test
+
+======================================
+
+Test:  should collect on-going requests without crash
+Has  Unknown Test
+
+======================================
+
+Test:  should collect unreferenced, ended requests without crash
+Has  Unknown Test
+
+======================================
+
+Test:  should reject body promise when stream fails
+Has  Exception Handling
+Has  Magic Number Test
+
+======================================
+
+Test:  resolves ipv4.localhost2
+Has  Magic Number Test
+
+======================================
+
+Test:  resolves ipv6.localhost2
+Has  Magic Number Test
+
+======================================
+
+Test:  undefined
+Has  Magic Number Test
+
+======================================
+
+Test:  inits, gets and sets actions correctly
+Has  Magic Number Test
+
+======================================
+
+Test:  can be shown and closed
+Has  Unknown Test
+
+======================================
+
+Test:  should call Inhibit to delay suspend once a listener is added
+Has  Conditional Test Logic
+Has  Exception Handling
+Has  Magic Number Test
+Has  Sleepy Test
+
+======================================
+
+Test:  should emit "suspend" event
+Has  Unknown Test
+
+======================================
+
+Test:  should emit "resume" event
+Has  Unknown Test
+
+======================================
+
+Test:  should have called Inhibit again
+Has  Magic Number Test
+
+======================================
+
+Test:  should call Inhibit to delay shutdown
+Has  Magic Number Test
+
+======================================
+
+Test:  should emit "shutdown" event
+Has  Unknown Test
+
+======================================
+
+Test:  does not accept non positive integer threshold
+Has  Magic Number Test
+
+======================================
+
+Test:  returns current system idle time
+Has  Magic Number Test
+
+======================================
+
+Test:  can be started and stopped
+Has  Magic Number Test
+
+======================================
+
+Test:  returns a creation time
+Has  Magic Number Test
+
+======================================
+
+Test:  resolves promise successfully with valid data
+Has  Conditional Test Logic
+Has  Magic Number Test
+
+======================================
+
+Test:  returns true on success
+Has  Exception Handling
+Has  Magic Number Test
+
+======================================
+
+Test:  returns a creation time
+Has  Magic Number Test
+
+======================================
+
+Test:  resolves promise successfully with valid data
+Has  Conditional Test Logic
+Has  Magic Number Test
+
+======================================
+
+Test:  returns true on success
+Has  Exception Handling
+Has  Magic Number Test
+
+======================================
+
+Test:  does not crash when handler is called twice
+Has  Exception Handling
+
+======================================
+
+Test:  can redirect to the same scheme
+Has  Conditional Test Logic
+Has  Magic Number Test
+
+======================================
+
+Test:  can load iframes with custom protocols
+Has  Unknown Test
+
+======================================
+
+Test:  works when target URL redirects
+Has  Conditional Test Logic
+
+======================================
+
+Test:  can access request headers
+Has  Exception Handling
+
+======================================
+
+Test:  sends object as response
+Has  Magic Number Test
+
+======================================
+
+Test:  sends custom response headers
+Has  Magic Number Test
+
+======================================
+
+Test:  sends custom status code
+Has  Magic Number Test
+
+======================================
+
+Test:  receives request headers
+Has  Magic Number Test
+
+======================================
+
+Test:  can handle a stream completing while writing
+Has  Magic Number Test
+
+======================================
+
+Test:  can handle next-tick scheduling during read calls
+Has  Exception Handling
+Has  Magic Number Test
+Has  Unknown Test
+
+======================================
+
+Test:  destroys response streams when aborted before completion
+Has  Exception Handling
+Has  Magic Number Test
+Has  Unknown Test
+
+======================================
+
+Test:  does not crash when handler is called twice
+Has  Exception Handling
+
+======================================
+
+Test:  can set content-type
+Has  Magic Number Test
+
+======================================
+
+Test:  can set content-type with charset
+Has  Magic Number Test
+
+======================================
+
+Test:  can access request headers
+Has  Exception Handling
+
+======================================
+
+Test:  can receive post data
+Has  Magic Number Test
+
+======================================
+
+Test:  can execute redirects
+Has  Conditional Test Logic
+Has  Exception Handling
+Has  Magic Number Test
+
+======================================
+
+Test:  should discard post data after redirection
+Has  Conditional Test Logic
+Has  Exception Handling
+Has  Magic Number Test
+
+======================================
+
+Test:  does not crash on exit
+Has  Conditional Test Logic
+Has  Magic Number Test
+Has  Redundant Print
+
+======================================
+
+Test:  should be able to register service worker for custom scheme
+Has  Unknown Test
+
+======================================
+
+Test:  resolves relative resources
+Has  Conditional Test Logic
+Has  Unknown Test
+
+======================================
+
+Test:  resolves absolute resources
+Has  Conditional Test Logic
+Has  Unknown Test
+
+======================================
+
+Test:  can have fetch working in it
+Has  Unknown Test
+
+======================================
+
+Test:  can access files through the FileSystem API
+Has  Unknown Test
+
+======================================
+
+Test:  registers secure, when {secure: true}
+Has  Unknown Test
+
+======================================
+
+Test:  allows CORS requests by default
+Has  Exception Handling
+Has  Magic Number Test
+Has  Unknown Test
+
+======================================
+
+Test:  disallows CORS and fetch requests when only supportFetchAPI is specified
+Has  Exception Handling
+Has  Unknown Test
+
+======================================
+
+Test:  allows CORS, but disallows fetch requests, when specified
+Has  Exception Handling
+Has  Unknown Test
+
+======================================
+
+Test:  successfully plays videos when content is buffered (stream: false)
+Has  Unknown Test
+
+======================================
+
+Test:  successfully plays videos when streaming content (stream: true)
+Has  Unknown Test
+
+======================================
+
+Test:  code cache in custom protocol is disabled by default
+Has  Magic Number Test
+
+======================================
+
+Test:  codeCache:true enables codeCache in custom protocol
+Has  Magic Number Test
+
+======================================
+
+Test:  receives requests to a custom scheme
+Has  Magic Number Test
+
+======================================
+
+Test:  can be unhandled
+Has  Exception Handling
+Has  Magic Number Test
+
+======================================
+
+Test:  receives requests to the existing https scheme
+Has  Exception Handling
+
+======================================
+
+Test:  receives requests to the existing file scheme
+Has  Conditional Test Logic
+Has  Unknown Test
+
+======================================
+
+Test:  can send buffer body
+Has  Exception Handling
+
+======================================
+
+Test:  can send stream body
+Has  Exception Handling
+
+======================================
+
+Test:  accepts urls with no hostname in non-standard schemes
+Has  Exception Handling
+
+======================================
+
+Test:  accepts urls with a port-like component in non-standard schemes
+Has  Exception Handling
+
+======================================
+
+Test:  normalizes urls in standard schemes
+Has  Exception Handling
+
+======================================
+
+Test:  normalizes http urls
+Has  Exception Handling
+
+======================================
+
+Test:  correctly sets statusCode
+Has  Magic Number Test
+
+======================================
+
+Test:  can forward to http
+Has  Exception Handling
+
+======================================
+
+Test:  can forward to file
+Has  Exception Handling
+
+======================================
+
+Test:  can receive simple request body
+Has  Exception Handling
+
+======================================
+
+Test:  can receive stream request body
+Has  Exception Handling
+
+======================================
+
+Test:  can receive stream request body asynchronously
+Has  Conditional Test Logic
+
+======================================
+
+Test:  can receive file postData from loadURL
+Has  Magic Number Test
+
+======================================
+
+Test:  can receive streaming fetch upload when a webRequest handler is present
+Has  Redundant Print
+
+======================================
+
+Test:  gets an error from streaming fetch upload when the renderer dies
+Has  Conditional Test Logic
+
+======================================
+
+Test:  can bypass intercepeted protocol handlers
+Has  Exception Handling
+
+======================================
+
+Test:  supports sniffing mime type
+Has  Conditional Test Logic
+
+======================================
+
+Test:  does not emit undefined chunks into the request body stream when uploading a stream
+Has  Conditional Test Logic
+Has  Magic Number Test
+Has  Redundant Print
+
+======================================
+
+Test:  does not emit undefined chunks into the request body stream when uploading a file
+Has  Conditional Test Logic
+Has  Exception Handling
+Has  Magic Number Test
+
+======================================
+
+Test:  does forward Blob chunks
+Has  Magic Number Test
+
+======================================
+
+Test:  safeStorage before and after app is ready
+Has  Conditional Test Logic
+Has  Magic Number Test
+Has  Redundant Print
+
+======================================
+
+Test:  can decrypt after closing and reopening app
+Has  Conditional Test Logic
+Has  Exception Handling
+Has  Redundant Print
+
+======================================
+
+Test:  works for a selected method
+Has  Exception Handling
+
+======================================
+
+Test:  returns an array of displays
+Has  Conditional Test Logic
+Has  Magic Number Test
+
+======================================
+
+Test:  has a size object property
+Has  Conditional Test Logic
+Has  Magic Number Test
+
+======================================
+
+Test:  has a workAreaSize object property
+Has  Conditional Test Logic
+Has  Magic Number Test
+
+======================================
+
+Test:  has a bounds object property
+Has  Conditional Test Logic
+Has  Magic Number Test
+
+======================================
+
+Test:  has a workArea object property
+Has  Magic Number Test
+
+======================================
+
+Test:  should report one as running once you load a page with a service worker
+Has  Magic Number Test
+
+======================================
+
+Test:  should correctly keep the source, message and level
+Has  Conditional Test Logic
+Has  Magic Number Test
+
+======================================
+
+Test:  sets cookies
+Has  Magic Number Test
+
+======================================
+
+Test:  gets cookies without url
+Has  Magic Number Test
+
+======================================
+
+Test:  should overwrite previous cookies
+Has  Conditional Test Logic
+Has  Magic Number Test
+
+======================================
+
+Test:  should remove cookies
+Has  Magic Number Test
+
+======================================
+
+Test:  should set cookie for standard scheme
+Has  Magic Number Test
+
+======================================
+
+Test:  emits a changed event when a cookie is added or removed
+Has  Magic Number Test
+
+======================================
+
+Test:  flushes the cookies to disk
+Has  Unknown Test
+
+======================================
+
+Test:  should survive an app restart for persistent partition
+Has  Magic Number Test
+
+======================================
+
+Test:  clears localstorage data
+Has  Conditional Test Logic
+Has  Magic Number Test
+Has  Unknown Test
+
+======================================
+
+Test:  handles requests from partition
+Has  Unknown Test
+
+======================================
+
+Test:  allows configuring proxy settings with pacScript
+Has  Magic Number Test
+
+======================================
+
+Test:  allows configuring proxy settings with mode `auto_detect`
+Has  Unknown Test
+
+======================================
+
+Test:  allows configuring proxy settings with mode `system`
+Has  Unknown Test
+
+======================================
+
+Test:  reload proxy configuration
+Has  Magic Number Test
+
+======================================
+
+Test:  resolves ipv4.localhost2
+Has  Magic Number Test
+
+======================================
+
+Test:  resolves ipv6.localhost2
+Has  Magic Number Test
+
+======================================
+
+Test:  returns blob data for uuid
+Has  Conditional Test Logic
+Has  Exception Handling
+
+======================================
+
+Test:  returns blob data for uuid
+Has  Conditional Test Logic
+Has  Exception Handling
+
+======================================
+
+Test:  accepts the request when the callback is called with 0
+Has  Conditional Test Logic
+Has  Magic Number Test
+
+======================================
+
+Test:  rejects the request when the callback is called with -2
+Has  Conditional Test Logic
+Has  Magic Number Test
+
+======================================
+
+Test:  saves cached results
+Has  Conditional Test Logic
+Has  Magic Number Test
+
+======================================
+
+Test:  does not cancel requests in other sessions
+Has  Exception Handling
+Has  Magic Number Test
+
+======================================
+
+Test:  can clear http auth info from cache
+Has  Conditional Test Logic
+
+======================================
+
+Test:  can perform a download
+Has  Exception Handling
+Has  Unknown Test
+
+======================================
+
+Test:  can perform a download with a valid auth header
+Has  Conditional Test Logic
+Has  Exception Handling
+Has  Magic Number Test
+
+======================================
+
+Test:  correctly handles a download with an invalid auth header
+Has  Conditional Test Logic
+Has  Exception Handling
+Has  Magic Number Test
+Has  Redundant Print
+
+======================================
+
+Test:  can perform a download
+Has  Exception Handling
+Has  Unknown Test
+
+======================================
+
+Test:  can perform a download with a valid auth header
+Has  Conditional Test Logic
+Has  Exception Handling
+
+======================================
+
+Test:  correctly handles a download and an invalid auth header
+Has  Conditional Test Logic
+Has  Exception Handling
+Has  Magic Number Test
+Has  Redundant Print
+
+======================================
+
+Test:  can download from custom protocols
+Has  Exception Handling
+Has  Unknown Test
+
+======================================
+
+Test:  can cancel download
+Has  Exception Handling
+Has  Magic Number Test
+
+======================================
+
+Test:  can generate a default filename
+Has  Conditional Test Logic
+Has  Exception Handling
+
+======================================
+
+Test:  can set options for the save dialog
+Has  Exception Handling
+
+======================================
+
+Test:  does not display a save dialog and reports the done state as interrupted
+Has  Conditional Test Logic
+Has  Exception Handling
+
+======================================
+
+Test:  can perform a download
+Has  Unknown Test
+
+======================================
+
+Test:  can be resumed
+Has  Exception Handling
+Has  Magic Number Test
+
+======================================
+
+Test:  cancels any pending requests when cleared
+Has  Exception Handling
+
+======================================
+
+Test:  details provides requestingURL for mainFrame
+Has  Conditional Test Logic
+
+======================================
+
+Test:  details provides requestingURL for cross origin subFrame
+Has  Conditional Test Logic
+
+======================================
+
+Test:  can disable cipher suites
+Has  Magic Number Test
+
+======================================
+
+Test:  clears all data when no options supplied
+Has  Magic Number Test
+
+======================================
+
+Test:  clears all data when no options supplied, called twice in parallel
+Has  Magic Number Test
+
+======================================
+
+Test:  only clears specified data categories
+Has  Magic Number Test
+
+======================================
+
+Test:  only clears the specified origins
+Has  Magic Number Test
+
+======================================
+
+Test:  clears all except the specified origins
+Has  Magic Number Test
+
+======================================
+
+Test:  opens an external link
+Has  Unknown Test
+
+======================================
+
+Test:  opens an external link in the renderer
+Has  Unknown Test
+
+======================================
+
+Test:  should not expose globals in main world
+Has  Conditional Test Logic
+
+======================================
+
+Test:  should not load preload scripts
+Has  Exception Handling
+Has  Unknown Test
+
+======================================
+
+Test:  registers defaults
+Has  Conditional Test Logic
+
+======================================
+
+Test:  throws when bad defaults are passed
+Has  Conditional Test Logic
+
+======================================
+
+Test:  returns values for unknown user defaults
+Has  Magic Number Test
+
+======================================
+
+Test:  sets values
+Has  Conditional Test Logic
+
+======================================
+
+Test:  throws when type and value conflict
+Has  Conditional Test Logic
+
+======================================
+
+Test:  throws an error if invalid arguments are passed
+Has  Conditional Test Logic
+
+======================================
+
+Test:  throws an error if invalid arguments are passed
+Has  Conditional Test Logic
+
+======================================
+
+Test:  throws an error if invalid arguments are passed
+Has  Conditional Test Logic
+
+======================================
+
+Test:  returns a valid system color
+Has  Conditional Test Logic
+
+======================================
+
+Test:  returns a valid color
+Has  Conditional Test Logic
+
+======================================
+
+Test:  does not throw for missing keys
+Has  Unknown Test
+
+======================================
+
+Test:  can be added to and removed from a window
+Has  Unknown Test
+
+======================================
+
+Test:  calls the callback on the items when a window interaction event fires
+Has  Unknown Test
+
+======================================
+
+Test:  calls the callback on the escape item when a window interaction event fires
+Has  Unknown Test
+
+======================================
+
+Test:  can be called with a position
+Has  Magic Number Test
+
+======================================
+
+Test:  can be called with a menu and a position
+Has  Magic Number Test
+
+======================================
+
+Test:  accepts empty image
+Has  Unknown Test
+
+======================================
+
+Test:  accepts empty image
+Has  Unknown Test
+
+======================================
+
+Test:  accepts an empty image
+Has  Unknown Test
+
+======================================
+
+Test:  throws when the font type is specified but is not a string
+Has  Magic Number Test
+
+======================================
+
+Test:  emits 'spawn' when child process successfully launches
+Has  Unknown Test
+
+======================================
+
+Test:  emits 'exit' when child process exits gracefully
+Has  Magic Number Test
+
+======================================
+
+Test:  emits 'exit' when there is uncaught exception
+Has  Magic Number Test
+
+======================================
+
+Test:  emits 'exit' when there is uncaught exception in ESM
+Has  Magic Number Test
+
+======================================
+
+Test:  supports starting the v8 inspector with --inspect-brk
+Has  Conditional Test Logic
+Has  Unknown Test
+
+======================================
+
+Test:  supports starting the v8 inspector with --inspect and a provided port
+Has  Conditional Test Logic
+
+======================================
+
+Test:  inherits parent env as default
+Has  Conditional Test Logic
+
+======================================
+
+Test:  does not inherit parent env when custom env is provided
+Has  Conditional Test Logic
+
+======================================
+
+Test:  does not crash when running eval
+Has  Magic Number Test
+
+======================================
+
+Test:  should emit the app#login event when 401
+Has  Conditional Test Logic
+Has  Magic Number Test
+
+======================================
+
+Test:  should receive 401 response when cancelling authentication via app#login event
+Has  Conditional Test Logic
+Has  Magic Number Test
+
+======================================
+
+Test:  should upload body when 401
+Has  Conditional Test Logic
+Has  Magic Number Test
+
+======================================
+
+Test:  should not emit the app#login event when 401 with {"credentials":"omit"}
+Has  Conditional Test Logic
+Has  Magic Number Test
+
+======================================
+
+Test:  should not emit the app#login event with default respondToAuthRequestsFromMainProcess
+Has  Conditional Test Logic
+Has  Magic Number Test
+
+======================================
+
+Test:  should emit the app#login event when creating requests with fetch API
+Has  Conditional Test Logic
+Has  Magic Number Test
+
+======================================
+
+Test:  does not crash when attempting to add a child multiple times
+Has  Magic Number Test
+
+======================================
+
+Test:  allows setting various border radius values
+Has  Magic Number Test
+Has  Unknown Test
+
+======================================
+
+Test:  returns an array of web contents
+Has  Magic Number Test
+
+======================================
+
+Test:  returns undefined for an unknown id
+Has  Magic Number Test
+
+======================================
+
+Test:  returns undefined for disposed frame
+Has  Unknown Test
+
+======================================
+
+Test:  throws when passing invalid argument
+Has  Exception Handling
+
+======================================
+
+Test:  returns WebContents for attached DevTools target
+Has  Exception Handling
+
+======================================
+
+Test:  emits if beforeunload returns false in a BrowserWindow
+Has  Unknown Test
+
+======================================
+
+Test:  emits if beforeunload returns false in a BrowserView
+Has  Unknown Test
+
+======================================
+
+Test:  supports calling preventDefault on will-prevent-unload events in a BrowserWindow
+Has  Unknown Test
+
+======================================
+
+Test:  does not block node async APIs when sent before document is ready
+Has  Exception Handling
+Has  Magic Number Test
+Has  Unknown Test
+
+======================================
+
+Test:  throws when an invalid custom pageSize is passed
+Has  Magic Number Test
+
+======================================
+
+Test:  does not crash with custom margins
+Has  Magic Number Test
+
+======================================
+
+Test:  rejects the returned promise with an error if an Error.prototype is thrown
+Has  Conditional Test Logic
+
+======================================
+
+Test:  works after page load and during subframe load
+Has  Unknown Test
+
+======================================
+
+Test:  resolves the returned promise with the result
+Has  Magic Number Test
+
+======================================
+
+Test:  resolves when navigating within the page
+Has  Sleepy Test
+
+======================================
+
+Test:  does not crash when loading a new URL with emulation settings set
+Has  Conditional Test Logic
+Has  Exception Handling
+
+======================================
+
+Test:  sets appropriate error information on rejection
+Has  Conditional Test Logic
+Has  Exception Handling
+Has  Magic Number Test
+
+======================================
+
+Test:  doesn't reject when a subframe fails to load
+Has  Conditional Test Logic
+Has  Unknown Test
+
+======================================
+
+Test:  doesn't resolve when a subframe loads
+Has  Conditional Test Logic
+Has  Magic Number Test
+
+======================================
+
+Test:  should remove a navigation entry given a valid index
+Has  Magic Number Test
+
+======================================
+
+Test:  should be able to go back if history is not empty
+Has  Magic Number Test
+
+======================================
+
+Test:  should be able to go forward if history is not empty and active index is less than history length
+Has  Magic Number Test
+
+======================================
+
+Test:  should not be able to go to invalid offset
+Has  Magic Number Test
+
+======================================
+
+Test:  should be able to go to valid negative offset
+Has  Magic Number Test
+
+======================================
+
+Test:  should be able to go to valid positive offset
+Has  Magic Number Test
+
+======================================
+
+Test:  should be able clear history
+Has  Magic Number Test
+
+======================================
+
+Test:  should return valid active index after a single page visit
+Has  Magic Number Test
+
+======================================
+
+Test:  should return valid active index after a multiple page visits
+Has  Magic Number Test
+
+======================================
+
+Test:  should return valid active index given no page visits
+Has  Magic Number Test
+
+======================================
+
+Test:  should return valid history length after a single page visit
+Has  Magic Number Test
+
+======================================
+
+Test:  should return valid history length after a multiple page visits
+Has  Magic Number Test
+
+======================================
+
+Test:  should return valid history length given no page visits
+Has  Magic Number Test
+
+======================================
+
+Test:  should return all navigation entries as an array of NavigationEntry objects
+Has  Magic Number Test
+
+======================================
+
+Test:  should return an empty array when there is no navigation history
+Has  Magic Number Test
+
+======================================
+
+Test:  does not crash when called on a detached dev tools window
+Has  Magic Number Test
+Has  Sleepy Test
+
+======================================
+
+Test:  can prevent document keyboard events
+Has  Conditional Test Logic
+
+======================================
+
+Test:  has the correct properties
+Has  Conditional Test Logic
+
+======================================
+
+Test:  can send keydown events
+Has  Magic Number Test
+
+======================================
+
+Test:  can send keydown events with modifiers
+Has  Magic Number Test
+
+======================================
+
+Test:  can send keydown events with special keys
+Has  Magic Number Test
+
+======================================
+
+Test:  can send char events
+Has  Magic Number Test
+
+======================================
+
+Test:  can send char events with modifiers
+Has  Magic Number Test
+
+======================================
+
+Test:  supports inspecting an element in the devtools
+Has  Magic Number Test
+Has  Unknown Test
+
+======================================
+
+Test:  returns a valid process id
+Has  Magic Number Test
+
+======================================
+
+Test:  throws on an invalid zoomFactor
+Has  Magic Number Test
+
+======================================
+
+Test:  can set the correct zoom level (functions)
+Has  Exception Handling
+Has  Magic Number Test
+
+======================================
+
+Test:  can set the correct zoom level (properties)
+Has  Exception Handling
+Has  Magic Number Test
+
+======================================
+
+Test:  can set the correct zoom factor (functions)
+Has  Exception Handling
+Has  Magic Number Test
+
+======================================
+
+Test:  can set the correct zoom factor (properties)
+Has  Exception Handling
+Has  Magic Number Test
+
+======================================
+
+Test:  can persist zoom level across navigation
+Has  Conditional Test Logic
+Has  Exception Handling
+
+======================================
+
+Test:  cannot propagate zoom level across different session
+Has  Magic Number Test
+
+======================================
+
+Test:  can persist when it contains iframe
+Has  Conditional Test Logic
+Has  Exception Handling
+Has  Magic Number Test
+
+======================================
+
+Test:  cannot propagate when used with webframe
+Has  Magic Number Test
+
+======================================
+
+Test:  cannot persist zoom level after navigation with webFrame
+Has  Magic Number Test
+
+======================================
+
+Test:  can set and get webrtc ip policies
+Has  Conditional Test Logic
+
+======================================
+
+Test:  check default webrtc udp port range is { min: 0, max: 0 }
+Has  Magic Number Test
+
+======================================
+
+Test:  can set and get webrtc udp port range policy with correct arguments
+Has  Magic Number Test
+
+======================================
+
+Test:  can not set webrtc udp port range policy with invalid arguments
+Has  Magic Number Test
+
+======================================
+
+Test:  can reset webrtc udp port range policy to default with { min: 0, max: 0 }
+Has  Magic Number Test
+
+======================================
+
+Test:  undefined
+Has  Magic Number Test
+Has  Unknown Test
+
+======================================
+
+Test:  is triggered with correct theme color
+Has  Conditional Test Logic
+Has  Exception Handling
+Has  Magic Number Test
+
+======================================
+
+Test:  is triggered with correct log message
+Has  Conditional Test Logic
+Has  Unknown Test
+
+======================================
+
+Test:  propagates referrer information to new target=_blank windows
+Has  Conditional Test Logic
+Has  Exception Handling
+
+======================================
+
+Test:  propagates referrer information to windows opened with window.open
+Has  Conditional Test Logic
+Has  Exception Handling
+
+======================================
+
+Test:  responds to executeJavaScript
+Has  Magic Number Test
+
+======================================
+
+Test:  works with sandboxed renderers
+Has  Exception Handling
+Has  Magic Number Test
+
+======================================
+
+Test:  does not crash when allowing
+Has  Unknown Test
+
+======================================
+
+Test:  does not crash when called via BrowserWindow
+Has  Unknown Test
+
+======================================
+
+Test:  does not crash when disallowing
+Has  Unknown Test
+
+======================================
+
+Test:  rejects on incorrectly typed parameters
+Has  Conditional Test Logic
+
+======================================
+
+Test:  rejects when margins exceed physical page size
+Has  Magic Number Test
+
+======================================
+
+Test:  does not crash when called multiple times in parallel
+Has  Conditional Test Logic
+Has  Magic Number Test
+
+======================================
+
+Test:  does not crash when called multiple times in sequence
+Has  Conditional Test Logic
+Has  Magic Number Test
+
+======================================
+
+Test:  with custom page sizes
+Has  Conditional Test Logic
+
+======================================
+
+Test:  with custom page ranges
+Has  Magic Number Test
+
+======================================
+
+Test:  from an existing pdf document
+Has  Magic Number Test
+Has  Sleepy Test
+
+======================================
+
+Test:  can get multiple shared workers
+Has  Magic Number Test
+
+======================================
+
+Test:  can inspect a specific shared worker
+Has  Magic Number Test
+Has  Unknown Test
+
+======================================
+
+Test:  can be GCed before loading a page
+Has  Magic Number Test
+
+======================================
+
+Test:  emits when moveTo is called
+Has  Magic Number Test
+
+======================================
+
+Test:  emits when resizeTo is called
+Has  Conditional Test Logic
+Has  Magic Number Test
+
+======================================
+
+Test:  can be instantiated with no arguments
+Has  Unknown Test
+
+======================================
+
+Test:  can be instantiated with no webPreferences
+Has  Unknown Test
+
+======================================
+
+Test:  accepts existing webContents object
+Has  Magic Number Test
+
+======================================
+
+Test:  can be used as content view
+Has  Unknown Test
+
+======================================
+
+Test:  doesn't crash when GCed during allocation
+Has  Unknown Test
+
+======================================
+
+Test:  does not change when view is moved between two visible windows
+Has  Magic Number Test
+
+======================================
+
+Test:  should render with cutout corners
+Has  Conditional Test Logic
+Has  Unknown Test
+
+======================================
+
+Test:  should allow resetting corners
+Has  Magic Number Test
+Has  Unknown Test
+
+======================================
+
+Test:  should render when set before attached
+Has  Magic Number Test
+Has  Unknown Test
+
+======================================
+
+Test:  should allow setting when not attached
+Has  Magic Number Test
+Has  Unknown Test
+
+======================================
+
+Test:  can access immediate frame descendents
+Has  Magic Number Test
+
+======================================
+
+Test:  can access cross-origin frames
+Has  Magic Number Test
+
+======================================
+
+Test:  should report correct address for each subframe
+Has  Magic Number Test
+
+======================================
+
+Test:  can inject code into any subframe
+Has  Magic Number Test
+
+======================================
+
+Test:  can resolve promise
+Has  Magic Number Test
+
+======================================
+
+Test:  can reject with error
+Has  Conditional Test Logic
+
+======================================
+
+Test:  recovers from renderer crash on same-origin
+Has  Unknown Test
+Has  Redundant Print
+
+======================================
+
+Test:  recovers from renderer crash on cross-origin
+Has  Magic Number Test
+Has  Unknown Test
+Has  Redundant Print
+Has  Sleepy Test
+
+======================================
+
+Test:  returns undefined for unknown IDs
+Has  Magic Number Test
+
+======================================
+
+Test:  can find each frame from navigation events
+Has  Conditional Test Logic
+
+======================================
+
+Test:  emits when nested frames are created
+Has  Magic Number Test
+
+======================================
+
+Test:  emits for top-level frame
+Has  Unknown Test
+
+======================================
+
+Test:  emits for sub frame
+Has  Conditional Test Logic
+Has  Unknown Test
+
+======================================
+
+Test:  calls a spellcheck provider
+Has  Conditional Test Logic
+
+======================================
+
+Test:  executeJavaScript() yields results via a promise and a sync callback
+Has  Magic Number Test
+
+======================================
+
+Test:  executeJavaScriptInIsolatedWorld() yields results via a promise and a sync callback
+Has  Magic Number Test
+
+======================================
+
+Test:  executeJavaScript(InIsolatedWorld) can be used without a callback
+Has  Magic Number Test
+
+======================================
+
+Test:  receives post data in details object
+Has  Magic Number Test
+
+======================================
+
+Test:  can redirect the request
+Has  Conditional Test Logic
+
+======================================
+
+Test:  does not crash for redirects
+Has  Unknown Test
+
+======================================
+
+Test:  can handle a streaming upload
+Has  Magic Number Test
+
+======================================
+
+Test:  can handle a streaming upload if the uploadData is read
+Has  Conditional Test Logic
+Has  Exception Handling
+Has  Magic Number Test
+
+======================================
+
+Test:  can change the request headers on a custom protocol redirect
+Has  Conditional Test Logic
+Has  Exception Handling
+Has  Magic Number Test
+
+======================================
+
+Test:  receives details object
+Has  Magic Number Test
+
+======================================
+
+Test:  receives details object
+Has  Magic Number Test
+
+======================================
+
+Test:  receives details object
+Has  Conditional Test Logic
+Has  Magic Number Test
+
+======================================
+
+Test:  receives details object
+Has  Magic Number Test
+
+======================================
+
+Test:  can be proxyed
+Has  Conditional Test Logic
+Has  Magic Number Test
+
+======================================
+
+Test:  reports the correct path for a File object
+Has  Exception Handling
+
+======================================
+
+Test:  opens normally when unmodified
+Has  Magic Number Test
+
+======================================
+
+Test:  fatals if a loaded main process JS file does not match
+Has  Magic Number Test
+
+======================================
+
+Test:  does nothing if the integrity header does not match
+Has  Magic Number Test
+
+======================================
+
+Test:  loads video tag in html
+Has  Conditional Test Logic
+Has  Magic Number Test
+
+======================================
+
+Test:  handles null for options
+Has  Exception Handling
+
+======================================
+
+Test:  handles undefined for options
+Has  Exception Handling
+
+======================================
+
+Test:  can be selected via keyboard for a <datalist> with text type
+Has  Conditional Test Logic
+Has  Magic Number Test
+Has  Sleepy Test
+
+======================================
+
+Test:  can be selected via keyboard for a <datalist> with time type
+Has  Conditional Test Logic
+Has  Magic Number Test
+Has  Sleepy Test
+
+======================================
+
+Test:  sends a report for an intervention
+Has  Conditional Test Logic
+Has  Exception Handling
+Has  Magic Number Test
+
+======================================
+
+Test:  engages CORB when web security is not disabled
+Has  Unknown Test
+
+======================================
+
+Test:  bypasses CORB when web security is disabled
+Has  Unknown Test
+
+======================================
+
+Test:  does not crash when multiple WebContent are created with web security disabled
+Has  Unknown Test
+
+======================================
+
+Test:  should set the locale
+Has  EmptyTest
+Has  Unknown Test
+
+======================================
+
+Test:  should set the locale with country code
+Has  EmptyTest
+Has  Unknown Test
+
+======================================
+
+Test:  should not set an invalid locale
+Has  EmptyTest
+Has  Unknown Test
+
+======================================
+
+Test:  should expose CDP via pipe
+Has  Magic Number Test
+
+======================================
+
+Test:  should override --remote-debugging-port switch
+Has  Magic Number Test
+
+======================================
+
+Test:  should shut down Electron upon Browser.close CDP command
+Has  Magic Number Test
+Has  Unknown Test
+
+======================================
+
+Test:  should display the discovery page
+Has  Conditional Test Logic
+Has  Exception Handling
+Has  Magic Number Test
+Has  Redundant Print
+
+======================================
+
+Test:  does not crash
+Has  Unknown Test
+
+======================================
+
+Test:  does not crash
+Has  Unknown Test
+
+======================================
+
+Test:  should lock the keyboard
+Has  Magic Number Test
+Has  Sleepy Test
+
+======================================
+
+Test:  should return the system locale only
+Has  Magic Number Test
+
+======================================
+
+Test:  should register for file scheme
+Has  Conditional Test Logic
+Has  Exception Handling
+
+======================================
+
+Test:  should register for intercepted file scheme
+Has  Conditional Test Logic
+Has  Exception Handling
+Has  Magic Number Test
+
+======================================
+
+Test:  should register for custom scheme
+Has  Conditional Test Logic
+Has  Exception Handling
+Has  Magic Number Test
+
+======================================
+
+Test:  allows access by default to reading an OPFS file
+Has  Magic Number Test
+
+======================================
+
+Test:  Worker with nodeIntegrationInWorker has access to self.module.paths
+Has  Magic Number Test
+
+======================================
+
+Test:  undefined
+Has  Conditional Test Logic
+
+======================================
+
+Test:  defines a window.location getter
+Has  Conditional Test Logic
+
+======================================
+
+Test:  defines a window.location setter
+Has  Unknown Test
+
+======================================
+
+Test:  defines a window.location.href setter
+Has  Unknown Test
+
+======================================
+
+Test:  works when used in conjunction with the vm module
+Has  Magic Number Test
+
+======================================
+
+Test:  provides a securityOrigin to the request handler
+Has  Conditional Test Logic
+
+======================================
+
+Test:  undefined
+Has  Conditional Test Logic
+
+======================================
+
+Test:  undefined
+Has  Conditional Test Logic
+
+======================================
+
+Test:  undefined
+Has  Exception Handling
+Has  Magic Number Test
+Has  Sleepy Test
+
+======================================
+
+Test:  undefined
+Has  Exception Handling
+
+======================================
+
+Test:  can be requested
+Has  Magic Number Test
+
+======================================
+
+Test:  successfully loads a PDF file
+Has  Unknown Test
+
+======================================
+
+Test:  should push state after calling history.pushState() from the same url
+Has  Magic Number Test
+
+======================================
+
+Test:  should not allow sandboxed iframe to modify main frame state
+Has  Magic Number Test
+
+======================================
+
+Test:  returns the correct value
+Has  Magic Number Test
+
+======================================
+
+Test:  does not crash
+Has  Unknown Test
+
+======================================
+
+Test:  calls its callbacks
+Has  Unknown Test
+
+======================================
+
+Test:  does not crash
+Has  Unknown Test
+
+======================================
+
+Test:  does not crash
+Has  Magic Number Test
+
+======================================
+
+Test:  does not crash if a webContents is destroyed while an alert is showing
+Has  Unknown Test
+
+======================================
+
+Test:  does not show the checkbox if not enabled
+Has  Magic Number Test
+
+======================================
+
+Test:  is respected
+Has  Magic Number Test
+
+======================================
+
+Test:  shows the safeDialogMessage
+Has  Magic Number Test
+
+======================================
+
+Test:  has persistent state across navigations
+Has  Magic Number Test
+Has  Unknown Test
+
+======================================
+
+Test:  is separated by origin
+Has  Magic Number Test
+
+======================================
+
+Test:  treats different file: paths as different origins
+Has  Magic Number Test
+
+======================================
+
+Test:  is respected
+Has  Unknown Test
+
+======================================
+
+Test:  should use Helvetica for sans-serif on Mac, and Arial on Windows and Linux
+Has  Conditional Test Logic
+Has  Magic Number Test
+
+======================================
+
+Test:  does not return a port when permission denied
+Has  Magic Number Test
+
+======================================
+
+Test:  returns a port when select-serial-port event is defined
+Has  Conditional Test Logic
+Has  Magic Number Test
+
+======================================
+
+Test:  navigator.serial.getPorts() returns values
+Has  Conditional Test Logic
+Has  Magic Number Test
+
+======================================
+
+Test:  supports port.forget()
+Has  Conditional Test Logic
+Has  Magic Number Test
+
+======================================
+
+Test:  returns an error when permission denied
+Has  Conditional Test Logic
+
+======================================
+
+Test:  returns screens when permission is granted
+Has  Conditional Test Logic
+
+======================================
+
+Test:  returns an error when permission denied
+Has  Conditional Test Logic
+
+======================================
+
+Test:  returns clipboard contents when permission is granted
+Has  Conditional Test Logic
+
+======================================
+
+Test:  returns an error when permission denied
+Has  Conditional Test Logic
+
+======================================
+
+Test:  returns clipboard contents when permission is granted
+Has  Conditional Test Logic
+
+======================================
+
+Test:  setAppBadge can set an empty(dot) value
+Has  Magic Number Test
+
+======================================
+
+Test:  clearAppBadge can clear a value
+Has  Magic Number Test
+
+======================================
+
+Test:  setAppBadge can be called in a ServiceWorker
+Has  Conditional Test Logic
+Has  Exception Handling
+
+======================================
+
+Test:  clearAppBadge can be called in a ServiceWorker
+Has  Conditional Test Logic
+Has  Exception Handling
+
+======================================
+
+Test:  returns a device when select-hid-device event is defined
+Has  Conditional Test Logic
+Has  Magic Number Test
+
+======================================
+
+Test:  returns a device when DevicePermissionHandler is defined
+Has  Conditional Test Logic
+Has  Magic Number Test
+
+======================================
+
+Test:  excludes a device when a exclusionFilter is specified
+Has  Conditional Test Logic
+Has  Magic Number Test
+
+======================================
+
+Test:  supports device.forget()
+Has  Conditional Test Logic
+Has  Magic Number Test
+
+======================================
+
+Test:  returns a device when select-usb-device event is defined
+Has  Conditional Test Logic
+Has  Magic Number Test
+
+======================================
+
+Test:  returns a device when DevicePermissionHandler is defined
+Has  Conditional Test Logic
+Has  Magic Number Test
+
+======================================
+
+Test:  supports device.forget()
+Has  Conditional Test Logic
+Has  Magic Number Test
+
+======================================
+
+Test:  deprecates a property of an object
+Has  Magic Number Test
+
+======================================
+
+Test:  deprecates a property of an but retains the existing accessors and setters
+Has  Magic Number Test
+
+======================================
+
+Test:  warns only once per item
+Has  Magic Number Test
+
+======================================
+
+Test:  should log the deprecation warning once
+Has  Magic Number Test
+
+======================================
+
+Test:  should load an esm entrypoint
+Has  Magic Number Test
+
+======================================
+
+Test:  should load an esm entrypoint based on type=module
+Has  Magic Number Test
+
+======================================
+
+Test:  should wait for a top-level await before declaring the app ready
+Has  Magic Number Test
+
+======================================
+
+Test:  should allow usage of pre-app-ready apis in top-level await
+Has  Magic Number Test
+
+======================================
+
+Test:  should allow use of dynamic import
+Has  Magic Number Test
+
+======================================
+
+Test:  should use Blinks dynamic loader in the main world
+Has  Exception Handling
+
+======================================
+
+Test:  should use import.meta callback handling from Node.js for Node.js modules
+Has  Magic Number Test
+
+======================================
+
+Test:  should use Blinks dynamic loader in the main world
+Has  Exception Handling
+
+======================================
+
+Test:  can grant special privileges to urls with host permissions
+Has  Magic Number Test
+
+======================================
+
+Test:  id
+Has  Magic Number Test
+
+======================================
+
+Test:  stores and retrieves a key
+Has  Exception Handling
+
+======================================
+
+Test:  does not take precedence over Electron webRequest - http
+Has  Unknown Test
+
+======================================
+
+Test:  does not take precedence over Electron webRequest - WebSocket
+Has  Unknown Test
+
+======================================
+
+Test:  can be proxied
+Has  Conditional Test Logic
+
+======================================
+
+Test:  executeScript
+Has  Magic Number Test
+
+======================================
+
+Test:  connect
+Has  Magic Number Test
+
+======================================
+
+Test:  loads a lazy background page when sending a message
+Has  Exception Handling
+
+======================================
+
+Test:  applies matching rules in subframes
+Has  Conditional Test Logic
+
+======================================
+
+Test:  detectLanguage
+Has  Conditional Test Logic
+Has  Magic Number Test
+
+======================================
+
+Test:  getZoom
+Has  Magic Number Test
+
+======================================
+
+Test:  setZoom
+Has  Magic Number Test
+
+======================================
+
+Test:  getZoomSettings
+Has  Magic Number Test
+
+======================================
+
+Test:  setZoomSettings
+Has  Magic Number Test
+
+======================================
+
+Test:  reload
+Has  Exception Handling
+
+======================================
+
+Test:  can query for a tab with specific properties
+Has  Magic Number Test
+
+======================================
+
+Test:  only returns tabs in the same session
+Has  Conditional Test Logic
+Has  Magic Number Test
+
+======================================
+
+Test:  executeScript
+Has  Magic Number Test
+
+======================================
+
+Test:  registerContentScripts
+Has  Magic Number Test
+
+======================================
+
+Test:  can be enabled by command-line argument during testing
+Has  Magic Number Test
+
+======================================
+
+Test:  disables --inspect flag when node_cli_inspect is 0
+Has  Magic Number Test
+
+======================================
+
+Test:  does not fire window creation events if the handler callback throws an error
+Has  Conditional Test Logic
+Has  Exception Handling
+
+======================================
+
+Test:  is called when clicking on a target=_blank link
+Has  Magic Number Test
+
+======================================
+
+Test:  is called when shift-clicking on a link
+Has  Magic Number Test
+
+======================================
+
+Test:  does fire window creation events if an override returns action: allow
+Has  Unknown Test
+
+======================================
+
+Test:  can change webPreferences of child windows
+Has  Magic Number Test
+
+======================================
+
+Test:  does not hang parent window when denying window.open
+Has  Magic Number Test
+
+======================================
+
+Test:  throws error when created window uses invalid webcontents
+Has  Exception Handling
+
+======================================
+
+Test:  spawns browser window with overriden options
+Has  Magic Number Test
+
+======================================
+
+Test:  does not log by default
+Has  Redundant Print
+
+======================================
+
+Test:  logs to stderr when --enable-logging is passed
+Has  Magic Number Test
+
+======================================
+
+Test:  logs to stderr when ELECTRON_ENABLE_LOGGING is set
+Has  Magic Number Test
+
+======================================
+
+Test:  logs to the given file when --log-file is passed
+Has  Magic Number Test
+
+======================================
+
+Test:  logs to the given file when ELECTRON_LOG_FILE is set
+Has  Magic Number Test
+
+======================================
+
+Test:  does not lose early log messages when logging to a given file with --log-file
+Has  Magic Number Test
+
+======================================
+
+Test:  enables logging when switch is appended during first tick
+Has  Magic Number Test
+
+======================================
+
+Test:  respects --log-level
+Has  Magic Number Test
+
+======================================
+
+Test:  can be required in node binary
+Has  Magic Number Test
+
+======================================
+
+Test:  emits the fullfil callback
+Has  Exception Handling
+
+======================================
+
+Test:  Has its module searth paths restricted
+Has  Magic Number Test
+
+======================================
+
+Test:  does not hang when using the fs module in the renderer process
+Has  Magic Number Test
+
+======================================
+
+Test:  Can be scheduled in time
+Has  Magic Number Test
+Has  Unknown Test
+
+======================================
+
+Test:  Can be promisified
+Has  Exception Handling
+Has  Magic Number Test
+Has  Unknown Test
+
+======================================
+
+Test:  can be scheduled in time
+Has  Conditional Test Logic
+Has  Magic Number Test
+Has  Unknown Test
+
+======================================
+
+Test:  does not log the warning more than once when the rejection is unhandled
+Has  Conditional Test Logic
+Has  Magic Number Test
+
+======================================
+
+Test:  does not log the warning more than once when the rejection is handled
+Has  Magic Number Test
+
+======================================
+
+Test:  Fails for options disallowed by Node.js itself
+Has  Conditional Test Logic
+Has  Magic Number Test
+
+======================================
+
+Test:  Disallows crypto-related options
+Has  Conditional Test Logic
+Has  Unknown Test
+
+======================================
+
+Test:  does allow --require in non-packaged apps
+Has  Magic Number Test
+
+======================================
+
+Test:  does not allow --require in packaged apps
+Has  Magic Number Test
+
+======================================
+
+Test:  is disabled when invoked by other apps in ELECTRON_RUN_AS_NODE mode
+Has  Magic Number Test
+
+======================================
+
+Test:  is disabled when invoked by alien binary in app bundle in ELECTRON_RUN_AS_NODE mode
+Has  Conditional Test Logic
+Has  Magic Number Test
+
+======================================
+
+Test:  is respected when invoked from self
+Has  Magic Number Test
+
+======================================
+
+Test:  Prohibits crypto-related flags in ELECTRON_RUN_AS_NODE mode
+Has  Conditional Test Logic
+Has  Magic Number Test
+
+======================================
+
+Test:  Supports starting the v8 inspector with --inspect/--inspect-brk
+Has  Conditional Test Logic
+Has  Unknown Test
+
+======================================
+
+Test:  Supports starting the v8 inspector with --inspect and a provided port
+Has  Conditional Test Logic
+
+======================================
+
+Test:  Does not start the v8 inspector when --inspect is after a -- argument
+Has  Conditional Test Logic
+Has  Unknown Test
+
+======================================
+
+Test:  Can find a module using a package.json main field
+Has  Magic Number Test
+
+======================================
+
+Test:  handles Promise timeouts correctly
+Has  Magic Number Test
+
+======================================
+
+Test:  performs microtask checkpoint correctly
+Has  Exception Handling
+Has  Unknown Test
+
+======================================
+
+Test:  can access electron_browser bindings
+Has  Unknown Test
+
+======================================
+
+Test:  can access electron_common bindings
+Has  Unknown Test
+
+======================================
+
+Test:  can access electron_common bindings
+Has  Unknown Test
+
+======================================
+
+Test:  can access electron_renderer bindings
+Has  Unknown Test
+
+======================================
+
+Test:  shows sibling branches
+Has  Magic Number Test
+Has  Redundant Print
+
+======================================
+
+Test:  uses the release-clerk text
+Has  Magic Number Test
+
+======================================
+
+Test:  honors 'feat' type
+Has  Magic Number Test
+
+======================================
+
+Test:  honors 'fix' type
+Has  Magic Number Test
+
+======================================
+
+Test:  honors 'BREAKING CHANGE' message
+Has  Magic Number Test
+
+======================================
+
+Test:  with different major versions
+Has  Magic Number Test
+
+======================================
+
+Test:  with different build versions
+Has  Magic Number Test
+
+======================================
+
+Test:  should not warn about secure Content-Security-Policy
+Has  Sleepy Test
+
+======================================
+
+Test:  should match the major version of bundled node
+Has  Magic Number Test
+
+======================================
+
+Test:  bumps to nightly from stable
+Has  Magic Number Test
+
+======================================
+
+Test:  bumps to nightly from beta
+Has  Magic Number Test
+
+======================================
+
+Test:  bumps to nightly from nightly
+Has  Magic Number Test
+
+======================================
+
+Test:  bumps to beta from nightly
+Has  Magic Number Test
+
+======================================
+
+Test:  bumps to alpha from nightly
+Has  Magic Number Test
+
+======================================
+
+Test:  bumps to beta from alpha
+Has  Magic Number Test
+
+======================================
+
+Test:  undefined
+Has  Unknown Test
+
+======================================
+
+Test:  undefined
+Has  Unknown Test
+
+======================================
+
+Test:  works without script tag in page
+Has  Unknown Test
+
+======================================
+
+Test:  works with sandbox
+Has  Unknown Test
+
+======================================
+
+Test:  works with contextIsolation
+Has  Unknown Test
+
+======================================
+
+Test:  works with contextIsolation + sandbox
+Has  Unknown Test
+
+======================================
+
+Test:  works with Trusted Types
+Has  Unknown Test
+
+======================================
+
+Test:  inherits the parent window visibility state and receives visibilitychange events
+Has  Exception Handling
+
+======================================
+
+Test:  inherits the zoomFactor of the parent window
+Has  Magic Number Test
+
+======================================
+
+Test:  maintains the zoom level for a given host in the same session after navigation
+Has  Magic Number Test
+
+======================================
+
+Test:  maintains zoom level on navigation
+Has  Conditional Test Logic
+
+======================================
+
+Test:  maintains zoom level when navigating within same page
+Has  Conditional Test Logic
+
+======================================
+
+Test:  inherits zoom level for the origin when available
+Has  Magic Number Test
+
+======================================
+
+Test:  does not crash when navigating with zoom level inherited from parent
+Has  Magic Number Test
+
+======================================
+
+Test:  does not crash when changing zoom level after webview is destroyed
+Has  Magic Number Test
+Has  Unknown Test
+
+======================================
+
+Test:  pressing ESC should unfullscreen window
+Has  Magic Number Test
+Has  Sleepy Test
+
+======================================
+
+Test:  pressing ESC should emit the leave-html-full-screen event
+Has  Unknown Test
+
+======================================
+
+Test:  should support user gesture
+Has  Unknown Test
+
+======================================
+
+Test:  emits a browser-window-created event
+Has  Unknown Test
+
+======================================
+
+Test:  emits a web-contents-created event
+Has  Unknown Test
+
+======================================
+
+Test:  does not crash when creating window with noopener
+Has  Unknown Test
+
+======================================
+
+Test:  emits when accessing external protocol
+Has  Unknown Test
+
+======================================
+
+Test:  emits focus event when contextIsolation is enabled
+Has  Unknown Test
+
+======================================
+
+Test:  ignores empty values
+Has  Conditional Test Logic
+
+======================================
+
+Test:  does not wait until loadURL is resolved
+Has  Magic Number Test
+
+======================================
+
+Test:  sets the referrer url
+Has  Exception Handling
+
+======================================
+
+Test:  isolates storage for different id
+Has  Magic Number Test
+
+======================================
+
+Test:  emits when guest sends an ipc message to browser
+Has  Magic Number Test
+
+======================================
+
+Test:  emits when favicon urls are received
+Has  Conditional Test Logic
+Has  Magic Number Test
+
+======================================
+
+Test:  is emitted on redirects
+Has  Conditional Test Logic
+
+======================================
+
+Test:  should fire when interior page calls window.close
+Has  Unknown Test
+
+======================================
+
+Test:  should fire when webview.openDevTools() is called
+Has  Unknown Test
+
+======================================
+
+Test:  emits when document is loaded
+Has  Unknown Test
+
+======================================
+
+Test:  handler modifying params.instanceId does not break <webview>
+Has  Unknown Test
+
+======================================
+
+Test:  supports preventing a webview from being created
+Has  Unknown Test
+
+======================================
+
+Test:  emits when audio starts and stops playing
+Has  Conditional Test Logic
+Has  Unknown Test
+
+======================================
+
+Test:  can send keyboard event
+Has  Magic Number Test
+
+======================================
+
+Test:  can send mouse event
+Has  Magic Number Test
+
+======================================
+
+Test:  rejects on incorrectly typed parameters
+Has  Conditional Test Logic
+
+======================================
+
+Test:  emits focus event
+Has  Conditional Test Logic
+Has  Unknown Test
+
+======================================
+
+Test:  returns a Promise with a NativeImage
+Has  Magic Number Test
+
+======================================
+
+Test:  returns a Promise with a NativeImage in the renderer
+Has  Magic Number Test
+
+======================================
+
+Test:  should authenticate with correct credentials
+Has  Conditional Test Logic
+
+======================================
+
+Statistics:
+Conditional Test Logic : 238
+EmptyTest : 7
+Exception Handling : 137
+Magic Number Test : 610
+Unknown Test : 240
+Redundant Print : 15
+Sleepy Test : 48
+
+Tests with smells:
+always returns the internal electron module
+should be empty or have length of two
+emits a process exit event with the code
+closes all windows
+prevents the second launch of app
+returns true when setting non-existent user data folder
+passes arguments to the second-instance event no additional data
+sends and receives JSON object data
+sends and receives numerical data
+sends and receives string data
+sends and receives boolean data
+sends and receives array data
+sends and receives mixed array data
+sends and receives null data
+cannot send or receive undefined data
+relaunches the app
+is emitted when visiting a server with a self-signed cert
+causes did-fail-load
+sets an non numeric (dot) badge count
+does not set a badge count
+does not set a badge count)
+can get jump list settings
+can respond with empty certificate list
+does not launch for argument following a URL
+launches successfully for argument following a file path
+launches successfully for multiple URIs following --
+fetches a large icon
+returns memory and cpu stats of all running electron processes
+succeeds with basic GPUInfo
+succeeds with complete GPUInfo
+keeps references to the menu
+should return -1 for unknown bounce type
+should return a positive number for informational type
+should return a positive number for critical type
+should not throw
+fails on bad arguments
+app.setAboutPanelOptions() does not crash
+app.showAboutPanel() does not crash & runs asynchronously
+allows configuring proxy settings with pacScript
+allows configuring proxy settings with mode `auto_detect`
+allows configuring proxy settings with mode `system`
+impacts proxy for requests made from utility process
+does not impact proxy for requests made from main process
+should omit closed windows from getAllWindows
+does not throw an error
+sets url successfully using old (url, headers) syntax
+sets url successfully using new ({ url }) syntax
+should have a valid code signing identity
+should cleanly set the feed URL when the app is signed
+should hit the update endpoint when checkForUpdates is called
+should hit the update endpoint with customer headers when checkForUpdates is called
+should hit the download endpoint when an update is available and error if the file is bad
+should hit the download endpoint when an update is available and update successfully when the zip is provided
+should hit the download endpoint when an update is available and update successfully when the zip is provided even after a different update was staged
+should update to lower version numbers
+should not update to lower version numbers
+should not update to version strings that are not simple Major.Minor.Patch
+should still update to higher version numbers
+should abort the update if the application is still running when ShipIt kicks off
+should hit the download endpoint when an update is available and update successfully when the zip is provided leaving the parent directory untouched
+should hit the download endpoint when an update is available and fail when the zip signature is invalid
+should hit the download endpoint when an update is available and fail when the ShipIt binary is a symlink
+should hit the download endpoint when an update is available and fail when the Electron Framework is modified
+should hit the download endpoint when an update is available and update successfully when the zip is provided with JSON update mode
+should hit the download endpoint when an update is available and not update in JSON update mode when the currentRelease is older than the current version
+does not throw for valid args
+does not resize when the BrowserView has no AutoResize
+resizes horizontally when the window is resized horizontally
+resizes vertically when the window is resized vertically
+resizes both vertically and horizontally when the window is resized
+resizes proportionally
+does not move x if horizontal: false
+moves x if horizontal: true
+moves x if horizontal: true width: true
+does not throw if called multiple times with same view
+does not crash if the webContents is destroyed after a URL is loaded
+can be called on a BrowserView with a destroyed webContents
+returns same views as was added
+persists ordering by z-index
+should throw an error when a BrowserView is attached to some other window
+should reorder the BrowserView to the top if it is already in the window
+does not crash on exit
+does not crash on exit if added to a browser window
+emits the destroyed event when webContents.close() is called
+emits the destroyed event when window.close() is called
+returns a Promise with a Buffer
+window does not get garbage collected when opened
+should work if called when a messageBox is showing
+closes window without rounded corners
+should not crash if called after webContents is destroyed
+should emit beforeunload handler
+should not crash when keyboard event is sent before closing
+undefined
+should emit beforeunload event
+should not crash when destroying windows with pending events
+should emit did-start-loading event
+should emit ready-to-show event
+should emit did-fail-load event for files that do not exist
+should emit did-fail-load event for invalid URL
+does not crash in did-fail-provisional-load handler
+should emit did-fail-load event for URL exceeding character limit
+supports specifying POST data
+allows the window to be closed from the event listener
+can be prevented
+can be prevented when navigating subframe
+is triggered when a cross-origin iframe navigates _top
+is triggered when a cross-origin iframe navigates itself
+can cancel when a cross-origin iframe navigates itself
+is emitted on redirects
+for initial navigation, event order is consistent
+for second navigation, event order is consistent
+when navigating with redirection, event order is consistent
+when navigating in-page, event order is consistent
+should not steal focus
+should throw an exception if wrong formatting
+should throw an exception if wrong type
+should throw an exception if invalid window
+can set unfocusable window to focusable
+sets the window bounds with full bounds
+rounds non-integer bounds
+sets the window bounds with partial bounds
+sets the window size
+emits 'resized' event after animating
+sets the maximum and minimum size of the window
+resets the behaviour when passing in 0
+doesn't change bounds when maximum size is set
+sets the window position
+sets the content size
+works for a frameless window
+sets the content size and position
+returns correct color with multiple passed formats
+can set the background color with transparency
+checks normal bounds after resize
+checks normal bounds after move
+checks normal bounds when maximized
+updates normal bounds after resize and maximize
+updates normal bounds after move and maximize
+checks normal bounds when unmaximized
+does not crash if maximized, minimized, then restored to maximized state
+checks normal bounds for maximized transparent window
+does not change size for a frameless window with min size
+correctly checks transparent window maximization state
+returns the correct value for windows with an aspect ratio
+checks normal bounds when minimized
+updates normal bounds after move and minimize
+updates normal bounds after resize and minimize
+checks normal bounds when restored
+with properties
+checks normal bounds when fullscreen'ed
+updates normal bounds after resize and fullscreen
+updates normal bounds after move and fullscreen
+checks normal bounds when unfullscreen'ed
+with functions
+does not throw
+preserves transparency
+sets the progress
+sets the progress using "paused" mode
+sets the progress using "error" mode
+sets the progress using "normal" mode
+calling preconnect() connects to the server
+does not preconnect unless requested
+supports setting the app details
+can properly open and load a new window from a link
+returns null for webContents without a BrowserWindow
+does not crash for frameless window
+make window with initial opacity
+allows setting the opacity
+clamps opacity to [0.0...1.0]
+sets 1 regardless of parameter
+allows setting shape
+make window created with content size when used
+make window created with window size when not used
+creates browser window with hidden title bar
+sets Window Control Overlay with hidden title bar
+sets Window Control Overlay with title bar height of 40
+correctly updates the height of the overlay
+can move the window out of screen
+cannot move the window behind menu bar
+can move the window behind menu bar if it has no frame
+without it, cannot move the window out of screen
+can set the window larger than screen
+without it, cannot set the window larger than screen
+sets the window width to the page width when used
+does not leak any node globals on the window object with nodeIntegration is disabled
+exposes "loaded" event to preload script
+exposes "exit" event to preload script
+exposes full EventEmitter object to preload script
+should open windows in same domain with cross-scripting enabled
+works for window events
+works for stop events
+works for web contents events
+validates process APIs access in sandboxed renderer
+<webview> works in a scriptable popup
+returning undefined would not prevent close
+visibilityState changes when window is shown
+visibilityState changes when window is shown inactive
+visibilityState remains visible if backgroundThrottling is disabled
+emits an event when window is maximized
+emits an event when a transparent window is maximized
+emits only one event when frameless window is maximized
+emits an event when window is unmaximized
+emits an event when a transparent window is unmaximized
+emits an event when window is minimized
+does not crash when callback returns nothing
+subscribes to frame updates
+subscribes to frame updates (only dirty rectangle)
+should save page to disk with MHTML
+should create a window with default size (800x600)
+should restore the previous window size
+does not crash when restoring hidden minimized window
+should restore the previous window position
+should not change the size or position of a normal window
+exits HTML fullscreen when window leaves fullscreen
+removes from child windows of parent when window is closed
+can handle child window close and reparent multiple times
+closes a grandchild window when a middle child window is destroyed
+does not freeze or crash
+does not resize frameless windows when states change
+can be set with resizable constructor option
+can be changed 
+resizable flag should be set to false and restored
+default resizable flag should be restored after entering/exiting fullscreen
+should not cause a crash if called when exiting fullscreen
+should be able to load a URL while transitioning to fullscreen
+can be changed with setFullScreen method
+handles several transitions starting with fullscreen
+handles several HTML fullscreen transitions
+handles several chromium-initiated transitions in close proximity
+handles HTML fullscreen transitions when fullscreenable is false
+does not crash when exiting simpleFullScreen (properties)
+does not crash when exiting simpleFullScreen (functions)
+should stay fullscreen if fullscreen before kiosk
+multiple windows inherit correct fullscreen state
+should not call BrowserWindow show event
+reloading does not cause Node.js module API hangs after reload
+creates offscreen window with correct size
+does not crash after navigation
+has default frame rate (function)
+has default frame rate (property)
+sets custom frame rate (function)
+sets custom frame rate (property)
+returns markup correctly
+returns title and url
+returns data correctly
+accepts an empty config
+accepts "categoryFilter" and "traceOptions" as a config
+include V8 samples from the main process
+should make arrays immutable
+should make nested arrays immutable
+should proxy promises and reject with the correct value
+should proxy nested promises and reject with the correct value
+should properly handle errors thrown in proxied functions
+it should not let you overwrite existing exposed things
+should throw an error when recursion depth is exceeded
+should copy thrown errors into the other context
+should not leak prototypes when attaching directly to the global
+should truncate extra values longer than 5 * 4096 characters
+should omit extra keys with names longer than the maximum
+returns the last uploaded report
+stores crashes in the crash dump directory when uploadToServer: false
+respects an overridden crash dump directory
+does not prevent process from crashing
+returns response
+returns response when devtools is opened
+fires message event
+does not crash for invalid unicode characters in message
+can get and set cookies using the Storage API
+creates unique session id for each target
+getMediaSourceId should match DesktopCapturerSource.id
+getSources should not incorrectly duplicate window_id
+moveAbove should move the window at the requested place
+throws errors when the options are invalid
+closes message box immediately
+closes message box after a while
+does not crash when there is a defaultId but no buttons
+cancels message box
+cancels message box after a while
+can register and unregister multiple accelerators
+getProducts() returns an empty list when getting invalid product
+does not crash when reply is not sent and browser is destroyed
+does not crash when reply is sent by multiple listeners
+can handle cyclic references
+throws an exception
+receives a response from a synchronous handler
+receives a response from an asynchronous handler
+forbids multiple handlers
+between send and sendSync is consistent
+between send, sendSync, and invoke is consistent
+can send a port to the main process
+can communicate between main and renderer
+is emitted when the main process closes its end of the port
+is emitted when the other end of a port is garbage-collected
+is emitted when the other end of a port is sent to nowhere
+does not crash
+can pass one end to a WebContents
+can be passed over another channel
+can send messages to a closed port
+can send messages to a port whose remote end is closed
+receives ipc messages sent from the WebContents
+receives sync-ipc messages sent from the WebContents
+receives postMessage messages sent from the WebContents, w/ MessagePorts
+handles invoke messages sent from the WebContents
+overrides ipcMain handlers
+falls back to ipcMain handlers
+receives ipcs from child frames
+responds to ipc messages in the main frame
+responds to sync ipc messages in the main frame
+overrides WebContents handlers
+falls back to WebContents handlers
+does not crash when providing only audio for a video request
+does not crash when providing only an audio stream for an audio+video request
+does not crash when providing no streams
+should be called with the item object passed
+clicking an checkbox item should flip the checked property
+clicking an radio item should always make checked property true
+at least have one item checked in each group
+should assign groupId automatically
+setting 'checked' should flip other items' 'checked' property
+returns undefined for items without default accelerator
+returns the correct default label
+returns the correct default accelerator
+includes a default submenu layout when submenu is empty
+overrides default layout when submenu is specified
+preserves the custom properties
+should display modifiers correctly for simple keys
+should display modifiers correctly for special keys
+should not display modifiers twice
+should display correctly for shifted keys
+should be able to attach extra fields
+should be able to accept only MenuItems
+should be able to accept only MenuItems in a submenu
+should be able to accept MenuItems and plain objects
+should position before existing item
+should position after existing item
+should filter excess menu separators
+should only filter excess menu separators AFTER the re-ordering for before/after is done
+should continue inserting items at next index when no specifier is present
+should continue inserting MenuItems at next index when no specifier is present
+should return the item with the given id
+should return the separator with the given id
+should throw when attempting to insert at out-of-range indices
+should store item in @items by its index
+should add the item to the end of the menu
+should emit menu-will-show event
+should emit menu-will-close event
+works without a given BrowserWindow and options
+works with a given BrowserWindow, options and callback
+works with a given BrowserWindow, no options, and a callback
+prevents menu from getting garbage-collected when popuping
+returns an empty image
+returns an empty image when the buffer is empty
+returns an image created from the given buffer
+throws on invalid arguments
+returns an image created from the given string
+returns a PNG data URL
+returns a data URL at 1x scale factor by default
+returns a buffer at 1x scale factor by default
+supports a scale factor
+loads images from paths relative to the current working directory
+loads images from paths with `.` segments
+loads images from paths with `..` segments
+returns a resized image
+returns an empty image when called on an empty image
+returns an empty image when the bounds are invalid
+returns a cropped image
+toBitmap() returns a buffer of the right size
+returns an aspect ratio of an empty image
+throws when a bad path is passed
+does not add representation when the buffer is too small
+supports adding a buffer representation for a scale factor
+supports adding a data URL representation for a scale factor
+supports adding a representation to an existing image
+should emit the "updated" event when it is set and the resulting "shouldUseDarkColors" value changes
+should not emit the "updated" event when it is set and the resulting "shouldUseDarkColors" value is the same
+should override the result of prefers-color-scheme CSS media query
+can make requests to custom protocols
+runs through intercept handlers
+file: runs through intercept handlers
+can be redirected
+should not follow redirect when redirect: error
+a 307 redirected POST request preserves the body
+should share credentials with WebContents
+should share proxy credentials with WebContents
+should not share credentials with WebContents
+should be able to set cookie header line
+should be able to use the sessions cookie store with set-cookie
+should be able to use the sessions cookie store safely across redirects
+should be able correctly filter out cookies that are secure
+should be able correctly filter out cookies that are session
+should be able correctly filter out cookies that are httpOnly
+Requests should be intercepted by webRequest module
+should to able to create and intercept a request using a custom session object
+should to able to create and intercept a request using a custom partition name
+triggers webRequest handlers when bypassCustomProtocolHandlers
+should throw if given an invalid session option
+should throw if given an invalid partition option
+should throw if given a header value that is empty(null/undefined)
+should be able to issue a basic GET request
+should be able to issue a basic POST request
+should fetch correct data in a GET request
+should post the correct data in a POST request
+a 302 redirected POST request DOES NOT preserve the body
+should support chunked encoding
+should emit the login event when 401
+should receive 401 response when cancelling authentication
+should upload body when 401
+should not emit the login event when 401
+request/response objects should emit expected events
+should be able to set a custom HTTP request header before first write
+should be able to set a non-string object as a header value
+should not change the case of header name
+should not be able to set a custom HTTP request header after first write
+should be able to remove a custom HTTP request header before first write
+should not be able to remove a custom HTTP request header after first write
+should keep the order of headers
+should not send cookies
+should not store cookies
+it should be able to abort an HTTP request after response start
+abort event should be emitted at most once
+should allow to read response body from non-2xx response
+should follow redirect when no redirect handler is provided
+should follow redirect chain when no redirect handler is provided
+should not follow redirect when mode is error
+should follow redirect when handler calls callback
+should be able to create a request with options
+should be able to pipe a readable stream into a net request
+should not emit any event after close
+should remove the referer header when no referrer url specified
+should set the referer header when a referrer url specified
+response object should implement the IncomingMessage API
+should discard duplicate headers
+should join repeated non-discardable header values with ,
+should not join repeated discardable header values with ,
+should make set-cookie header an array even if single value
+should keep set-cookie header an array when an array
+should lowercase header keys
+should return correct raw headers
+should correctly throttle an incoming stream
+should free unreferenced, never-started request objects without crash
+should collect on-going requests without crash
+should collect unreferenced, ended requests without crash
+should reject body promise when stream fails
+resolves ipv4.localhost2
+resolves ipv6.localhost2
+inits, gets and sets actions correctly
+can be shown and closed
+should call Inhibit to delay suspend once a listener is added
+should emit "suspend" event
+should emit "resume" event
+should have called Inhibit again
+should call Inhibit to delay shutdown
+should emit "shutdown" event
+does not accept non positive integer threshold
+returns current system idle time
+can be started and stopped
+returns a creation time
+resolves promise successfully with valid data
+returns true on success
+does not crash when handler is called twice
+can redirect to the same scheme
+can load iframes with custom protocols
+works when target URL redirects
+can access request headers
+sends object as response
+sends custom response headers
+sends custom status code
+receives request headers
+can handle a stream completing while writing
+can handle next-tick scheduling during read calls
+destroys response streams when aborted before completion
+can set content-type
+can set content-type with charset
+can receive post data
+can execute redirects
+should discard post data after redirection
+should be able to register service worker for custom scheme
+resolves relative resources
+resolves absolute resources
+can have fetch working in it
+can access files through the FileSystem API
+registers secure, when {secure: true}
+allows CORS requests by default
+disallows CORS and fetch requests when only supportFetchAPI is specified
+allows CORS, but disallows fetch requests, when specified
+successfully plays videos when content is buffered (stream: false)
+successfully plays videos when streaming content (stream: true)
+code cache in custom protocol is disabled by default
+codeCache:true enables codeCache in custom protocol
+receives requests to a custom scheme
+can be unhandled
+receives requests to the existing https scheme
+receives requests to the existing file scheme
+can send buffer body
+can send stream body
+accepts urls with no hostname in non-standard schemes
+accepts urls with a port-like component in non-standard schemes
+normalizes urls in standard schemes
+normalizes http urls
+correctly sets statusCode
+can forward to http
+can forward to file
+can receive simple request body
+can receive stream request body
+can receive stream request body asynchronously
+can receive file postData from loadURL
+can receive streaming fetch upload when a webRequest handler is present
+gets an error from streaming fetch upload when the renderer dies
+can bypass intercepeted protocol handlers
+supports sniffing mime type
+does not emit undefined chunks into the request body stream when uploading a stream
+does not emit undefined chunks into the request body stream when uploading a file
+does forward Blob chunks
+safeStorage before and after app is ready
+can decrypt after closing and reopening app
+works for a selected method
+returns an array of displays
+has a size object property
+has a workAreaSize object property
+has a bounds object property
+has a workArea object property
+should report one as running once you load a page with a service worker
+should correctly keep the source, message and level
+sets cookies
+gets cookies without url
+should overwrite previous cookies
+should remove cookies
+should set cookie for standard scheme
+emits a changed event when a cookie is added or removed
+flushes the cookies to disk
+should survive an app restart for persistent partition
+clears localstorage data
+handles requests from partition
+reload proxy configuration
+returns blob data for uuid
+accepts the request when the callback is called with 0
+rejects the request when the callback is called with -2
+saves cached results
+does not cancel requests in other sessions
+can clear http auth info from cache
+can perform a download
+can perform a download with a valid auth header
+correctly handles a download with an invalid auth header
+correctly handles a download and an invalid auth header
+can download from custom protocols
+can cancel download
+can generate a default filename
+can set options for the save dialog
+does not display a save dialog and reports the done state as interrupted
+can be resumed
+cancels any pending requests when cleared
+details provides requestingURL for mainFrame
+details provides requestingURL for cross origin subFrame
+can disable cipher suites
+clears all data when no options supplied
+clears all data when no options supplied, called twice in parallel
+only clears specified data categories
+only clears the specified origins
+clears all except the specified origins
+opens an external link
+opens an external link in the renderer
+should not expose globals in main world
+should not load preload scripts
+registers defaults
+throws when bad defaults are passed
+returns values for unknown user defaults
+sets values
+throws when type and value conflict
+throws an error if invalid arguments are passed
+returns a valid system color
+returns a valid color
+does not throw for missing keys
+can be added to and removed from a window
+calls the callback on the items when a window interaction event fires
+calls the callback on the escape item when a window interaction event fires
+can be called with a position
+can be called with a menu and a position
+accepts empty image
+accepts an empty image
+throws when the font type is specified but is not a string
+emits 'spawn' when child process successfully launches
+emits 'exit' when child process exits gracefully
+emits 'exit' when there is uncaught exception
+emits 'exit' when there is uncaught exception in ESM
+supports starting the v8 inspector with --inspect-brk
+supports starting the v8 inspector with --inspect and a provided port
+inherits parent env as default
+does not inherit parent env when custom env is provided
+does not crash when running eval
+should emit the app#login event when 401
+should receive 401 response when cancelling authentication via app#login event
+should not emit the app#login event when 401 with {"credentials":"omit"}
+should not emit the app#login event with default respondToAuthRequestsFromMainProcess
+should emit the app#login event when creating requests with fetch API
+does not crash when attempting to add a child multiple times
+allows setting various border radius values
+returns an array of web contents
+returns undefined for an unknown id
+returns undefined for disposed frame
+throws when passing invalid argument
+returns WebContents for attached DevTools target
+emits if beforeunload returns false in a BrowserWindow
+emits if beforeunload returns false in a BrowserView
+supports calling preventDefault on will-prevent-unload events in a BrowserWindow
+does not block node async APIs when sent before document is ready
+throws when an invalid custom pageSize is passed
+does not crash with custom margins
+rejects the returned promise with an error if an Error.prototype is thrown
+works after page load and during subframe load
+resolves the returned promise with the result
+resolves when navigating within the page
+does not crash when loading a new URL with emulation settings set
+sets appropriate error information on rejection
+doesn't reject when a subframe fails to load
+doesn't resolve when a subframe loads
+should remove a navigation entry given a valid index
+should be able to go back if history is not empty
+should be able to go forward if history is not empty and active index is less than history length
+should not be able to go to invalid offset
+should be able to go to valid negative offset
+should be able to go to valid positive offset
+should be able clear history
+should return valid active index after a single page visit
+should return valid active index after a multiple page visits
+should return valid active index given no page visits
+should return valid history length after a single page visit
+should return valid history length after a multiple page visits
+should return valid history length given no page visits
+should return all navigation entries as an array of NavigationEntry objects
+should return an empty array when there is no navigation history
+does not crash when called on a detached dev tools window
+can prevent document keyboard events
+has the correct properties
+can send keydown events
+can send keydown events with modifiers
+can send keydown events with special keys
+can send char events
+can send char events with modifiers
+supports inspecting an element in the devtools
+returns a valid process id
+throws on an invalid zoomFactor
+can set the correct zoom level (functions)
+can set the correct zoom level (properties)
+can set the correct zoom factor (functions)
+can set the correct zoom factor (properties)
+can persist zoom level across navigation
+cannot propagate zoom level across different session
+can persist when it contains iframe
+cannot propagate when used with webframe
+cannot persist zoom level after navigation with webFrame
+can set and get webrtc ip policies
+check default webrtc udp port range is { min: 0, max: 0 }
+can set and get webrtc udp port range policy with correct arguments
+can not set webrtc udp port range policy with invalid arguments
+can reset webrtc udp port range policy to default with { min: 0, max: 0 }
+is triggered with correct theme color
+is triggered with correct log message
+propagates referrer information to new target=_blank windows
+propagates referrer information to windows opened with window.open
+responds to executeJavaScript
+works with sandboxed renderers
+does not crash when allowing
+does not crash when called via BrowserWindow
+does not crash when disallowing
+rejects on incorrectly typed parameters
+rejects when margins exceed physical page size
+does not crash when called multiple times in parallel
+does not crash when called multiple times in sequence
+with custom page sizes
+with custom page ranges
+from an existing pdf document
+can get multiple shared workers
+can inspect a specific shared worker
+can be GCed before loading a page
+emits when moveTo is called
+emits when resizeTo is called
+can be instantiated with no arguments
+can be instantiated with no webPreferences
+accepts existing webContents object
+can be used as content view
+doesn't crash when GCed during allocation
+does not change when view is moved between two visible windows
+should render with cutout corners
+should allow resetting corners
+should render when set before attached
+should allow setting when not attached
+can access immediate frame descendents
+can access cross-origin frames
+should report correct address for each subframe
+can inject code into any subframe
+can resolve promise
+can reject with error
+recovers from renderer crash on same-origin
+recovers from renderer crash on cross-origin
+returns undefined for unknown IDs
+can find each frame from navigation events
+emits when nested frames are created
+emits for top-level frame
+emits for sub frame
+calls a spellcheck provider
+executeJavaScript() yields results via a promise and a sync callback
+executeJavaScriptInIsolatedWorld() yields results via a promise and a sync callback
+executeJavaScript(InIsolatedWorld) can be used without a callback
+receives post data in details object
+can redirect the request
+does not crash for redirects
+can handle a streaming upload
+can handle a streaming upload if the uploadData is read
+can change the request headers on a custom protocol redirect
+receives details object
+can be proxyed
+reports the correct path for a File object
+opens normally when unmodified
+fatals if a loaded main process JS file does not match
+does nothing if the integrity header does not match
+loads video tag in html
+handles null for options
+handles undefined for options
+can be selected via keyboard for a <datalist> with text type
+can be selected via keyboard for a <datalist> with time type
+sends a report for an intervention
+engages CORB when web security is not disabled
+bypasses CORB when web security is disabled
+does not crash when multiple WebContent are created with web security disabled
+should set the locale
+should set the locale with country code
+should not set an invalid locale
+should expose CDP via pipe
+should override --remote-debugging-port switch
+should shut down Electron upon Browser.close CDP command
+should display the discovery page
+should lock the keyboard
+should return the system locale only
+should register for file scheme
+should register for intercepted file scheme
+should register for custom scheme
+allows access by default to reading an OPFS file
+Worker with nodeIntegrationInWorker has access to self.module.paths
+defines a window.location getter
+defines a window.location setter
+defines a window.location.href setter
+works when used in conjunction with the vm module
+provides a securityOrigin to the request handler
+can be requested
+successfully loads a PDF file
+should push state after calling history.pushState() from the same url
+should not allow sandboxed iframe to modify main frame state
+returns the correct value
+calls its callbacks
+does not crash if a webContents is destroyed while an alert is showing
+does not show the checkbox if not enabled
+is respected
+shows the safeDialogMessage
+has persistent state across navigations
+is separated by origin
+treats different file: paths as different origins
+should use Helvetica for sans-serif on Mac, and Arial on Windows and Linux
+does not return a port when permission denied
+returns a port when select-serial-port event is defined
+navigator.serial.getPorts() returns values
+supports port.forget()
+returns an error when permission denied
+returns screens when permission is granted
+returns clipboard contents when permission is granted
+setAppBadge can set an empty(dot) value
+clearAppBadge can clear a value
+setAppBadge can be called in a ServiceWorker
+clearAppBadge can be called in a ServiceWorker
+returns a device when select-hid-device event is defined
+returns a device when DevicePermissionHandler is defined
+excludes a device when a exclusionFilter is specified
+supports device.forget()
+returns a device when select-usb-device event is defined
+deprecates a property of an object
+deprecates a property of an but retains the existing accessors and setters
+warns only once per item
+should log the deprecation warning once
+should load an esm entrypoint
+should load an esm entrypoint based on type=module
+should wait for a top-level await before declaring the app ready
+should allow usage of pre-app-ready apis in top-level await
+should allow use of dynamic import
+should use Blinks dynamic loader in the main world
+should use import.meta callback handling from Node.js for Node.js modules
+can grant special privileges to urls with host permissions
+id
+stores and retrieves a key
+does not take precedence over Electron webRequest - http
+does not take precedence over Electron webRequest - WebSocket
+can be proxied
+executeScript
+connect
+loads a lazy background page when sending a message
+applies matching rules in subframes
+detectLanguage
+getZoom
+setZoom
+getZoomSettings
+setZoomSettings
+reload
+can query for a tab with specific properties
+only returns tabs in the same session
+registerContentScripts
+can be enabled by command-line argument during testing
+disables --inspect flag when node_cli_inspect is 0
+does not fire window creation events if the handler callback throws an error
+is called when clicking on a target=_blank link
+is called when shift-clicking on a link
+does fire window creation events if an override returns action: allow
+can change webPreferences of child windows
+does not hang parent window when denying window.open
+throws error when created window uses invalid webcontents
+spawns browser window with overriden options
+does not log by default
+logs to stderr when --enable-logging is passed
+logs to stderr when ELECTRON_ENABLE_LOGGING is set
+logs to the given file when --log-file is passed
+logs to the given file when ELECTRON_LOG_FILE is set
+does not lose early log messages when logging to a given file with --log-file
+enables logging when switch is appended during first tick
+respects --log-level
+can be required in node binary
+emits the fullfil callback
+Has its module searth paths restricted
+does not hang when using the fs module in the renderer process
+Can be scheduled in time
+Can be promisified
+can be scheduled in time
+does not log the warning more than once when the rejection is unhandled
+does not log the warning more than once when the rejection is handled
+Fails for options disallowed by Node.js itself
+Disallows crypto-related options
+does allow --require in non-packaged apps
+does not allow --require in packaged apps
+is disabled when invoked by other apps in ELECTRON_RUN_AS_NODE mode
+is disabled when invoked by alien binary in app bundle in ELECTRON_RUN_AS_NODE mode
+is respected when invoked from self
+Prohibits crypto-related flags in ELECTRON_RUN_AS_NODE mode
+Supports starting the v8 inspector with --inspect/--inspect-brk
+Supports starting the v8 inspector with --inspect and a provided port
+Does not start the v8 inspector when --inspect is after a -- argument
+Can find a module using a package.json main field
+handles Promise timeouts correctly
+performs microtask checkpoint correctly
+can access electron_browser bindings
+can access electron_common bindings
+can access electron_renderer bindings
+shows sibling branches
+uses the release-clerk text
+honors 'feat' type
+honors 'fix' type
+honors 'BREAKING CHANGE' message
+with different major versions
+with different build versions
+should not warn about secure Content-Security-Policy
+should match the major version of bundled node
+bumps to nightly from stable
+bumps to nightly from beta
+bumps to nightly from nightly
+bumps to beta from nightly
+bumps to alpha from nightly
+bumps to beta from alpha
+works without script tag in page
+works with sandbox
+works with contextIsolation
+works with contextIsolation + sandbox
+works with Trusted Types
+inherits the parent window visibility state and receives visibilitychange events
+inherits the zoomFactor of the parent window
+maintains the zoom level for a given host in the same session after navigation
+maintains zoom level on navigation
+maintains zoom level when navigating within same page
+inherits zoom level for the origin when available
+does not crash when navigating with zoom level inherited from parent
+does not crash when changing zoom level after webview is destroyed
+pressing ESC should unfullscreen window
+pressing ESC should emit the leave-html-full-screen event
+should support user gesture
+emits a browser-window-created event
+emits a web-contents-created event
+does not crash when creating window with noopener
+emits when accessing external protocol
+emits focus event when contextIsolation is enabled
+ignores empty values
+does not wait until loadURL is resolved
+sets the referrer url
+isolates storage for different id
+emits when guest sends an ipc message to browser
+emits when favicon urls are received
+should fire when interior page calls window.close
+should fire when webview.openDevTools() is called
+emits when document is loaded
+handler modifying params.instanceId does not break <webview>
+supports preventing a webview from being created
+emits when audio starts and stops playing
+can send keyboard event
+can send mouse event
+emits focus event
+returns a Promise with a NativeImage
+returns a Promise with a NativeImage in the renderer
+should authenticate with correct credentials

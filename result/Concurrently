@@ -1,0 +1,723 @@
+Test:  can read package
+Has  Conditional Test Logic
+
+======================================
+
+Test:  caches scripts upon calls
+Has  Magic Number Test
+
+======================================
+
+Test:  spawns process with given command and options
+Has  Magic Number Test
+
+======================================
+
+Test:  shares start and error timing events to the timing stream
+Has  Magic Number Test
+
+======================================
+
+Test:  changes state to exited
+Has  Magic Number Test
+
+======================================
+
+Test:  does not change state if there was an error
+Has  Magic Number Test
+
+======================================
+
+Test:  shares start and close timing events to the timing stream
+Has  Magic Number Test
+
+======================================
+
+Test:  shares to the close stream with exit code
+Has  Magic Number Test
+
+======================================
+
+Test:  shares to the close stream with timing information
+Has  Magic Number Test
+
+======================================
+
+Test:  shares to the close stream with command info
+Has  Magic Number Test
+
+======================================
+
+Test:  does not share to the incoming messages stream, if IPC is disabled
+Has  Magic Number Test
+
+======================================
+
+Test:  shares to the incoming messages stream, if IPC is enabled
+Has  Magic Number Test
+
+======================================
+
+Test:  sends the message to the process
+Has  Magic Number Test
+
+======================================
+
+Test:  calls onSent with the result of sending the message
+Has  Magic Number Test
+
+======================================
+
+Test:  pushes the message on the outgoing messages stream
+Has  Magic Number Test
+
+======================================
+
+Test:  kills process
+Has  Magic Number Test
+
+======================================
+
+Test:  kills process with some signal
+Has  Magic Number Test
+
+======================================
+
+Test:  marks the command as killed
+Has  Magic Number Test
+
+======================================
+
+Test:  returns whether command has both PID and process
+Has  Magic Number Test
+
+======================================
+
+Test:  completes only when commands emit a close event, returns close event
+Has  Magic Number Test
+
+======================================
+
+Test:  completes when abort signal is received and command is stopped, returns nothing
+Has  Magic Number Test
+
+======================================
+
+Test:  check for success once all commands have emitted at least a single close event
+Has  Magic Number Test
+
+======================================
+
+Test:  takes last event emitted from each command
+Has  Magic Number Test
+
+======================================
+
+Test:  waits for manually restarted events to close
+Has  Magic Number Test
+
+======================================
+
+Test:  succeeds if all processes exited with code 0
+Has  Magic Number Test
+
+======================================
+
+Test:  fails if one of the processes exited with non-0 code
+Has  Magic Number Test
+
+======================================
+
+Test:  succeeds if first process to exit has code 0
+Has  Magic Number Test
+
+======================================
+
+Test:  fails if first process to exit has non-0 code
+Has  Magic Number Test
+
+======================================
+
+Test:  succeeds if last process to exit has code 0
+Has  Magic Number Test
+
+======================================
+
+Test:  fails if last process to exit has non-0 code
+Has  Magic Number Test
+
+======================================
+
+Test:  undefined
+Has  Magic Number Test
+
+======================================
+
+Test:  undefined
+Has  Magic Number Test
+
+======================================
+
+Test:  undefined
+Has  Magic Number Test
+
+======================================
+
+Test:  undefined
+Has  Magic Number Test
+
+======================================
+
+Test:  undefined
+Has  Magic Number Test
+
+======================================
+
+Test:  undefined
+Has  Magic Number Test
+
+======================================
+
+Test:  undefined
+Has  Magic Number Test
+
+======================================
+
+Test:  undefined
+Has  Magic Number Test
+
+======================================
+
+Test:  spawns all commands
+Has  Magic Number Test
+
+======================================
+
+Test:  log output is passed to output stream if logger is specified in options
+Has  Magic Number Test
+
+======================================
+
+Test:  spawns commands up to configured limit at once
+Has  Magic Number Test
+
+======================================
+
+Test:  spawns commands up to percent based limit at once
+Has  Magic Number Test
+
+======================================
+
+Test:  does not spawn further commands on abort signal aborted
+Has  Magic Number Test
+
+======================================
+
+Test:  runs controllers with the commands
+Has  Magic Number Test
+
+======================================
+
+Test:  runs commands with a name or prefix color
+Has  Magic Number Test
+
+======================================
+
+Test:  passes commands wrapped from a controller to the next one
+Has  Magic Number Test
+
+======================================
+
+Test:  merges extra env vars into each command
+Has  Magic Number Test
+
+======================================
+
+Test:  uses cwd from options for each command
+Has  Magic Number Test
+
+======================================
+
+Test:  uses overridden cwd option for each command if specified
+Has  Magic Number Test
+
+======================================
+
+Test:  uses raw from options for each command
+Has  Magic Number Test
+
+======================================
+
+Test:  uses overridden raw option for each command if specified
+Has  Magic Number Test
+
+======================================
+
+Test:  uses hide from options for each command
+Has  Magic Number Test
+
+======================================
+
+Test:  hides output for commands even if raw option is on
+Has  Magic Number Test
+
+======================================
+
+Test:  argument placeholders are properly replaced when additional arguments are passed
+Has  Magic Number Test
+
+======================================
+
+Test:  argument placeholders are not replaced when additional arguments are not defined
+Has  Magic Number Test
+
+======================================
+
+Test:  runs onFinish hook after all commands run
+Has  Magic Number Test
+
+======================================
+
+Test:  does nothing if called without input stream
+Has  Magic Number Test
+
+======================================
+
+Test:  forwards input stream to default target ID
+Has  Magic Number Test
+
+======================================
+
+Test:  forwards input stream to target index specified in input
+Has  Magic Number Test
+
+======================================
+
+Test:  forwards input stream to target index specified in input when input contains colon
+Has  Magic Number Test
+
+======================================
+
+Test:  does not forward input stream when input contains colon in a different format
+Has  Magic Number Test
+
+======================================
+
+Test:  forwards input stream to target name specified in input
+Has  Magic Number Test
+
+======================================
+
+Test:  logs error if command has no stdin open
+Has  Magic Number Test
+
+======================================
+
+Test:  fallback to default input stream if command is not found
+Has  Magic Number Test
+
+======================================
+
+Test:  returns commands that map SIGINT to exit code 0
+Has  Magic Number Test
+
+======================================
+
+Test:  returns commands that keep non-SIGINT exit codes
+Has  Magic Number Test
+
+======================================
+
+Test:  kills all commands
+Has  Magic Number Test
+
+======================================
+
+Test:  does not kill others if condition does not match
+Has  Magic Number Test
+
+======================================
+
+Test:  kills other killable processes
+Has  Magic Number Test
+
+======================================
+
+Test:  kills other killable processes on success, with specified signal
+Has  Magic Number Test
+
+======================================
+
+Test:  sends abort signal on condition match
+Has  Magic Number Test
+
+======================================
+
+Test:  does not send abort signal on condition mismatch
+Has  Magic Number Test
+
+======================================
+
+Test:  does nothing if called without conditions
+Has  Magic Number Test
+
+======================================
+
+Test:  does not try to kill processes already dead
+Has  Magic Number Test
+
+======================================
+
+Test:  logs the error event of each command
+Has  Magic Number Test
+
+======================================
+
+Test:  logs the close event of each command
+Has  Magic Number Test
+
+======================================
+
+Test:  logs the stdout of each command
+Has  Magic Number Test
+
+======================================
+
+Test:  logs the stderr of each command
+Has  Magic Number Test
+
+======================================
+
+Test:  does not log timings and doesn't throw if no logger is provided
+Has  Magic Number Test
+
+======================================
+
+Test:  logs the timings at the start and end (ie complete or error) event of each command
+Has  Magic Number Test
+
+======================================
+
+Test:  does not log timings summary if there was an error
+Has  Magic Number Test
+
+======================================
+
+Test:  logs the sorted timings summary when all processes close successfully after onFinish is called
+Has  Magic Number Test
+
+======================================
+
+Test:  sets the prefix length on handle
+Has  Magic Number Test
+
+======================================
+
+Test:  updates the prefix length when commands emit a start timer
+Has  Magic Number Test
+
+======================================
+
+Test:  sets prefix length to the longest prefix of all commands
+Has  Magic Number Test
+
+======================================
+
+Test:  does not shorten the prefix length
+Has  Magic Number Test
+
+======================================
+
+Test:  unsubscribes from start timers on finish
+Has  Magic Number Test
+
+======================================
+
+Test:  does not restart processes that complete with success
+Has  Magic Number Test
+
+======================================
+
+Test:  restarts processes that fail immediately, if no delay was passed
+Has  Magic Number Test
+
+======================================
+
+Test:  restarts processes that fail after delay ms has passed
+Has  Magic Number Test
+
+======================================
+
+Test:  restarts processes that fail with an exponential back-off
+Has  Magic Number Test
+
+======================================
+
+Test:  restarts processes up to tries
+Has  Magic Number Test
+
+======================================
+
+Test:  restart processes forever, if tries is negative
+Has  Magic Number Test
+
+======================================
+
+Test:  restarts processes until they succeed
+Has  Magic Number Test
+
+======================================
+
+Test:  skip close events followed by restarts
+Has  Magic Number Test
+
+======================================
+
+Test:  emits prefix + text in the output stream
+Has  Magic Number Test
+
+======================================
+
+Test:  emits multiple lines of text with prefix on each
+Has  Magic Number Test
+
+======================================
+
+Test:  does not emit prefix if last call did not finish with a LF
+Has  Magic Number Test
+
+======================================
+
+Test:  does not emit prefix nor handle text if logger is in raw mode
+Has  Magic Number Test
+
+======================================
+
+Test:  logs with prefixFormat set to pid
+Has  Magic Number Test
+
+======================================
+
+Test:  logs default prefixes with padding
+Has  Magic Number Test
+
+======================================
+
+Test:  logs templated prefixes with padding
+Has  Magic Number Test
+
+======================================
+
+Test:  does not log anything in raw mode
+Has  Magic Number Test
+
+======================================
+
+Test:  does not log anything if value is not an array
+Has  Magic Number Test
+
+======================================
+
+Test:  logs a header for each item's properties
+Has  Magic Number Test
+
+======================================
+
+Test:  logs each items's values
+Has  Magic Number Test
+
+======================================
+
+Test:  logs each items's values with empty column
+Has  Magic Number Test
+
+======================================
+
+Test:  logs each items's values padded according to longest column's value
+Has  Magic Number Test
+
+======================================
+
+Test:  logs items with different properties in each
+Has  Magic Number Test
+
+======================================
+
+Test:  writes instantly
+Has  Magic Number Test
+
+======================================
+
+Test:  writes for null commands
+Has  Magic Number Test
+
+======================================
+
+Test:  does not write instantly for non-active command
+Has  Magic Number Test
+
+======================================
+
+Test:  write instantly for active command
+Has  Magic Number Test
+
+======================================
+
+Test:  does not wait for write from next command to flush
+Has  Magic Number Test
+
+======================================
+
+Test:  does not flush for non-active command
+Has  Magic Number Test
+
+======================================
+
+Test:  flushes multiple commands at a time if necessary
+Has  Magic Number Test
+
+======================================
+
+Test:  has more than 1 auto color defined
+Has  Magic Number Test
+
+======================================
+
+Test:  spawns the given command
+Has  Magic Number Test
+
+======================================
+
+Test:  sets an ipc channel at the specified descriptor index
+Has  Magic Number Test
+
+======================================
+
+Test:  merges FORCE_COLOR into env vars if color supported
+Has  Magic Number Test
+
+======================================
+
+Statistics:
+Conditional Test Logic : 1
+EmptyTest : 0
+Exception Handling : 0
+Magic Number Test : 119
+Unknown Test : 0
+Redundant Print : 0
+Sleepy Test : 0
+
+Tests with smells:
+can read package
+caches scripts upon calls
+spawns process with given command and options
+shares start and error timing events to the timing stream
+changes state to exited
+does not change state if there was an error
+shares start and close timing events to the timing stream
+shares to the close stream with exit code
+shares to the close stream with timing information
+shares to the close stream with command info
+does not share to the incoming messages stream, if IPC is disabled
+shares to the incoming messages stream, if IPC is enabled
+sends the message to the process
+calls onSent with the result of sending the message
+pushes the message on the outgoing messages stream
+kills process
+kills process with some signal
+marks the command as killed
+returns whether command has both PID and process
+completes only when commands emit a close event, returns close event
+completes when abort signal is received and command is stopped, returns nothing
+check for success once all commands have emitted at least a single close event
+takes last event emitted from each command
+waits for manually restarted events to close
+succeeds if all processes exited with code 0
+fails if one of the processes exited with non-0 code
+succeeds if first process to exit has code 0
+fails if first process to exit has non-0 code
+succeeds if last process to exit has code 0
+fails if last process to exit has non-0 code
+undefined
+spawns all commands
+log output is passed to output stream if logger is specified in options
+spawns commands up to configured limit at once
+spawns commands up to percent based limit at once
+does not spawn further commands on abort signal aborted
+runs controllers with the commands
+runs commands with a name or prefix color
+passes commands wrapped from a controller to the next one
+merges extra env vars into each command
+uses cwd from options for each command
+uses overridden cwd option for each command if specified
+uses raw from options for each command
+uses overridden raw option for each command if specified
+uses hide from options for each command
+hides output for commands even if raw option is on
+argument placeholders are properly replaced when additional arguments are passed
+argument placeholders are not replaced when additional arguments are not defined
+runs onFinish hook after all commands run
+does nothing if called without input stream
+forwards input stream to default target ID
+forwards input stream to target index specified in input
+forwards input stream to target index specified in input when input contains colon
+does not forward input stream when input contains colon in a different format
+forwards input stream to target name specified in input
+logs error if command has no stdin open
+fallback to default input stream if command is not found
+returns commands that map SIGINT to exit code 0
+returns commands that keep non-SIGINT exit codes
+kills all commands
+does not kill others if condition does not match
+kills other killable processes
+kills other killable processes on success, with specified signal
+sends abort signal on condition match
+does not send abort signal on condition mismatch
+does nothing if called without conditions
+does not try to kill processes already dead
+logs the error event of each command
+logs the close event of each command
+logs the stdout of each command
+logs the stderr of each command
+does not log timings and doesn't throw if no logger is provided
+logs the timings at the start and end (ie complete or error) event of each command
+does not log timings summary if there was an error
+logs the sorted timings summary when all processes close successfully after onFinish is called
+sets the prefix length on handle
+updates the prefix length when commands emit a start timer
+sets prefix length to the longest prefix of all commands
+does not shorten the prefix length
+unsubscribes from start timers on finish
+does not restart processes that complete with success
+restarts processes that fail immediately, if no delay was passed
+restarts processes that fail after delay ms has passed
+restarts processes that fail with an exponential back-off
+restarts processes up to tries
+restart processes forever, if tries is negative
+restarts processes until they succeed
+skip close events followed by restarts
+emits prefix + text in the output stream
+emits multiple lines of text with prefix on each
+does not emit prefix if last call did not finish with a LF
+does not emit prefix nor handle text if logger is in raw mode
+logs with prefixFormat set to pid
+logs default prefixes with padding
+logs templated prefixes with padding
+does not log anything in raw mode
+does not log anything if value is not an array
+logs a header for each item's properties
+logs each items's values
+logs each items's values with empty column
+logs each items's values padded according to longest column's value
+logs items with different properties in each
+writes instantly
+writes for null commands
+does not write instantly for non-active command
+write instantly for active command
+does not wait for write from next command to flush
+does not flush for non-active command
+flushes multiple commands at a time if necessary
+has more than 1 auto color defined
+spawns the given command
+sets an ipc channel at the specified descriptor index
+merges FORCE_COLOR into env vars if color supported

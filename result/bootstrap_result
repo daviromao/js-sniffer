@@ -1,0 +1,1107 @@
+Test:  should close an alert without instantiating it manually
+Has  Magic Number Test
+
+======================================
+
+Test:  should close an alert without instantiating it manually with the parent selector
+Has  Magic Number Test
+
+======================================
+
+Test:  should close an alert
+Has  Magic Number Test
+
+======================================
+
+Test:  should close alert with fade class
+Has  Magic Number Test
+
+======================================
+
+Test:  should not remove alert if close event is prevented
+Has  Magic Number Test
+
+======================================
+
+Test:  should not slide if arrow key is pressed and carousel is sliding
+Has  Conditional Test Logic
+
+======================================
+
+Test:  should wrap around from end to start when wrap option is true
+Has  Conditional Test Logic
+Has  Magic Number Test
+
+======================================
+
+Test:  should stay at the start when the prev method is called and wrap is false
+Has  Magic Number Test
+
+======================================
+
+Test:  should allow swiperight and call _slide (prev) with pointer events
+Has  Conditional Test Logic
+Has  Magic Number Test
+
+======================================
+
+Test:  should allow swipeleft and call next with pointer events
+Has  Conditional Test Logic
+Has  Magic Number Test
+
+======================================
+
+Test:  should allow swiperight and call _slide (prev) with touch events
+Has  Magic Number Test
+
+======================================
+
+Test:  should allow swipeleft and call _slide (next) with touch events
+Has  Magic Number Test
+
+======================================
+
+Test:  should not slide when swiping and carousel is sliding
+Has  Magic Number Test
+
+======================================
+
+Test:  should not allow pinch with touch events
+Has  Magic Number Test
+
+======================================
+
+Test:  should call pause method on mouse over with pause equal to hover
+Has  Magic Number Test
+
+======================================
+
+Test:  should call `maybeEnableCycle` on mouse out with pause equal to hover
+Has  Magic Number Test
+
+======================================
+
+Test:  should continue cycling if it was already
+Has  Magic Number Test
+
+======================================
+
+Test:  should clear interval if there is one
+Has  Magic Number Test
+
+======================================
+
+Test:  should get interval from data attribute on the active item element
+Has  Magic Number Test
+
+======================================
+
+Test:  should go directly to the provided index
+Has  Magic Number Test
+
+======================================
+
+Test:  should return to a previous slide if the provided index is lower than the current
+Has  Magic Number Test
+
+======================================
+
+Test:  should do nothing if a wrong index is provided
+Has  Magic Number Test
+
+======================================
+
+Test:  should not continue if the provided is the same compare to the current one
+Has  Magic Number Test
+
+======================================
+
+Test:  should wait before performing to if a slide is sliding
+Has  Magic Number Test
+
+======================================
+
+Test:  should destroy a carousel
+Has  Conditional Test Logic
+
+======================================
+
+Test:  should return new instance when there is no carousel instance with given configuration
+Has  Magic Number Test
+
+======================================
+
+Test:  should return the instance when exists without given configuration
+Has  Magic Number Test
+
+======================================
+
+Test:  should create carousel and go to the next slide on click (with real button controls)
+Has  Magic Number Test
+
+======================================
+
+Test:  should create carousel and go to the next slide on click (using links as controls)
+Has  Magic Number Test
+
+======================================
+
+Test:  should create carousel and go to the next slide on click with data-bs-slide-to
+Has  Magic Number Test
+
+======================================
+
+Test:  should find collapse children if they have collapse class too not only data-bs-parent
+Has  Magic Number Test
+
+======================================
+
+Test:  should not change tab tabpanels descendants on accordion
+Has  Conditional Test Logic
+Has  Magic Number Test
+
+======================================
+
+Test:  should allow accordion to target multiple elements
+Has  Conditional Test Logic
+
+======================================
+
+Test:  should handle mouseenter/mouseleave like the native counterpart
+Has  Magic Number Test
+
+======================================
+
+Test:  should call listener just once
+Has  Magic Number Test
+
+======================================
+
+Test:  should call delegated listener just once
+Has  Magic Number Test
+
+======================================
+
+Test:  should remove a listener
+Has  Magic Number Test
+
+======================================
+
+Test:  should remove all the events
+Has  Magic Number Test
+
+======================================
+
+Test:  should remove all the namespaced listeners if namespace is passed
+Has  Magic Number Test
+
+======================================
+
+Test:  should remove the namespaced listeners
+Has  Magic Number Test
+
+======================================
+
+Test:  should remove the all the namespaced listeners for native events
+Has  Magic Number Test
+
+======================================
+
+Test:  should remove the specified namespaced listeners for native events
+Has  Magic Number Test
+
+======================================
+
+Test:  should remove a listener registered by .one
+Has  Magic Number Test
+
+======================================
+
+Test:  should remove the correct delegated event listener
+Has  Magic Number Test
+
+======================================
+
+Test:  should normalize data
+Has  Magic Number Test
+
+======================================
+
+Test:  should normalize json data
+Has  Magic Number Test
+
+======================================
+
+Test:  should return parents
+Has  Magic Number Test
+
+======================================
+
+Test:  should return empty array if elements not found
+Has  Magic Number Test
+
+======================================
+
+Test:  should return empty array if no selector
+Has  Magic Number Test
+
+======================================
+
+Test:  should create offset modifier correctly when offset option is a string into data attribute
+Has  Magic Number Test
+
+======================================
+
+Test:  should not show a dropdown if the element is disabled
+Has  Magic Number Test
+
+======================================
+
+Test:  should not show a dropdown if the element contains .disabled
+Has  Magic Number Test
+
+======================================
+
+Test:  should not show a dropdown if the menu is shown
+Has  Magic Number Test
+
+======================================
+
+Test:  should not show a dropdown if show event is prevented
+Has  Magic Number Test
+
+======================================
+
+Test:  should not hide a dropdown if the element is disabled
+Has  Magic Number Test
+
+======================================
+
+Test:  should not hide a dropdown if the element contains .disabled
+Has  Magic Number Test
+
+======================================
+
+Test:  should not hide a dropdown if the menu is not shown
+Has  Magic Number Test
+
+======================================
+
+Test:  should not collapse the dropdown when clicking a select option nested in the dropdown
+Has  Magic Number Test
+
+======================================
+
+Test:  should remove "show" class if body is clicked, with multiple dropdowns
+Has  Magic Number Test
+
+======================================
+
+Test:  should remove "show" class if body if tabbing outside of menu, with multiple dropdowns
+Has  Magic Number Test
+
+======================================
+
+Test:  Space
+Has  EmptyTest
+Has  Unknown Test
+
+======================================
+
+Test:  Space
+Has  EmptyTest
+Has  Unknown Test
+
+======================================
+
+Test:  ArrowUp
+Has  EmptyTest
+Has  Unknown Test
+
+======================================
+
+Test:  ArrowUp
+Has  EmptyTest
+Has  Unknown Test
+
+======================================
+
+Test:  ArrowDown
+Has  EmptyTest
+Has  Unknown Test
+
+======================================
+
+Test:  ArrowDown
+Has  EmptyTest
+Has  Unknown Test
+
+======================================
+
+Test:  should not open dropdown if escape key was pressed on the toggle
+Has  Magic Number Test
+
+======================================
+
+Test:  should not close dropdown by clicking inside or outside the dropdown menu when it has data-attribute `data-bs-auto-close="false"`
+Has  Conditional Test Logic
+
+======================================
+
+Test:  should open dropdown when pressing keydown or keyup
+Has  Conditional Test Logic
+
+======================================
+
+Test:  should use jQuery event system
+Has  Magic Number Test
+
+======================================
+
+Test:  should not fire shown event when show is prevented
+Has  Magic Number Test
+
+======================================
+
+Test:  should be shown after the first call to show() has been prevented while fading is enabled 
+Has  Conditional Test Logic
+
+======================================
+
+Test:  should set .modal's scroll top to 0
+Has  Magic Number Test
+
+======================================
+
+Test:  should set modal body scroll top to 0 if modal body do not exists
+Has  Magic Number Test
+
+======================================
+
+Test:  should do nothing when the pressed key is not escape
+Has  Magic Number Test
+
+======================================
+
+Test:  should adjust dialog on resize
+Has  Magic Number Test
+
+======================================
+
+Test:  should not overflow when clicking outside of modal-content if backdrop = static
+Has  Magic Number Test
+
+======================================
+
+Test:  should not queue multiple callbacks when clicking outside of modal-content and backdrop = static
+Has  Magic Number Test
+
+======================================
+
+Test:  should dispose a modal
+Has  Magic Number Test
+
+======================================
+
+Test:  should toggle modal
+Has  Magic Number Test
+
+======================================
+
+Test:  should open modal, having special characters in its id
+Has  Unknown Test
+
+======================================
+
+Test:  should focus on trigger element after closing offcanvas
+Has  Magic Number Test
+
+======================================
+
+Test:  should not focus on trigger element after closing offcanvas, if it is not visible
+Has  Magic Number Test
+
+======================================
+
+Test:  should call setContent once
+Has  Conditional Test Logic
+Has  Magic Number Test
+
+======================================
+
+Test:  should respect threshold option
+Has  Magic Number Test
+
+======================================
+
+Test:  should respect threshold option markup
+Has  Conditional Test Logic
+Has  Magic Number Test
+
+======================================
+
+Test:  should not take count to not visible sections
+Has  Magic Number Test
+
+======================================
+
+Test:  should not process element without target
+Has  Magic Number Test
+
+======================================
+
+Test:  should only switch "active" class on current target
+Has  Magic Number Test
+
+======================================
+
+Test:  should not process data if `activeTarget` is same as given target
+Has  Magic Number Test
+
+======================================
+
+Test:  should only switch "active" class on current target specified w element
+Has  Magic Number Test
+
+======================================
+
+Test:  should add the active class to the correct element
+Has  Unknown Test
+
+======================================
+
+Test:  should add to nav the active class to the correct element (nav markup)
+Has  Unknown Test
+
+======================================
+
+Test:  should add to list-group, the active class to the correct element (list-group markup)
+Has  Unknown Test
+
+======================================
+
+Test:  should clear selection if above the first section
+Has  Magic Number Test
+
+======================================
+
+Test:  should not clear selection if above the first section and first section is at the top
+Has  Magic Number Test
+
+======================================
+
+Test:  should correctly select navigation element on backward scrolling when each target section height is 100%
+Has  Magic Number Test
+Has  Unknown Test
+
+======================================
+
+Test:  should return new instance when there is no scrollspy instance with given configuration
+Has  Magic Number Test
+
+======================================
+
+Test:  should return the instance when exists without given configuration
+Has  Magic Number Test
+
+======================================
+
+Test:  should not enable smoothScroll
+Has  Magic Number Test
+
+======================================
+
+Test:  should enable smoothScroll
+Has  Magic Number Test
+
+======================================
+
+Test:  should not smoothScroll to element if it not handles a scrollspy section
+Has  Magic Number Test
+
+======================================
+
+Test:  should call `scrollTop` if element doesn't not support `scrollTo`
+Has  Magic Number Test
+
+======================================
+
+Test:  should smoothScroll to the proper observable element on anchor click
+Has  Conditional Test Logic
+Has  Magic Number Test
+
+======================================
+
+Test:  should smoothscroll to observable with anchor link that contains a french word as id
+Has  Conditional Test Logic
+Has  Magic Number Test
+
+======================================
+
+Test:  should not fire shown when tab is already active
+Has  Magic Number Test
+
+======================================
+
+Test:  should fire hide and hidden events
+Has  Magic Number Test
+
+======================================
+
+Test:  should not fire hidden when hide is prevented
+Has  Magic Number Test
+
+======================================
+
+Test:  should handle removed tabs
+Has  Magic Number Test
+
+======================================
+
+Test:  if keydown event is right/down arrow, handle it
+Has  Magic Number Test
+
+======================================
+
+Test:  if keydown event is left arrow, handle it
+Has  Magic Number Test
+
+======================================
+
+Test:  if keydown event is right arrow and next element is disabled
+Has  Magic Number Test
+
+======================================
+
+Test:  if keydown event is left arrow and next element is disabled
+Has  Magic Number Test
+
+======================================
+
+Test:  should support li > .dropdown-item
+Has  Magic Number Test
+
+======================================
+
+Test:  should not remove fade class if no active pane is present
+Has  Magic Number Test
+
+======================================
+
+Test:  should add `show` class to tab panes if there is no `.fade` class
+Has  Magic Number Test
+
+======================================
+
+Test:  should add show class to tab panes if there is a `.fade` class
+Has  Magic Number Test
+
+======================================
+
+Test:  should not fire shown when tab has disabled attribute
+Has  Magic Number Test
+
+======================================
+
+Test:  should not fire shown when tab has disabled class
+Has  Magic Number Test
+
+======================================
+
+Test:  should clear timeout if toast is shown again before it is hidden
+Has  Magic Number Test
+
+======================================
+
+Test:  should clear timeout if toast is interacted with mouse
+Has  Magic Number Test
+
+======================================
+
+Test:  should clear timeout if toast is interacted with keyboard
+Has  Magic Number Test
+
+======================================
+
+Test:  should still auto hide after being interacted with mouse and keyboard
+Has  Magic Number Test
+
+======================================
+
+Test:  should not auto hide if focus leaves but mouse pointer remains inside
+Has  Magic Number Test
+
+======================================
+
+Test:  should not auto hide if mouse pointer leaves but focus remains inside
+Has  Magic Number Test
+
+======================================
+
+Test:  should allow to destroy toast and hide it before that
+Has  Magic Number Test
+
+======================================
+
+Test:  should return new instance when there is no toast instance with given configuration
+Has  Magic Number Test
+
+======================================
+
+Test:  should return the instance when exists without given configuration
+Has  Magic Number Test
+
+======================================
+
+Test:  should create offset modifier when offset option is passed in data attribute
+Has  Magic Number Test
+
+======================================
+
+Test:  should disable tooltip
+Has  Magic Number Test
+
+======================================
+
+Test:  should do nothing if disabled
+Has  Magic Number Test
+
+======================================
+
+Test:  should show a tooltip when hovering a child element
+Has  Magic Number Test
+
+======================================
+
+Test:  should throw an error the element is not visible
+Has  Exception Handling
+
+======================================
+
+Test:  should show tooltip if leave event hasn't occurred before delay expires
+Has  Magic Number Test
+
+======================================
+
+Test:  should not show tooltip if leave event occurs before delay expires
+Has  Magic Number Test
+
+======================================
+
+Test:  should not hide tooltip if leave event occurs and enter event occurs within the hide delay
+Has  Magic Number Test
+
+======================================
+
+Test:  should properly maintain tooltip state if leave event occurs and enter event occurs during hide transition
+Has  Magic Number Test
+
+======================================
+
+Test:  should only trigger inserted event if a new tooltip element was created
+Has  Magic Number Test
+
+======================================
+
+Test:  should not throw error running hide if popper hasn't been shown
+Has  Exception Handling
+
+======================================
+
+Test:  should add the content as a child of the element for jQuery elements
+Has  Magic Number Test
+
+======================================
+
+Test:  should append the backdrop html once on show and include the "show" class if it is "shown"
+Has  Conditional Test Logic
+Has  Magic Number Test
+
+======================================
+
+Test:  should not append the backdrop html if it is not "shown"
+Has  Magic Number Test
+
+======================================
+
+Test:  should append the backdrop html once and include the "fade" class if it is "shown" and "animated"
+Has  Conditional Test Logic
+Has  Magic Number Test
+
+======================================
+
+Test:  should remove the backdrop html
+Has  Magic Number Test
+
+======================================
+
+Test:  should not try to remove Node on remove method if it is not "shown"
+Has  Magic Number Test
+
+======================================
+
+Test:  should not error if the backdrop no longer has a parent
+Has  Magic Number Test
+
+======================================
+
+Test:  should show and hide backdrop without a delay if it is not animated
+Has  Magic Number Test
+
+======================================
+
+Test:  should parse element's data attributes and merge it with default config. Element's data attributes must excel Defaults
+Has  Magic Number Test
+
+======================================
+
+Test:  should parse element's data attributes and merge it with default config, plug these given during method call. The programmatically given should excel all
+Has  Magic Number Test
+
+======================================
+
+Test:  should parse element's data attribute `config` and any rest attributes. The programmatically given should excel all. Data attribute `config` should excel only Defaults
+Has  Magic Number Test
+
+======================================
+
+Test:  should omit element's data attribute `config` if is not an object
+Has  Magic Number Test
+
+======================================
+
+Test:  should get transition from element
+Has  Magic Number Test
+
+======================================
+
+Test:  should return 0 if the element is undefined or null
+Has  Magic Number Test
+
+======================================
+
+Test:  should return 0 if the element do not possess transition
+Has  Magic Number Test
+
+======================================
+
+Test:  should return null if shadow dom is not available
+Has  Conditional Test Logic
+
+======================================
+
+Test:  should return null when we do not find a shadow root
+Has  Conditional Test Logic
+
+======================================
+
+Test:  should return the shadow root when found
+Has  Conditional Test Logic
+
+======================================
+
+Test:  should execute callbacks when DOMContentLoaded is fired and should not add more than one listener
+Has  Magic Number Test
+
+======================================
+
+Test:  should execute if arg is function & return the result
+Has  Magic Number Test
+
+======================================
+
+Test:  should not execute if arg is not function & return default argument
+Has  Magic Number Test
+
+======================================
+
+Test:  should execute a function after a computed CSS transition duration and there was no transitionend event dispatched
+Has  Magic Number Test
+
+======================================
+
+Test:  should not execute a function a second time after a computed CSS transition duration and if a transitionend event has already been dispatched
+Has  Magic Number Test
+
+======================================
+
+Test:  should not trigger a transitionend event if another transitionend event had already happened
+Has  Magic Number Test
+
+======================================
+
+Test:  should ignore transitionend events from nested elements
+Has  Magic Number Test
+
+======================================
+
+Test:  should retain tags with valid URLs
+Has  Conditional Test Logic
+
+======================================
+
+Test:  should sanitize template by removing tags with XSS
+Has  Conditional Test Logic
+
+======================================
+
+Test:  should return true if body is overflowing
+Has  Conditional Test Logic
+
+======================================
+
+Test:  should return an integer greater than zero, if body is overflowing
+Has  Conditional Test Logic
+Has  Magic Number Test
+
+======================================
+
+Test:  should return 0 if body is not overflowing
+Has  Magic Number Test
+
+======================================
+
+Test:  should not put data-attribute if element doesn't have the proper style property, should just remove style property if element didn't had one
+Has  Conditional Test Logic
+Has  Magic Number Test
+
+======================================
+
+Test:  Test leftCallback
+Has  Magic Number Test
+
+======================================
+
+Test:  Test rightCallback
+Has  Magic Number Test
+
+======================================
+
+Test:  Test endCallback
+Has  Conditional Test Logic
+Has  Magic Number Test
+
+======================================
+
+Test:  should not allow pinch with touch events
+Has  Magic Number Test
+
+======================================
+
+Test:  should allow swipeRight and call "rightCallback" with pointer events
+Has  Conditional Test Logic
+Has  Magic Number Test
+
+======================================
+
+Test:  should allow swipeLeft and call "leftCallback" with pointer events
+Has  Conditional Test Logic
+Has  Magic Number Test
+
+======================================
+
+Test:  should destroy
+Has  Conditional Test Logic
+
+======================================
+
+Test:  should return "true" if "touchstart" exists in document element)
+Has  Magic Number Test
+
+======================================
+
+Test:  should return "false" if "touchstart" not exists in document element and "navigator.maxTouchPoints" are zero (0)
+Has  Conditional Test Logic
+Has  Magic Number Test
+
+======================================
+
+Test:  should filter empties
+Has  Magic Number Test
+
+======================================
+
+Statistics:
+Conditional Test Logic : 29
+EmptyTest : 6
+Exception Handling : 2
+Magic Number Test : 155
+Unknown Test : 11
+Redundant Print : 0
+Sleepy Test : 0
+
+Tests with smells:
+should close an alert without instantiating it manually
+should close an alert without instantiating it manually with the parent selector
+should close an alert
+should close alert with fade class
+should not remove alert if close event is prevented
+should not slide if arrow key is pressed and carousel is sliding
+should wrap around from end to start when wrap option is true
+should stay at the start when the prev method is called and wrap is false
+should allow swiperight and call _slide (prev) with pointer events
+should allow swipeleft and call next with pointer events
+should allow swiperight and call _slide (prev) with touch events
+should allow swipeleft and call _slide (next) with touch events
+should not slide when swiping and carousel is sliding
+should not allow pinch with touch events
+should call pause method on mouse over with pause equal to hover
+should call `maybeEnableCycle` on mouse out with pause equal to hover
+should continue cycling if it was already
+should clear interval if there is one
+should get interval from data attribute on the active item element
+should go directly to the provided index
+should return to a previous slide if the provided index is lower than the current
+should do nothing if a wrong index is provided
+should not continue if the provided is the same compare to the current one
+should wait before performing to if a slide is sliding
+should destroy a carousel
+should return new instance when there is no carousel instance with given configuration
+should return the instance when exists without given configuration
+should create carousel and go to the next slide on click (with real button controls)
+should create carousel and go to the next slide on click (using links as controls)
+should create carousel and go to the next slide on click with data-bs-slide-to
+should find collapse children if they have collapse class too not only data-bs-parent
+should not change tab tabpanels descendants on accordion
+should allow accordion to target multiple elements
+should handle mouseenter/mouseleave like the native counterpart
+should call listener just once
+should call delegated listener just once
+should remove a listener
+should remove all the events
+should remove all the namespaced listeners if namespace is passed
+should remove the namespaced listeners
+should remove the all the namespaced listeners for native events
+should remove the specified namespaced listeners for native events
+should remove a listener registered by .one
+should remove the correct delegated event listener
+should normalize data
+should normalize json data
+should return parents
+should return empty array if elements not found
+should return empty array if no selector
+should create offset modifier correctly when offset option is a string into data attribute
+should not show a dropdown if the element is disabled
+should not show a dropdown if the element contains .disabled
+should not show a dropdown if the menu is shown
+should not show a dropdown if show event is prevented
+should not hide a dropdown if the element is disabled
+should not hide a dropdown if the element contains .disabled
+should not hide a dropdown if the menu is not shown
+should not collapse the dropdown when clicking a select option nested in the dropdown
+should remove "show" class if body is clicked, with multiple dropdowns
+should remove "show" class if body if tabbing outside of menu, with multiple dropdowns
+Space
+ArrowUp
+ArrowDown
+should not open dropdown if escape key was pressed on the toggle
+should not close dropdown by clicking inside or outside the dropdown menu when it has data-attribute `data-bs-auto-close="false"`
+should open dropdown when pressing keydown or keyup
+should use jQuery event system
+should not fire shown event when show is prevented
+should be shown after the first call to show() has been prevented while fading is enabled 
+should set .modal's scroll top to 0
+should set modal body scroll top to 0 if modal body do not exists
+should do nothing when the pressed key is not escape
+should adjust dialog on resize
+should not overflow when clicking outside of modal-content if backdrop = static
+should not queue multiple callbacks when clicking outside of modal-content and backdrop = static
+should dispose a modal
+should toggle modal
+should open modal, having special characters in its id
+should focus on trigger element after closing offcanvas
+should not focus on trigger element after closing offcanvas, if it is not visible
+should call setContent once
+should respect threshold option
+should respect threshold option markup
+should not take count to not visible sections
+should not process element without target
+should only switch "active" class on current target
+should not process data if `activeTarget` is same as given target
+should only switch "active" class on current target specified w element
+should add the active class to the correct element
+should add to nav the active class to the correct element (nav markup)
+should add to list-group, the active class to the correct element (list-group markup)
+should clear selection if above the first section
+should not clear selection if above the first section and first section is at the top
+should correctly select navigation element on backward scrolling when each target section height is 100%
+should return new instance when there is no scrollspy instance with given configuration
+should not enable smoothScroll
+should enable smoothScroll
+should not smoothScroll to element if it not handles a scrollspy section
+should call `scrollTop` if element doesn't not support `scrollTo`
+should smoothScroll to the proper observable element on anchor click
+should smoothscroll to observable with anchor link that contains a french word as id
+should not fire shown when tab is already active
+should fire hide and hidden events
+should not fire hidden when hide is prevented
+should handle removed tabs
+if keydown event is right/down arrow, handle it
+if keydown event is left arrow, handle it
+if keydown event is right arrow and next element is disabled
+if keydown event is left arrow and next element is disabled
+should support li > .dropdown-item
+should not remove fade class if no active pane is present
+should add `show` class to tab panes if there is no `.fade` class
+should add show class to tab panes if there is a `.fade` class
+should not fire shown when tab has disabled attribute
+should not fire shown when tab has disabled class
+should clear timeout if toast is shown again before it is hidden
+should clear timeout if toast is interacted with mouse
+should clear timeout if toast is interacted with keyboard
+should still auto hide after being interacted with mouse and keyboard
+should not auto hide if focus leaves but mouse pointer remains inside
+should not auto hide if mouse pointer leaves but focus remains inside
+should allow to destroy toast and hide it before that
+should return new instance when there is no toast instance with given configuration
+should create offset modifier when offset option is passed in data attribute
+should disable tooltip
+should do nothing if disabled
+should show a tooltip when hovering a child element
+should throw an error the element is not visible
+should show tooltip if leave event hasn't occurred before delay expires
+should not show tooltip if leave event occurs before delay expires
+should not hide tooltip if leave event occurs and enter event occurs within the hide delay
+should properly maintain tooltip state if leave event occurs and enter event occurs during hide transition
+should only trigger inserted event if a new tooltip element was created
+should not throw error running hide if popper hasn't been shown
+should add the content as a child of the element for jQuery elements
+should append the backdrop html once on show and include the "show" class if it is "shown"
+should not append the backdrop html if it is not "shown"
+should append the backdrop html once and include the "fade" class if it is "shown" and "animated"
+should remove the backdrop html
+should not try to remove Node on remove method if it is not "shown"
+should not error if the backdrop no longer has a parent
+should show and hide backdrop without a delay if it is not animated
+should parse element's data attributes and merge it with default config. Element's data attributes must excel Defaults
+should parse element's data attributes and merge it with default config, plug these given during method call. The programmatically given should excel all
+should parse element's data attribute `config` and any rest attributes. The programmatically given should excel all. Data attribute `config` should excel only Defaults
+should omit element's data attribute `config` if is not an object
+should get transition from element
+should return 0 if the element is undefined or null
+should return 0 if the element do not possess transition
+should return null if shadow dom is not available
+should return null when we do not find a shadow root
+should return the shadow root when found
+should execute callbacks when DOMContentLoaded is fired and should not add more than one listener
+should execute if arg is function & return the result
+should not execute if arg is not function & return default argument
+should execute a function after a computed CSS transition duration and there was no transitionend event dispatched
+should not execute a function a second time after a computed CSS transition duration and if a transitionend event has already been dispatched
+should not trigger a transitionend event if another transitionend event had already happened
+should ignore transitionend events from nested elements
+should retain tags with valid URLs
+should sanitize template by removing tags with XSS
+should return true if body is overflowing
+should return an integer greater than zero, if body is overflowing
+should return 0 if body is not overflowing
+should not put data-attribute if element doesn't have the proper style property, should just remove style property if element didn't had one
+Test leftCallback
+Test rightCallback
+Test endCallback
+should allow swipeRight and call "rightCallback" with pointer events
+should allow swipeLeft and call "leftCallback" with pointer events
+should destroy
+should return "true" if "touchstart" exists in document element)
+should return "false" if "touchstart" not exists in document element and "navigator.maxTouchPoints" are zero (0)
+should filter empties

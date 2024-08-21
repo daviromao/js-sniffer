@@ -22,9 +22,18 @@ class SnifferDetector {
   sniff(): void {
     const testFiles = this.findTestFiles(process.cwd());
     testFiles.forEach((file) => {
-      const fileContent = fs.readFileSync(file, "utf-8");
-      const ast = parser.parse(fileContent, { sourceFilename: file });
-      this.detectTestSmells(ast);
+      try {
+        const fileContent = fs.readFileSync(file, "utf-8");
+        const ast = parser.parse(fileContent, {
+          sourceFilename: file,
+          sourceType: "module",
+          plugins: ["typescript", "decorators-legacy"],
+        });
+        this.detectTestSmells(ast);
+      } catch (e) {
+        console.log("Error in file: ", file);
+        console.log(e);
+      }
     });
 
     console.log("Statistics:");
@@ -45,6 +54,9 @@ class SnifferDetector {
           path.node.callee.type === "Identifier" &&
           (path.node.callee.name === "test" || path.node.callee.name === "it")
         ) {
+          if (path.node.arguments.length === 0) {
+            return;
+          }
           const findedTests = [];
 
           for (const smell of this.smells) {
@@ -84,7 +96,12 @@ class SnifferDetector {
         if (stat.isDirectory()) {
           testFiles.push(...this.findTestFiles(filePath));
         } else {
-          if (file.match(/\.(test|spec)\.(js|ts)/)) {
+          if (
+            (file.includes("spec") ||
+              file.includes("test") ||
+              files.includes("tests")) &&
+            (file.endsWith(".ts") || file.endsWith(".js"))
+          ) {
             testFiles.push(filePath);
           }
         }

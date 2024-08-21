@@ -1,0 +1,72 @@
+Angular total de testes com smells: 5977
+Statistics:
+Conditional Test Logic : 514
+EmptyTest : 158
+Exception Handling : 601
+Magic Number Test : 4984
+Unknown Test : 1462
+Redundant Print : 6
+Sleepy Test : 0
+
+
+Axios total de tests com smells:166
+Statistics:
+Conditional Test Logic : 6
+EmptyTest : 0
+Exception Handling : 114
+Magic Number Test : 104
+Unknown Test : 15
+Redundant Print : 0
+Sleepy Test : 0
+
+Bootstrap total de tests com smells: 174
+Statistics:
+Conditional Test Logic : 29
+EmptyTest : 6
+Exception Handling : 2
+Magic Number Test : 155
+Unknown Test : 11
+Redundant Print : 0
+Sleepy Test : 0
+
+
+BrasilAPI total de tests com smells: 83
+Statistics:
+Conditional Test Logic : 0
+EmptyTest : 0
+Exception Handling : 35
+Magic Number Test : 97
+Unknown Test : 0
+Redundant Print : 0
+Sleepy Test : 0
+
+Concurrently total de tests com smells: 113
+Statistics:
+Conditional Test Logic : 1
+EmptyTest : 0
+Exception Handling : 0
+Magic Number Test : 119
+Unknown Test : 0
+Redundant Print : 0
+Sleepy Test : 0
+
+Electron total de tests com smells: 900
+Statistics:
+Conditional Test Logic : 238
+EmptyTest : 7
+Exception Handling : 137
+Magic Number Test : 610
+Unknown Test : 240
+Redundant Print : 15
+Sleepy Test : 48
+
+
+Express total de tests com smells: 1018
+Statistics:
+Conditional Test Logic : 57
+EmptyTest : 0
+Exception Handling : 2
+Magic Number Test : 129
+Unknown Test : 0
+Redundant Print : 0
+Sleepy Test : 0

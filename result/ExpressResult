@@ -1,0 +1,836 @@
+Test: should reject non-objects
+Has Magic Number Test
+
+======================================
+
+Test: should set maxAge
+Has Magic Number Test
+
+======================================
+
+Test: should set expires
+Has Magic Number Test
+
+======================================
+
+Test: should set maxAge
+Has Magic Number Test
+
+======================================
+
+Test: should accept Date object
+Has Magic Number Test
+
+======================================
+
+Test: should do nothing if req.session exists
+Has Magic Number Test
+
+======================================
+
+Test: should error without secret
+Has Magic Number Test
+
+======================================
+
+Test: should get secret from req.secret
+Has Magic Number Test
+
+======================================
+
+Test: should create a new session
+Has Conditional Test Logic
+Has Magic Number Test
+
+======================================
+
+Test: should load session from cookie sid
+Has Conditional Test Logic
+Has Magic Number Test
+
+======================================
+
+Test: should pass session fetch error
+Has Conditional Test Logic
+Has Magic Number Test
+
+======================================
+
+Test: should treat ENOENT session fetch error as not found
+Has Conditional Test Logic
+Has Magic Number Test
+
+======================================
+
+Test: should create multiple sessions
+Has Conditional Test Logic
+Has Magic Number Test
+
+======================================
+
+Test: should handle empty req.url
+Has Magic Number Test
+
+======================================
+
+Test: should handle multiple res.end calls
+Has Magic Number Test
+
+======================================
+
+Test: should handle res.end(null) calls
+Has Magic Number Test
+
+======================================
+
+Test: should handle reserved properties in storage
+Has Conditional Test Logic
+Has Magic Number Test
+
+======================================
+
+Test: should only have session data enumerable (and cookie)
+Has Magic Number Test
+
+======================================
+
+Test: should not save with bogus req.sessionID
+Has Conditional Test Logic
+Has Magic Number Test
+
+======================================
+
+Test: should update cookie expiration when slow write
+Has Conditional Test Logic
+Has Magic Number Test
+
+======================================
+
+Test: should have saved session
+Has Magic Number Test
+
+======================================
+
+Test: should have saved session even with empty response
+Has Magic Number Test
+
+======================================
+
+Test: should have saved session even with multi-write
+Has Magic Number Test
+
+======================================
+
+Test: should have saved session even with non-chunked response
+Has Magic Number Test
+
+======================================
+
+Test: should have saved session with updated cookie expiration
+Has Conditional Test Logic
+Has Magic Number Test
+
+======================================
+
+Test: should create a new session
+Has Conditional Test Logic
+Has Magic Number Test
+
+======================================
+
+Test: should have a new sid
+Has Conditional Test Logic
+Has Magic Number Test
+
+======================================
+
+Test: should generate new session
+Has Conditional Test Logic
+Has Magic Number Test
+
+======================================
+
+Test: should not attempt fetch from store
+Has Conditional Test Logic
+Has Magic Number Test
+
+======================================
+
+Test: should create a new session
+Has Conditional Test Logic
+Has Magic Number Test
+
+======================================
+
+Test: should have a new sid
+Has Conditional Test Logic
+Has Magic Number Test
+
+======================================
+
+Test: should not exist in store
+Has Conditional Test Logic
+Has Magic Number Test
+
+======================================
+
+Test: should pass error from inflate
+Has Conditional Test Logic
+Has Magic Number Test
+
+======================================
+
+Test: should trust X-Forwarded-Proto when string
+Has Magic Number Test
+
+======================================
+
+Test: should trust X-Forwarded-Proto when comma-separated list
+Has Magic Number Test
+
+======================================
+
+Test: should work when no header
+Has Magic Number Test
+
+======================================
+
+Test: should not trust X-Forwarded-Proto
+Has Magic Number Test
+
+======================================
+
+Test: should ignore req.secure
+Has Magic Number Test
+
+======================================
+
+Test: should not trust X-Forwarded-Proto
+Has Magic Number Test
+
+======================================
+
+Test: should use req.secure
+Has Magic Number Test
+
+======================================
+
+Test: should not set cookie for "/" request
+Has Magic Number Test
+
+======================================
+
+Test: should not set cookie for "http://foo/bar" request
+Has Magic Number Test
+
+======================================
+
+Test: should set cookie for "/foo/bar" request
+Has Magic Number Test
+
+======================================
+
+Test: should set cookie for "/foo/bar/baz" request
+Has Magic Number Test
+
+======================================
+
+Test: should set cookie for "/foo/bar" request
+Has Magic Number Test
+
+======================================
+
+Test: should not set cookie for "/foo/foo/bar" request
+Has Magic Number Test
+
+======================================
+
+Test: should set secure when X-Forwarded-Proto is https
+Has Magic Number Test
+
+======================================
+
+Test: should not set secure when X-Forwarded-Proto is https
+Has Magic Number Test
+
+======================================
+
+Test: should set secure if req.secure = true
+Has Magic Number Test
+
+======================================
+
+Test: should not set secure if req.secure = false
+Has Magic Number Test
+
+======================================
+
+Test: should provide default generator
+Has Magic Number Test
+
+======================================
+
+Test: should allow custom function
+Has Magic Number Test
+
+======================================
+
+Test: should encode unsafe chars
+Has Magic Number Test
+
+======================================
+
+Test: should provide req argument
+Has Magic Number Test
+
+======================================
+
+Test: should default to "connect.sid"
+Has Magic Number Test
+
+======================================
+
+Test: should allow overriding
+Has Magic Number Test
+
+======================================
+
+Test: should default to "connect.sid"
+Has Magic Number Test
+
+======================================
+
+Test: should set the cookie name
+Has Magic Number Test
+
+======================================
+
+Test: should default to false
+Has Conditional Test Logic
+Has Magic Number Test
+
+======================================
+
+Test: should force cookie on unmodified session
+Has Conditional Test Logic
+Has Magic Number Test
+
+======================================
+
+Test: should not force cookie on uninitialized session if saveUninitialized option is set to false
+Has Magic Number Test
+
+======================================
+
+Test: should force cookie and save uninitialized session if saveUninitialized option is set to true
+Has Magic Number Test
+
+======================================
+
+Test: should force cookie and save modified session even if saveUninitialized option is set to false
+Has Magic Number Test
+
+======================================
+
+Test: should default to true
+Has Conditional Test Logic
+Has Magic Number Test
+
+======================================
+
+Test: should force save on unmodified session
+Has Conditional Test Logic
+Has Magic Number Test
+
+======================================
+
+Test: should prevent save on unmodified session
+Has Conditional Test Logic
+Has Magic Number Test
+
+======================================
+
+Test: should still save modified session
+Has Conditional Test Logic
+Has Magic Number Test
+
+======================================
+
+Test: should detect a "cookie" property as modified
+Has Conditional Test Logic
+Has Magic Number Test
+
+======================================
+
+Test: should pass session touch error
+Has Conditional Test Logic
+Has Magic Number Test
+
+======================================
+
+Test: should default to true
+Has Magic Number Test
+
+======================================
+
+Test: should force save of uninitialized session
+Has Magic Number Test
+
+======================================
+
+Test: should prevent save of uninitialized session
+Has Magic Number Test
+
+======================================
+
+Test: should still save modified session
+Has Magic Number Test
+
+======================================
+
+Test: should pass session save error
+Has Magic Number Test
+
+======================================
+
+Test: should prevent uninitialized session from being touched
+Has Magic Number Test
+
+======================================
+
+Test: should sign and unsign with a string
+Has Conditional Test Logic
+Has Magic Number Test
+
+======================================
+
+Test: should sign and unsign with a Buffer
+Has Conditional Test Logic
+Has Magic Number Test
+
+======================================
+
+Test: should sign cookies
+Has Magic Number Test
+
+======================================
+
+Test: should sign cookies with first element
+Has Conditional Test Logic
+Has Magic Number Test
+
+======================================
+
+Test: should read cookies using all elements
+Has Conditional Test Logic
+Has Magic Number Test
+
+======================================
+
+Test: should default to keep
+Has Conditional Test Logic
+Has Magic Number Test
+
+======================================
+
+Test: should allow destroy on req.session = null
+Has Conditional Test Logic
+Has Magic Number Test
+
+======================================
+
+Test: should not set cookie if initial session destroyed
+Has Conditional Test Logic
+Has Magic Number Test
+
+======================================
+
+Test: should pass session destroy error
+Has Magic Number Test
+
+======================================
+
+Test: should correctly handle res.end/res.write patched prior
+Has Magic Number Test
+
+======================================
+
+Test: should correctly handle res.end/res.write patched after
+Has Magic Number Test
+
+======================================
+
+Test: should error when res.end is called twice
+Has Conditional Test Logic
+Has Exception Handling
+
+======================================
+
+Test: should persist
+Has Conditional Test Logic
+Has Magic Number Test
+
+======================================
+
+Test: should only set-cookie when modified
+Has Conditional Test Logic
+Has Magic Number Test
+
+======================================
+
+Test: should not have enumerable methods
+Has Conditional Test Logic
+Has Magic Number Test
+
+======================================
+
+Test: should not be set if store is disconnected
+Has Magic Number Test
+
+======================================
+
+Test: should be set when store reconnects
+Has Conditional Test Logic
+Has Magic Number Test
+
+======================================
+
+Test: should destroy the previous session
+Has Conditional Test Logic
+Has Magic Number Test
+
+======================================
+
+Test: should destroy/replace the previous session
+Has Conditional Test Logic
+Has Magic Number Test
+
+======================================
+
+Test: should reload session from store
+Has Conditional Test Logic
+Has Magic Number Test
+
+======================================
+
+Test: should error is session missing
+Has Conditional Test Logic
+Has Magic Number Test
+
+======================================
+
+Test: should not override an overriden `reload` in case of errors
+Has Conditional Test Logic
+Has Exception Handling
+Has Magic Number Test
+
+======================================
+
+Test: should save session to store
+Has Conditional Test Logic
+Has Magic Number Test
+
+======================================
+
+Test: should prevent end-of-request save
+Has Conditional Test Logic
+Has Magic Number Test
+
+======================================
+
+Test: should prevent end-of-request save on reloaded session
+Has Conditional Test Logic
+Has Magic Number Test
+
+======================================
+
+Test: should prevent end-of-request save
+Has Conditional Test Logic
+Has Magic Number Test
+
+======================================
+
+Test: should reset session expiration
+Has Conditional Test Logic
+Has Magic Number Test
+
+======================================
+
+Test: should serialize as parameters
+Has Magic Number Test
+
+======================================
+
+Test: should default to a browser-session length cookie
+Has Magic Number Test
+
+======================================
+
+Test: should Set-Cookie only once for browser-session cookies
+Has Conditional Test Logic
+Has Magic Number Test
+
+======================================
+
+Test: should override defaults
+Has Magic Number Test
+
+======================================
+
+Test: should forward errors setting cookie
+Has Magic Number Test
+
+======================================
+
+Test: should preserve cookies set before writeHead is called
+Has Magic Number Test
+
+======================================
+
+Test: should preserve cookies set in writeHead
+Has Magic Number Test
+
+======================================
+
+Test: should equal original maxAge
+Has Magic Number Test
+
+======================================
+
+Test: should equal original maxAge for all requests
+Has Conditional Test Logic
+Has Magic Number Test
+
+======================================
+
+Test: should equal original maxAge for all requests
+Has Conditional Test Logic
+Has Magic Number Test
+
+======================================
+
+Test: should set cookie when secure
+Has Magic Number Test
+
+======================================
+
+Test: should not set-cookie when insecure
+Has Magic Number Test
+
+======================================
+
+Test: should set cookie expires relative to maxAge
+Has Magic Number Test
+
+======================================
+
+Test: should modify cookie expires when changed
+Has Magic Number Test
+
+======================================
+
+Test: should modify cookie expires when changed to large value
+Has Magic Number Test
+
+======================================
+
+Test: should set absolute
+Has Magic Number Test
+
+======================================
+
+Test: should be a browser-session cookie
+Has Magic Number Test
+
+======================================
+
+Test: should not reset cookie
+Has Conditional Test Logic
+Has Magic Number Test
+
+======================================
+
+Test: should not reset cookie when modified
+Has Conditional Test Logic
+Has Magic Number Test
+
+======================================
+
+Test: should not set partitioned attribute
+Has Magic Number Test
+
+======================================
+
+Test: should not set partitioned attribute
+Has Magic Number Test
+
+======================================
+
+Test: should set partitioned attribute
+Has Magic Number Test
+
+======================================
+
+Test: should respond correctly on save
+Has Magic Number Test
+
+======================================
+
+Test: should respond correctly on destroy
+Has Conditional Test Logic
+Has Magic Number Test
+
+======================================
+
+Test: should read from req.cookies
+Has Conditional Test Logic
+Has Magic Number Test
+
+======================================
+
+Test: should reject unsigned from req.cookies
+Has Conditional Test Logic
+Has Magic Number Test
+
+======================================
+
+Test: should reject invalid signature from req.cookies
+Has Conditional Test Logic
+Has Magic Number Test
+
+======================================
+
+Test: should read from req.signedCookies
+Has Conditional Test Logic
+Has Magic Number Test
+
+======================================
+
+Statistics:
+Conditional Test Logic : 57
+EmptyTest : 0
+Exception Handling : 2
+Magic Number Test : 129
+Unknown Test : 0
+Redundant Print : 0
+Sleepy Test : 0
+
+Tests with smells:
+should reject non-objects
+should set maxAge
+should set expires
+should accept Date object
+should do nothing if req.session exists
+should error without secret
+should get secret from req.secret
+should create a new session
+should load session from cookie sid
+should pass session fetch error
+should treat ENOENT session fetch error as not found
+should create multiple sessions
+should handle empty req.url
+should handle multiple res.end calls
+should handle res.end(null) calls
+should handle reserved properties in storage
+should only have session data enumerable (and cookie)
+should not save with bogus req.sessionID
+should update cookie expiration when slow write
+should have saved session
+should have saved session even with empty response
+should have saved session even with multi-write
+should have saved session even with non-chunked response
+should have saved session with updated cookie expiration
+should have a new sid
+should generate new session
+should not attempt fetch from store
+should not exist in store
+should pass error from inflate
+should trust X-Forwarded-Proto when string
+should trust X-Forwarded-Proto when comma-separated list
+should work when no header
+should not trust X-Forwarded-Proto
+should ignore req.secure
+should use req.secure
+should not set cookie for "/" request
+should not set cookie for "http://foo/bar" request
+should set cookie for "/foo/bar" request
+should set cookie for "/foo/bar/baz" request
+should not set cookie for "/foo/foo/bar" request
+should set secure when X-Forwarded-Proto is https
+should not set secure when X-Forwarded-Proto is https
+should set secure if req.secure = true
+should not set secure if req.secure = false
+should provide default generator
+should allow custom function
+should encode unsafe chars
+should provide req argument
+should default to "connect.sid"
+should allow overriding
+should set the cookie name
+should default to false
+should force cookie on unmodified session
+should not force cookie on uninitialized session if saveUninitialized option is set to false
+should force cookie and save uninitialized session if saveUninitialized option is set to true
+should force cookie and save modified session even if saveUninitialized option is set to false
+should default to true
+should force save on unmodified session
+should prevent save on unmodified session
+should still save modified session
+should detect a "cookie" property as modified
+should pass session touch error
+should force save of uninitialized session
+should prevent save of uninitialized session
+should pass session save error
+should prevent uninitialized session from being touched
+should sign and unsign with a string
+should sign and unsign with a Buffer
+should sign cookies
+should sign cookies with first element
+should read cookies using all elements
+should default to keep
+should allow destroy on req.session = null
+should not set cookie if initial session destroyed
+should pass session destroy error
+should correctly handle res.end/res.write patched prior
+should correctly handle res.end/res.write patched after
+should error when res.end is called twice
+should persist
+should only set-cookie when modified
+should not have enumerable methods
+should not be set if store is disconnected
+should be set when store reconnects
+should destroy the previous session
+should destroy/replace the previous session
+should reload session from store
+should error is session missing
+should not override an overriden `reload` in case of errors
+should save session to store
+should prevent end-of-request save
+should prevent end-of-request save on reloaded session
+should reset session expiration
+should serialize as parameters
+should default to a browser-session length cookie
+should Set-Cookie only once for browser-session cookies
+should override defaults
+should forward errors setting cookie
+should preserve cookies set before writeHead is called
+should preserve cookies set in writeHead
+should equal original maxAge
+should equal original maxAge for all requests
+should set cookie when secure
+should not set-cookie when insecure
+should set cookie expires relative to maxAge
+should modify cookie expires when changed
+should modify cookie expires when changed to large value
+should set absolute
+should be a browser-session cookie
+should not reset cookie
+should not reset cookie when modified
+should not set partitioned attribute
+should set partitioned attribute
+should respond correctly on save
+should respond correctly on destroy
+should read from req.cookies
+should reject unsigned from req.cookies
+should reject invalid signature from req.cookies
+should read from req.signedCookies

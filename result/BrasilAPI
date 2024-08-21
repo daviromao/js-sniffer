@@ -1,0 +1,613 @@
+Test:  Utilizando um bank code válido: 260
+Has  Magic Number Test
+
+======================================
+
+Test:  Utilizando um bank code válido (com vírgula no nome): 402
+Has  Magic Number Test
+
+======================================
+
+Test:  Utilizando um código inexistente: 1111111
+Has  Exception Handling
+Has  Magic Number Test
+
+======================================
+
+Test:  GET /banks/v1
+Has  Magic Number Test
+
+======================================
+
+Test:  Utilizando um CEP inexistente: 00000000
+Has  Exception Handling
+Has  Magic Number Test
+
+======================================
+
+Test:  Utilizando um CEP inválido: 999999999999999
+Has  Exception Handling
+Has  Magic Number Test
+
+======================================
+
+Test:  Utilizando um CEP inexistente: 00000000
+Has  Exception Handling
+Has  Magic Number Test
+
+======================================
+
+Test:  Utilizando um CEP inválido: 999999999999999
+Has  Exception Handling
+Has  Magic Number Test
+
+======================================
+
+Test:  Utilizando um CNPJ válido existente: 19131243000197
+Has  Magic Number Test
+
+======================================
+
+Test:  Utilizando um CNPJ válido inexistente: 00000000000000
+Has  Exception Handling
+Has  Magic Number Test
+
+======================================
+
+Test:  Utilizando um CNPJ inválido: 123
+Has  Exception Handling
+Has  Magic Number Test
+
+======================================
+
+Test:  Utilizando um CNPJ válido: 02332886000104
+Has  Magic Number Test
+
+======================================
+
+Test:  Utilizando um CNPJ inexistente: 1111111
+Has  Exception Handling
+Has  Magic Number Test
+
+======================================
+
+Test:  GET /cvm/corretoras/v1
+Has  Magic Number Test
+
+======================================
+
+Test:  GET /api/cptec/v1/clima/aeroporto/:icaoCode (Código inexistente) 
+Has  Exception Handling
+Has  Magic Number Test
+
+======================================
+
+Test:  GET /api/cptec/v1/clima/aeroporto/:icaoCode
+Has  Magic Number Test
+
+======================================
+
+Test:  GET /api/cptec/v1/clima/capital
+Has  Magic Number Test
+
+======================================
+
+Test:  Utilizando um nome de cidade existente: São Sebastião
+Has  Magic Number Test
+
+======================================
+
+Test:  Utilizando um nome de cidade com retorno único: Belo Horizonte
+Has  Magic Number Test
+
+======================================
+
+Test:  Utilizando um nome de cidade inexistente: chiforímpola
+Has  Exception Handling
+Has  Magic Number Test
+
+======================================
+
+Test:  GET /cptec/v1/cidade
+Has  Magic Number Test
+
+======================================
+
+Test:  GET /api/cptec/v1/ondas/:cityCode (Invalid City Code) 
+Has  Exception Handling
+Has  Magic Number Test
+
+======================================
+
+Test:  GET /api/cptec/v1/ondas/:cityCode
+Has  Magic Number Test
+
+======================================
+
+Test:  GET /api/cptec/v1/ondas/:cityCode/:days
+Has  Magic Number Test
+
+======================================
+
+Test:  GET /api/cptec/v1/ondas/:cityCode/days (Invalid number of days) 
+Has  Exception Handling
+Has  Magic Number Test
+
+======================================
+
+Test:  GET /api/cptec/v1/clima/previsao/:cityCode (Invalid City Code) 
+Has  Exception Handling
+Has  Magic Number Test
+
+======================================
+
+Test:  GET /api/cptec/v1/clima/previsao/:cityCode
+Has  Magic Number Test
+
+======================================
+
+Test:  GET /api/cptec/v1/clima/previsao/:cityCode/:days
+Has  Magic Number Test
+
+======================================
+
+Test:  GET /api/cptec/v1/clima/previsao/:cityCode/:days (Invalid number of days) 
+Has  Exception Handling
+Has  Magic Number Test
+
+======================================
+
+Test:  Utilizando um DDD válido: 11
+Has  Magic Number Test
+
+======================================
+
+Test:  Utilizando um DDD inexistente: 01
+Has  Exception Handling
+Has  Magic Number Test
+
+======================================
+
+Test:  Feriados fixos com ano válido entre 1900 e 2199
+Has  Magic Number Test
+
+======================================
+
+Test:  Feriados em ordem
+Has  Magic Number Test
+
+======================================
+
+Test:  Utilizando um ano fora do intervalo suportado: 3000
+Has  Exception Handling
+Has  Magic Number Test
+
+======================================
+
+Test:  Utilizando um ano inválido: "erro"
+Has  Exception Handling
+Has  Magic Number Test
+
+======================================
+
+Test:  Tiradentes e Páscoa no mesmo dia (2019)
+Has  Magic Number Test
+
+======================================
+
+Test:  Feriado da consciência negra não deve existir em ano anterior a 2024
+Has  Magic Number Test
+
+======================================
+
+Test:  Feriado da consciência negra deve existir a partir de 2024
+Has  Magic Number Test
+
+======================================
+
+Test:  Listando as tabelas de referências
+Has  Magic Number Test
+
+======================================
+
+Test:  Utilizando sem informar nenhuma tabela de referência
+Has  Magic Number Test
+
+======================================
+
+Test:  Utilizando com a tabela de referência 267
+Has  Magic Number Test
+
+======================================
+
+Test:  Utilizando com uma tabela de referência inválida
+Has  Exception Handling
+Has  Magic Number Test
+
+======================================
+
+Test:  Utilizando sem informar nenhuma tabela de referência
+Has  Magic Number Test
+
+======================================
+
+Test:  Utilizando com a tabela de referência 267
+Has  Magic Number Test
+
+======================================
+
+Test:  Utilizando com uma tabela de referência inválida
+Has  Exception Handling
+Has  Magic Number Test
+
+======================================
+
+Test:  Utilizando sem informar nenhuma tabela de referência
+Has  Magic Number Test
+
+======================================
+
+Test:  Utilizando com a tabela de referência 267
+Has  Magic Number Test
+
+======================================
+
+Test:  Utilizando com uma tabela de referência inválida
+Has  Exception Handling
+Has  Magic Number Test
+
+======================================
+
+Test:  Utilizando sem informar nenhuma tabela de referência
+Has  Magic Number Test
+
+======================================
+
+Test:  Utilizando com a tabela de referência 267
+Has  Magic Number Test
+
+======================================
+
+Test:  Utilizando com uma tabela de referência inválida
+Has  Exception Handling
+Has  Magic Number Test
+
+======================================
+
+Test:  Utilizando um veículo válido sem informar nenhuma tabela de referência
+Has  Magic Number Test
+
+======================================
+
+Test:  Utilizando um veículo válido com a tabela de referência 267
+Has  Magic Number Test
+
+======================================
+
+Test:  Utilizando um carro válido com a tabela de referência 270
+Has  Magic Number Test
+
+======================================
+
+Test:  Utilizando uma moto válida com a tabela de referência 270
+Has  Magic Number Test
+
+======================================
+
+Test:  Utilizando um caminhão válido com a tabela de referência 270
+Has  Magic Number Test
+
+======================================
+
+Test:  Utilizando um veículo válido com a tabela de referência inválida
+Has  Exception Handling
+Has  Magic Number Test
+
+======================================
+
+Test:  Utilizando um veículo inválido sem informar nenhuma tabela de referência
+Has  Exception Handling
+Has  Magic Number Test
+
+======================================
+
+Test:  Utilizando um veículo inválido com a tabela de referência 267
+Has  Exception Handling
+Has  Magic Number Test
+
+======================================
+
+Test:  Utilizando um veículo inválido com a tabela de referência inválida
+Has  Exception Handling
+Has  Magic Number Test
+
+======================================
+
+Test:  Utilizando um CEP inexistente: 00000000
+Has  Magic Number Test
+
+======================================
+
+Test:  Utilizando um CEP inválido: 999999999999999
+Has  Magic Number Test
+
+======================================
+
+Test:  Utilizando uma sigla válida: SC
+Has  Magic Number Test
+
+======================================
+
+Test:  Utilizando uma sigla válida: RS
+Has  Magic Number Test
+
+======================================
+
+Test:  Utilizando provider gov: 
+Has  Magic Number Test
+
+======================================
+
+Test:  Utilizando provider dados-abertos-br: 
+Has  Magic Number Test
+
+======================================
+
+Test:  Utilizando provider wikipedia: 
+Has  Magic Number Test
+
+======================================
+
+Test:  Utilizando uma sigla inexistente ou inválida: AA
+Has  Exception Handling
+Has  Magic Number Test
+
+======================================
+
+Test:  Utilizando um Codigo válido: 22
+Has  Magic Number Test
+
+======================================
+
+Test:  Utilizando um Codigo inexistente ou inválido: 99
+Has  Exception Handling
+Has  Magic Number Test
+
+======================================
+
+Test:  Buscando todas as ufs
+Has  Magic Number Test
+
+======================================
+
+Test:  Utilizando uma Sigla válida: sc
+Has  Magic Number Test
+
+======================================
+
+Test:  Utilizando uma Sigla válida: PI
+Has  Magic Number Test
+
+======================================
+
+Test:  Utilizando um sigla inexistente ou inválida: SJ
+Has  Exception Handling
+Has  Magic Number Test
+
+======================================
+
+Test:  Utilizando um ISBN válido existente: 9788545702870
+Has  Magic Number Test
+
+======================================
+
+Test:  Utilizando um ISBN válido não existente: 9788549173447
+Has  Exception Handling
+Has  Magic Number Test
+
+======================================
+
+Test:  Utilizando um ISBN inválido: 9788491734444
+Has  Exception Handling
+Has  Magic Number Test
+
+======================================
+
+Test:  Utilizando provider cbl
+Has  Magic Number Test
+
+======================================
+
+Test:  Utilizando provider mercado-editorial
+Has  Magic Number Test
+
+======================================
+
+Test:  Utilizando provider open-library
+Has  Magic Number Test
+
+======================================
+
+Test:  Utilizando provider google-books
+Has  Magic Number Test
+
+======================================
+
+Test:  Utilizando um ncm code válido: 33051000
+Has  Magic Number Test
+
+======================================
+
+Test:  Utilizando um código inexistente: 00
+Has  Exception Handling
+Has  Magic Number Test
+
+======================================
+
+Test:  Utilizando uma descrição válida: Xampus
+Has  Magic Number Test
+
+======================================
+
+Test:  Utilizando uma descrição inexistente: localhost
+Has  Exception Handling
+Has  Magic Number Test
+
+======================================
+
+Test:  Utilizando um código válido: 330410
+Has  Magic Number Test
+
+======================================
+
+Test:  Utilizando um código inexistente: 00
+Has  Exception Handling
+Has  Magic Number Test
+
+======================================
+
+Test:  GET /ncm/v1
+Has  Magic Number Test
+
+======================================
+
+Test:  should return full list
+Has  Magic Number Test
+
+======================================
+
+Test:  Pesquisando um dominio registrado
+Has  Magic Number Test
+
+======================================
+
+Test:  Pesquisando um dominio disponível
+Has  Magic Number Test
+
+======================================
+
+Test:  Pesquisando domínios inválidos
+Has  Exception Handling
+Has  Magic Number Test
+
+======================================
+
+Test:  Recuperando a lista de taxas
+Has  Magic Number Test
+
+======================================
+
+Test:  Buscando uma taxa válida: cdi
+Has  Magic Number Test
+
+======================================
+
+Test:  Buscando uma taxa válida: selic
+Has  Magic Number Test
+
+======================================
+
+Test:  Buscando uma taxa válida: ipca
+Has  Magic Number Test
+
+======================================
+
+Test:  Buscando uma taxa inválida: xpto
+Has  Exception Handling
+Has  Magic Number Test
+
+======================================
+
+Statistics:
+Conditional Test Logic : 0
+EmptyTest : 0
+Exception Handling : 35
+Magic Number Test : 97
+Unknown Test : 0
+Redundant Print : 0
+Sleepy Test : 0
+
+Tests with smells:
+Utilizando um bank code válido: 260
+Utilizando um bank code válido (com vírgula no nome): 402
+Utilizando um código inexistente: 1111111
+GET /banks/v1
+Utilizando um CEP inexistente: 00000000
+Utilizando um CEP inválido: 999999999999999
+Utilizando um CNPJ válido existente: 19131243000197
+Utilizando um CNPJ válido inexistente: 00000000000000
+Utilizando um CNPJ inválido: 123
+Utilizando um CNPJ válido: 02332886000104
+Utilizando um CNPJ inexistente: 1111111
+GET /cvm/corretoras/v1
+GET /api/cptec/v1/clima/aeroporto/:icaoCode (Código inexistente) 
+GET /api/cptec/v1/clima/aeroporto/:icaoCode
+GET /api/cptec/v1/clima/capital
+Utilizando um nome de cidade existente: São Sebastião
+Utilizando um nome de cidade com retorno único: Belo Horizonte
+Utilizando um nome de cidade inexistente: chiforímpola
+GET /cptec/v1/cidade
+GET /api/cptec/v1/ondas/:cityCode (Invalid City Code) 
+GET /api/cptec/v1/ondas/:cityCode
+GET /api/cptec/v1/ondas/:cityCode/:days
+GET /api/cptec/v1/ondas/:cityCode/days (Invalid number of days) 
+GET /api/cptec/v1/clima/previsao/:cityCode (Invalid City Code) 
+GET /api/cptec/v1/clima/previsao/:cityCode
+GET /api/cptec/v1/clima/previsao/:cityCode/:days
+GET /api/cptec/v1/clima/previsao/:cityCode/:days (Invalid number of days) 
+Utilizando um DDD válido: 11
+Utilizando um DDD inexistente: 01
+Feriados fixos com ano válido entre 1900 e 2199
+Feriados em ordem
+Utilizando um ano fora do intervalo suportado: 3000
+Utilizando um ano inválido: "erro"
+Tiradentes e Páscoa no mesmo dia (2019)
+Feriado da consciência negra não deve existir em ano anterior a 2024
+Feriado da consciência negra deve existir a partir de 2024
+Listando as tabelas de referências
+Utilizando sem informar nenhuma tabela de referência
+Utilizando com a tabela de referência 267
+Utilizando com uma tabela de referência inválida
+Utilizando um veículo válido sem informar nenhuma tabela de referência
+Utilizando um veículo válido com a tabela de referência 267
+Utilizando um carro válido com a tabela de referência 270
+Utilizando uma moto válida com a tabela de referência 270
+Utilizando um caminhão válido com a tabela de referência 270
+Utilizando um veículo válido com a tabela de referência inválida
+Utilizando um veículo inválido sem informar nenhuma tabela de referência
+Utilizando um veículo inválido com a tabela de referência 267
+Utilizando um veículo inválido com a tabela de referência inválida
+Utilizando uma sigla válida: SC
+Utilizando uma sigla válida: RS
+Utilizando provider gov: 
+Utilizando provider dados-abertos-br: 
+Utilizando provider wikipedia: 
+Utilizando uma sigla inexistente ou inválida: AA
+Utilizando um Codigo válido: 22
+Utilizando um Codigo inexistente ou inválido: 99
+Buscando todas as ufs
+Utilizando uma Sigla válida: sc
+Utilizando uma Sigla válida: PI
+Utilizando um sigla inexistente ou inválida: SJ
+Utilizando um ISBN válido existente: 9788545702870
+Utilizando um ISBN válido não existente: 9788549173447
+Utilizando um ISBN inválido: 9788491734444
+Utilizando provider cbl
+Utilizando provider mercado-editorial
+Utilizando provider open-library
+Utilizando provider google-books
+Utilizando um ncm code válido: 33051000
+Utilizando um código inexistente: 00
+Utilizando uma descrição válida: Xampus
+Utilizando uma descrição inexistente: localhost
+Utilizando um código válido: 330410
+GET /ncm/v1
+should return full list
+Pesquisando um dominio registrado
+Pesquisando um dominio disponível
+Pesquisando domínios inválidos
+Recuperando a lista de taxas
+Buscando uma taxa válida: cdi
+Buscando uma taxa válida: selic
+Buscando uma taxa válida: ipca
+Buscando uma taxa inválida: xpto

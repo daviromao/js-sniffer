@@ -1,0 +1,1131 @@
+Test:  should have consistent ESM export
+Has  Conditional Test Logic
+Has  Magic Number Test
+
+======================================
+
+Test:  should be able to be loaded with require
+Has  Magic Number Test
+Has  Unknown Test
+
+======================================
+
+Test:  should be able to be loaded with import
+Has  Magic Number Test
+Has  Unknown Test
+
+======================================
+
+Test:  should be able to be loaded with import
+Has  Magic Number Test
+Has  Unknown Test
+
+======================================
+
+Test:  should be able to be loaded with require
+Has  Magic Number Test
+Has  Unknown Test
+
+======================================
+
+Test:  should be able to be loaded with require
+Has  Magic Number Test
+Has  Unknown Test
+
+======================================
+
+Test:  should pass types check
+Has  Magic Number Test
+Has  Unknown Test
+
+======================================
+
+Test:  should pass types check
+Has  Magic Number Test
+Has  Unknown Test
+
+======================================
+
+Test:  should support custom adapter
+Has  Exception Handling
+
+======================================
+
+Test:  should execute adapter code synchronously
+Has  Exception Handling
+
+======================================
+
+Test:  should execute adapter code asynchronously when interceptor is present
+Has  Exception Handling
+
+======================================
+
+Test:  should have promise method helpers
+Has  Exception Handling
+
+======================================
+
+Test:  should accept HTTP Basic auth with username/password
+Has  Magic Number Test
+
+======================================
+
+Test:  should accept HTTP Basic auth credentials without the password parameter
+Has  Magic Number Test
+
+======================================
+
+Test:  should accept HTTP Basic auth credentials with non-Latin1 characters in password
+Has  Magic Number Test
+
+======================================
+
+Test:  should fail to encode HTTP Basic auth credentials with non-Latin1 characters in username
+Has  Exception Handling
+Has  Unknown Test
+
+======================================
+
+Test:  throws when executor is not a function
+Has  Magic Number Test
+
+======================================
+
+Test:  returns a Promise that resolves when cancellation is requested
+Has  Exception Handling
+
+======================================
+
+Test:  throws if cancellation has been requested
+Has  Conditional Test Logic
+Has  Exception Handling
+
+======================================
+
+Test:  does not throw if cancellation has not been requested
+Has  Unknown Test
+
+======================================
+
+Test:  rejects Promise with a CanceledError object
+Has  Exception Handling
+
+======================================
+
+Test:  rejects Promise with a CanceledError object
+Has  Exception Handling
+Has  Magic Number Test
+
+======================================
+
+Test:  calls abort on request object
+Has  Exception Handling
+
+======================================
+
+Test:  it should support cancellation using AbortController signal
+Has  Exception Handling
+Has  Magic Number Test
+
+======================================
+
+Test:  should create an Error that can be serialized to JSON
+Has  Magic Number Test
+
+======================================
+
+Test:  undefined
+Has  Magic Number Test
+
+======================================
+
+Test:  should allow setting other options
+Has  Magic Number Test
+
+======================================
+
+Test:  should set as config2 in other cases
+Has  Magic Number Test
+
+======================================
+
+Test:  should merge if both config1 and config2 are plain object
+Has  Magic Number Test
+
+======================================
+
+Test:  should set as config2 in other cases
+Has  Magic Number Test
+
+======================================
+
+Test:  should set as config1 in other cases
+Has  Magic Number Test
+
+======================================
+
+Test:  should set as config2 in other cases
+Has  Magic Number Test
+
+======================================
+
+Test:  should set as config1 in other cases
+Has  Magic Number Test
+
+======================================
+
+Test:  should merge if both config1 and config2 are plain object
+Has  Magic Number Test
+
+======================================
+
+Test:  should set as config2 in other cases
+Has  Magic Number Test
+
+======================================
+
+Test:  should set as config1 in other cases
+Has  Magic Number Test
+
+======================================
+
+Test:  should pass status to validateStatus
+Has  Magic Number Test
+
+======================================
+
+Test:  should support reference status code in transformData
+Has  Magic Number Test
+
+======================================
+
+Test:  should transform request json
+Has  Magic Number Test
+
+======================================
+
+Test:  should also transform request json when 'Content-Type' is 'application/json'
+Has  Magic Number Test
+
+======================================
+
+Test:  should do nothing to request string
+Has  Magic Number Test
+
+======================================
+
+Test:  should do nothing to response string
+Has  Magic Number Test
+
+======================================
+
+Test:  should use global defaults config
+Has  Exception Handling
+
+======================================
+
+Test:  should use modified defaults config
+Has  Exception Handling
+
+======================================
+
+Test:  should use request config
+Has  Exception Handling
+
+======================================
+
+Test:  should use default config for custom instance
+Has  Exception Handling
+
+======================================
+
+Test:  should use GET headers
+Has  Exception Handling
+
+======================================
+
+Test:  should use POST headers
+Has  Exception Handling
+
+======================================
+
+Test:  should use header config
+Has  Exception Handling
+
+======================================
+
+Test:  should be used by custom instance if set before instance created
+Has  Exception Handling
+
+======================================
+
+Test:  should not be used by custom instance if set after instance created
+Has  Exception Handling
+
+======================================
+
+Test:  should resistent to ReDoS attack
+Has  Exception Handling
+Has  Magic Number Test
+
+======================================
+
+Test:  should allow FormData posting
+Has  Exception Handling
+
+======================================
+
+Test:  should default common headers
+Has  Conditional Test Logic
+Has  Exception Handling
+
+======================================
+
+Test:  should respect common Content-Type header
+Has  Conditional Test Logic
+Has  Exception Handling
+
+======================================
+
+Test:  should add extra headers for post
+Has  Conditional Test Logic
+Has  Exception Handling
+
+======================================
+
+Test:  should reset headers by null or explicit undefined
+Has  Exception Handling
+Has  Unknown Test
+
+======================================
+
+Test:  should use application/json when posting an object
+Has  Exception Handling
+Has  Unknown Test
+
+======================================
+
+Test:  should remove content-type if data is empty
+Has  Exception Handling
+Has  Unknown Test
+
+======================================
+
+Test:  should preserve content-type if data is false
+Has  Exception Handling
+Has  Unknown Test
+
+======================================
+
+Test:  should allow an AxiosHeaders instance to be used as the value of the headers option
+Has  Exception Handling
+
+======================================
+
+Test:  should bind an object to a function
+Has  Magic Number Test
+
+======================================
+
+Test:  should support "length" parameter
+Has  Magic Number Test
+
+======================================
+
+Test:  should spread array to arguments
+Has  Magic Number Test
+
+======================================
+
+Test:  should return callback result
+Has  Magic Number Test
+
+======================================
+
+Test:  should convert nested data object to FormData with dots option enabled
+Has  Magic Number Test
+
+======================================
+
+Test:  should respect metaTokens option
+Has  Magic Number Test
+
+======================================
+
+Test:  should include full indexes when the `indexes` option is set to true
+Has  Magic Number Test
+
+======================================
+
+Test:  should include brackets only when the `indexes` option is set to false
+Has  Magic Number Test
+
+======================================
+
+Test:  should omit brackets when the `indexes` option is set to null
+Has  Magic Number Test
+
+======================================
+
+Test:  should convert nested data object to FormData
+Has  Magic Number Test
+
+======================================
+
+Test:  should append value whose key ends with [] as separate values with the same key
+Has  Magic Number Test
+
+======================================
+
+Test:  should append value whose key ends with {} as a JSON string
+Has  Magic Number Test
+
+======================================
+
+Test:  should throw TypeError only if option type doesn't match
+Has  Magic Number Test
+
+======================================
+
+Test:  should have the same methods as default instance
+Has  Conditional Test Logic
+Has  Magic Number Test
+
+======================================
+
+Test:  should make an http request without verb helper
+Has  Exception Handling
+
+======================================
+
+Test:  should make an http request with url instead of baseURL
+Has  Exception Handling
+
+======================================
+
+Test:  should make an http request
+Has  Exception Handling
+
+======================================
+
+Test:  should use instance options
+Has  Exception Handling
+Has  Magic Number Test
+
+======================================
+
+Test:  should have interceptors on the instance
+Has  Exception Handling
+Has  Magic Number Test
+
+======================================
+
+Test:  should add a request interceptor (asynchronous by default)
+Has  Exception Handling
+
+======================================
+
+Test:  should add a request interceptor (explicitly flagged as asynchronous)
+Has  Exception Handling
+
+======================================
+
+Test:  should add a request interceptor that is executed synchronously when flag is provided
+Has  Exception Handling
+
+======================================
+
+Test:  should execute asynchronously when not all interceptors are explicitly flagged as synchronous
+Has  Exception Handling
+
+======================================
+
+Test:  runs the interceptor if runWhen function is provided and resolves to true
+Has  Exception Handling
+
+======================================
+
+Test:  does not run the interceptor if runWhen function is provided and resolves to false
+Has  Exception Handling
+
+======================================
+
+Test:  does not run async interceptor if runWhen function is provided and resolves to false (and run synchronously)
+Has  Exception Handling
+
+======================================
+
+Test:  should add a request interceptor with an onRejected block that is called if interceptor code fails
+Has  Exception Handling
+
+======================================
+
+Test:  should add a request interceptor that returns a new config object
+Has  Exception Handling
+
+======================================
+
+Test:  should add a request interceptor that returns a promise
+Has  Exception Handling
+Has  Magic Number Test
+
+======================================
+
+Test:  should add multiple request interceptors
+Has  Exception Handling
+
+======================================
+
+Test:  should add a response interceptor
+Has  Exception Handling
+Has  Magic Number Test
+
+======================================
+
+Test:  should add a response interceptor when request interceptor is defined
+Has  Exception Handling
+Has  Magic Number Test
+
+======================================
+
+Test:  should add a response interceptor that returns a new data object
+Has  Exception Handling
+Has  Magic Number Test
+
+======================================
+
+Test:  should add a response interceptor that returns a promise
+Has  Exception Handling
+Has  Magic Number Test
+
+======================================
+
+Test:  should allow removing interceptors
+Has  Exception Handling
+Has  Magic Number Test
+
+======================================
+
+Test:  should remove async interceptor before making request and execute synchronously
+Has  Exception Handling
+
+======================================
+
+Test:  should execute interceptors before transformers
+Has  Exception Handling
+
+======================================
+
+Test:  should modify base URL in request interceptor
+Has  Exception Handling
+
+======================================
+
+Test:  should clear all request interceptors
+Has  Magic Number Test
+
+======================================
+
+Test:  should clear all response interceptors
+Has  Magic Number Test
+
+======================================
+
+Test:  should default method to get
+Has  Exception Handling
+
+======================================
+
+Test:  should accept headers
+Has  Exception Handling
+
+======================================
+
+Test:  should accept params
+Has  Exception Handling
+Has  Magic Number Test
+
+======================================
+
+Test:  should allow overriding default headers
+Has  Exception Handling
+
+======================================
+
+Test:  should accept base URL
+Has  Exception Handling
+
+======================================
+
+Test:  should ignore base URL if request URL is absolute
+Has  Exception Handling
+
+======================================
+
+Test:  should add a download progress handler
+Has  Exception Handling
+Has  Magic Number Test
+
+======================================
+
+Test:  should add a upload progress handler
+Has  Exception Handling
+Has  Unknown Test
+
+======================================
+
+Test:  should add both upload and download progress handlers
+Has  Exception Handling
+Has  Magic Number Test
+
+======================================
+
+Test:  should add a download progress handler from instance config
+Has  Exception Handling
+Has  Magic Number Test
+
+======================================
+
+Test:  should add a upload progress handler from instance config
+Has  Exception Handling
+Has  Unknown Test
+
+======================================
+
+Test:  should add upload and download progress handlers from instance config
+Has  Exception Handling
+Has  Magic Number Test
+
+======================================
+
+Test:  should provide succinct object to then
+Has  Exception Handling
+Has  Magic Number Test
+
+======================================
+
+Test:  should support all
+Has  Exception Handling
+Has  Magic Number Test
+
+======================================
+
+Test:  should support spread
+Has  Exception Handling
+Has  Magic Number Test
+
+======================================
+
+Test:  should treat single string arg as url
+Has  Exception Handling
+
+======================================
+
+Test:  should treat method value as lowercase string
+Has  Exception Handling
+Has  Magic Number Test
+
+======================================
+
+Test:  should allow string arg as url, and config arg
+Has  Exception Handling
+
+======================================
+
+Test:  should allow data
+Has  Exception Handling
+
+======================================
+
+Test:  should make an http request
+Has  Exception Handling
+
+======================================
+
+Test:  should handle timeouts
+Has  Exception Handling
+Has  Magic Number Test
+
+======================================
+
+Test:  should activate throwing ETIMEDOUT instead of ECONNABORTED on request timeouts
+Has  Exception Handling
+Has  Magic Number Test
+
+======================================
+
+Test:  should reject on network errors
+Has  Exception Handling
+
+======================================
+
+Test:  should reject on abort
+Has  Exception Handling
+
+======================================
+
+Test:  should reject when validateStatus returns false
+Has  Exception Handling
+Has  Magic Number Test
+
+======================================
+
+Test:  should resolve when validateStatus returns true
+Has  Exception Handling
+Has  Magic Number Test
+
+======================================
+
+Test:  should resolve when the response status is 0 (i.e. requesting with file protocol)
+Has  Exception Handling
+Has  Magic Number Test
+
+======================================
+
+Test:  should resolve when validateStatus is null
+Has  Exception Handling
+Has  Magic Number Test
+
+======================================
+
+Test:  should resolve when validateStatus is undefined
+Has  Exception Handling
+Has  Magic Number Test
+
+======================================
+
+Test:  should return JSON when rejecting
+Has  Exception Handling
+Has  Magic Number Test
+
+======================================
+
+Test:  should make cross domain http request
+Has  Exception Handling
+Has  Magic Number Test
+
+======================================
+
+Test:  should supply correct response
+Has  Exception Handling
+Has  Magic Number Test
+
+======================================
+
+Test:  should not modify the config url with relative baseURL
+Has  Exception Handling
+Has  Magic Number Test
+
+======================================
+
+Test:  should allow overriding Content-Type header case-insensitive
+Has  Exception Handling
+
+======================================
+
+Test:  should support binary data as array buffer
+Has  Exception Handling
+Has  Magic Number Test
+
+======================================
+
+Test:  should support binary data as array buffer view
+Has  Exception Handling
+Has  Magic Number Test
+
+======================================
+
+Test:  should support array buffer response
+Has  Exception Handling
+Has  Magic Number Test
+
+======================================
+
+Test:  should support URLSearchParams
+Has  Exception Handling
+
+======================================
+
+Test:  should support HTTP protocol
+Has  Exception Handling
+Has  Magic Number Test
+
+======================================
+
+Test:  should support HTTPS protocol
+Has  Exception Handling
+Has  Magic Number Test
+
+======================================
+
+Test:  should return unsupported protocol error message
+Has  Exception Handling
+
+======================================
+
+Test:  should transform JSON to string
+Has  Exception Handling
+
+======================================
+
+Test:  should transform string to JSON
+Has  Exception Handling
+Has  Magic Number Test
+
+======================================
+
+Test:  should throw a SyntaxError if JSON parsing failed and responseType is "json" if silentJSONParsing is false
+Has  Exception Handling
+Has  Magic Number Test
+
+======================================
+
+Test:  should send data as JSON if request content-type is application/json
+Has  Exception Handling
+Has  Magic Number Test
+
+======================================
+
+Test:  should not assume JSON if responseType is not `json`
+Has  Exception Handling
+Has  Magic Number Test
+
+======================================
+
+Test:  should override default transform
+Has  Exception Handling
+
+======================================
+
+Test:  should allow an Array of transformers
+Has  Exception Handling
+
+======================================
+
+Test:  should allowing mutating headers
+Has  Exception Handling
+
+======================================
+
+Test:  should normalize 'content-type' header when using a custom transformRequest
+Has  Exception Handling
+
+======================================
+
+Test:  should extend properties
+Has  Magic Number Test
+
+======================================
+
+Test:  should loop over an array
+Has  Magic Number Test
+
+======================================
+
+Test:  should loop over object keys
+Has  Magic Number Test
+
+======================================
+
+Test:  should handle undefined gracefully
+Has  Magic Number Test
+
+======================================
+
+Test:  should make an array out of non-array argument
+Has  Magic Number Test
+
+======================================
+
+Test:  should handle non object prototype gracefully
+Has  Magic Number Test
+
+======================================
+
+Test:  should validate Array
+Has  Magic Number Test
+
+======================================
+
+Test:  should validate ArrayBuffer
+Has  Magic Number Test
+
+======================================
+
+Test:  should validate ArrayBufferView
+Has  Magic Number Test
+
+======================================
+
+Test:  should validate Number
+Has  Magic Number Test
+
+======================================
+
+Test:  should validate TypedArray instance
+Has  Magic Number Test
+
+======================================
+
+Test:  should merge properties
+Has  Magic Number Test
+
+======================================
+
+Test:  should merge recursively
+Has  Magic Number Test
+
+======================================
+
+Test:  should remove all references from nested objects
+Has  Magic Number Test
+
+======================================
+
+Test:  handles null and undefined arguments
+Has  Magic Number Test
+
+======================================
+
+Test:  should replace properties with arrays
+Has  Magic Number Test
+
+======================================
+
+Test:  should replace properties with cloned arrays
+Has  Magic Number Test
+
+======================================
+
+Test:  should support caseless option
+Has  Magic Number Test
+
+======================================
+
+Test:  should not set xsrf header if cookie is null
+Has  Exception Handling
+
+======================================
+
+Test:  should set xsrf header if cookie is set
+Has  Exception Handling
+
+======================================
+
+Test:  should not set xsrf header if xsrfCookieName is null
+Has  Exception Handling
+
+======================================
+
+Test:  should not read cookies at all if xsrfCookieName is null
+Has  Exception Handling
+
+======================================
+
+Test:  should not set xsrf header for cross origin
+Has  Exception Handling
+
+======================================
+
+Test:  should not set xsrf header for cross origin when using withCredentials
+Has  Exception Handling
+
+======================================
+
+Test:  should set xsrf header for cross origin when withXSRFToken = true
+Has  Exception Handling
+
+======================================
+
+Test:  should not set xsrf header for the same origin when withXSRFToken = false
+Has  Exception Handling
+
+======================================
+
+Test:  should not set xsrf header for the same origin when withXSRFToken = false
+Has  Exception Handling
+
+======================================
+
+Test:  should support function resolver
+Has  Exception Handling
+
+======================================
+
+Statistics:
+Conditional Test Logic : 6
+EmptyTest : 0
+Exception Handling : 114
+Magic Number Test : 104
+Unknown Test : 15
+Redundant Print : 0
+Sleepy Test : 0
+
+Tests with smells:
+should have consistent ESM export
+should be able to be loaded with require
+should be able to be loaded with import
+should pass types check
+should support custom adapter
+should execute adapter code synchronously
+should execute adapter code asynchronously when interceptor is present
+should have promise method helpers
+should accept HTTP Basic auth with username/password
+should accept HTTP Basic auth credentials without the password parameter
+should accept HTTP Basic auth credentials with non-Latin1 characters in password
+should fail to encode HTTP Basic auth credentials with non-Latin1 characters in username
+throws when executor is not a function
+returns a Promise that resolves when cancellation is requested
+throws if cancellation has been requested
+does not throw if cancellation has not been requested
+rejects Promise with a CanceledError object
+calls abort on request object
+it should support cancellation using AbortController signal
+should create an Error that can be serialized to JSON
+undefined
+should allow setting other options
+should set as config2 in other cases
+should merge if both config1 and config2 are plain object
+should set as config1 in other cases
+should pass status to validateStatus
+should support reference status code in transformData
+should transform request json
+should also transform request json when 'Content-Type' is 'application/json'
+should do nothing to request string
+should do nothing to response string
+should use global defaults config
+should use modified defaults config
+should use request config
+should use default config for custom instance
+should use GET headers
+should use POST headers
+should use header config
+should be used by custom instance if set before instance created
+should not be used by custom instance if set after instance created
+should resistent to ReDoS attack
+should allow FormData posting
+should default common headers
+should respect common Content-Type header
+should add extra headers for post
+should reset headers by null or explicit undefined
+should use application/json when posting an object
+should remove content-type if data is empty
+should preserve content-type if data is false
+should allow an AxiosHeaders instance to be used as the value of the headers option
+should bind an object to a function
+should support "length" parameter
+should spread array to arguments
+should return callback result
+should convert nested data object to FormData with dots option enabled
+should respect metaTokens option
+should include full indexes when the `indexes` option is set to true
+should include brackets only when the `indexes` option is set to false
+should omit brackets when the `indexes` option is set to null
+should convert nested data object to FormData
+should append value whose key ends with [] as separate values with the same key
+should append value whose key ends with {} as a JSON string
+should throw TypeError only if option type doesn't match
+should have the same methods as default instance
+should make an http request without verb helper
+should make an http request with url instead of baseURL
+should make an http request
+should use instance options
+should have interceptors on the instance
+should add a request interceptor (asynchronous by default)
+should add a request interceptor (explicitly flagged as asynchronous)
+should add a request interceptor that is executed synchronously when flag is provided
+should execute asynchronously when not all interceptors are explicitly flagged as synchronous
+runs the interceptor if runWhen function is provided and resolves to true
+does not run the interceptor if runWhen function is provided and resolves to false
+does not run async interceptor if runWhen function is provided and resolves to false (and run synchronously)
+should add a request interceptor with an onRejected block that is called if interceptor code fails
+should add a request interceptor that returns a new config object
+should add a request interceptor that returns a promise
+should add multiple request interceptors
+should add a response interceptor
+should add a response interceptor when request interceptor is defined
+should add a response interceptor that returns a new data object
+should add a response interceptor that returns a promise
+should allow removing interceptors
+should remove async interceptor before making request and execute synchronously
+should execute interceptors before transformers
+should modify base URL in request interceptor
+should clear all request interceptors
+should clear all response interceptors
+should default method to get
+should accept headers
+should accept params
+should allow overriding default headers
+should accept base URL
+should ignore base URL if request URL is absolute
+should add a download progress handler
+should add a upload progress handler
+should add both upload and download progress handlers
+should add a download progress handler from instance config
+should add a upload progress handler from instance config
+should add upload and download progress handlers from instance config
+should provide succinct object to then
+should support all
+should support spread
+should treat single string arg as url
+should treat method value as lowercase string
+should allow string arg as url, and config arg
+should allow data
+should handle timeouts
+should activate throwing ETIMEDOUT instead of ECONNABORTED on request timeouts
+should reject on network errors
+should reject on abort
+should reject when validateStatus returns false
+should resolve when validateStatus returns true
+should resolve when the response status is 0 (i.e. requesting with file protocol)
+should resolve when validateStatus is null
+should resolve when validateStatus is undefined
+should return JSON when rejecting
+should make cross domain http request
+should supply correct response
+should not modify the config url with relative baseURL
+should allow overriding Content-Type header case-insensitive
+should support binary data as array buffer
+should support binary data as array buffer view
+should support array buffer response
+should support URLSearchParams
+should support HTTP protocol
+should support HTTPS protocol
+should return unsupported protocol error message
+should transform JSON to string
+should transform string to JSON
+should throw a SyntaxError if JSON parsing failed and responseType is "json" if silentJSONParsing is false
+should send data as JSON if request content-type is application/json
+should not assume JSON if responseType is not `json`
+should override default transform
+should allow an Array of transformers
+should allowing mutating headers
+should normalize 'content-type' header when using a custom transformRequest
+should extend properties
+should loop over an array
+should loop over object keys
+should handle undefined gracefully
+should make an array out of non-array argument
+should handle non object prototype gracefully
+should validate Array
+should validate ArrayBuffer
+should validate ArrayBufferView
+should validate Number
+should validate TypedArray instance
+should merge properties
+should merge recursively
+should remove all references from nested objects
+handles null and undefined arguments
+should replace properties with arrays
+should replace properties with cloned arrays
+should support caseless option
+should not set xsrf header if cookie is null
+should set xsrf header if cookie is set
+should not set xsrf header if xsrfCookieName is null
+should not read cookies at all if xsrfCookieName is null
+should not set xsrf header for cross origin
+should not set xsrf header for cross origin when using withCredentials
+should set xsrf header for cross origin when withXSRFToken = true
+should not set xsrf header for the same origin when withXSRFToken = false
+should support function resolver
